@@ -124,6 +124,15 @@
 
     <!-- Mega Menu Overlay Dropdown -->
     <div class="mega-menu" id="headerMegaMenu">
+      <div class="mobile-mega-menu-header">
+        <div class="mobile-mega-menu-title">
+          <i class="fa-solid fa-layer-group text-primary"></i>
+          <span>Katalog</span>
+        </div>
+        <button type="button" class="mobile-mega-menu-close" onclick="window.novaMarketApp?.closeMegaMenu()" aria-label="Katalogni yopish">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
       <div class="container mega-menu__inner">
         <div class="mega-menu__sidebar" id="megaMenuCategoriesList">
           <!-- Populated dynamically by categories.js -->
@@ -628,29 +637,29 @@
 
   <!-- ================= UZUM MARKET STYLE MOBILE BOTTOM NAV ================= -->
   <nav class="mobile-bottom-nav" id="mobileBottomNav">
-    <a href="#catalog" class="mobile-nav-item active" id="mobileNavHome" onclick="window.novaMarketApp.handleNavTab('home')">
+    <a href="#catalog" class="mobile-nav-item active" id="mobileNavHome" onclick="window.novaMarketApp?.handleNavTab('home')">
       <i class="fa-solid fa-house"></i>
       <span>Bosh sahifa</span>
     </a>
-    <button type="button" class="mobile-nav-item" id="mobileNavCatalog" onclick="window.novaMarketApp.toggleMegaMenu()">
+    <button type="button" class="mobile-nav-item" id="mobileNavCatalog" onclick="window.novaMarketApp?.toggleMegaMenu()">
       <i class="fa-solid fa-layer-group"></i>
       <span>Katalog</span>
     </button>
-    <button type="button" class="mobile-nav-item" id="mobileNavCart" onclick="window.novaMarketApp.cartFeature.openDrawer()">
+    <button type="button" class="mobile-nav-item" id="mobileNavCart" onclick="window.novaMarketApp?.openCart()">
       <div class="mobile-nav-icon-wrap">
         <i class="fa-solid fa-bag-shopping"></i>
         <span class="mobile-nav-badge" id="mobileCartBadge">0</span>
       </div>
       <span>Savatcha</span>
     </button>
-    <button type="button" class="mobile-nav-item" id="mobileNavWishlist" onclick="window.novaMarketApp.openWishlistModal()">
+    <button type="button" class="mobile-nav-item" id="mobileNavWishlist" onclick="window.novaMarketApp?.openWishlistModal()">
       <div class="mobile-nav-icon-wrap">
         <i class="fa-solid fa-heart"></i>
         <span class="mobile-nav-badge" id="mobileWishlistBadge">0</span>
       </div>
       <span>Sevimlilar</span>
     </button>
-    <button type="button" class="mobile-nav-item" id="mobileNavOrders" onclick="window.novaMarketApp.openOrdersModal()">
+    <button type="button" class="mobile-nav-item" id="mobileNavOrders" onclick="window.novaMarketApp?.openOrdersModal()">
       <i class="fa-solid fa-box-open"></i>
       <span>Buyurtmalar</span>
     </button>

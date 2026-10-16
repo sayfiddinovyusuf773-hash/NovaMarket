@@ -50,9 +50,17 @@ export class CartFeature {
     this.render();
   }
 
+  openDrawer() {
+    this.open();
+  }
+
   close() {
     const overlay = document.getElementById(this.overlayId);
     if (overlay) overlay.classList.remove('active');
+  }
+
+  closeDrawer() {
+    this.close();
   }
 
   applyPromo() {

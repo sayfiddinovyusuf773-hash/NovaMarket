@@ -51,6 +51,7 @@ class NovaMarketApp {
     this.searchFeature.init();
 
     this.updateWishlistCount();
+    this.initMobileBottomNav();
     this.initAdminSecretAccess();
   }
 
@@ -124,6 +125,99 @@ class NovaMarketApp {
       const homeBtn = document.getElementById('mobileNavHome');
       if (homeBtn) homeBtn.classList.add('active');
       this.closeMegaMenu();
+      this.closeModal('wishlistModalOverlay');
+      this.closeModal('ordersModalOverlay');
+      this.closeCart();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (tabName === 'catalog') {
+      const catalogBtn = document.getElementById('mobileNavCatalog');
+      if (catalogBtn) catalogBtn.classList.add('active');
+      this.toggleMegaMenu();
+    } else if (tabName === 'cart') {
+      const cartBtn = document.getElementById('mobileNavCart');
+      if (cartBtn) cartBtn.classList.add('active');
+      this.openCart();
+    } else if (tabName === 'wishlist') {
+      const wishlistBtn = document.getElementById('mobileNavWishlist');
+      if (wishlistBtn) wishlistBtn.classList.add('active');
+      this.openWishlistModal();
+    } else if (tabName === 'orders') {
+      const ordersBtn = document.getElementById('mobileNavOrders');
+      if (ordersBtn) ordersBtn.classList.add('active');
+      this.openOrdersModal();
+    }
+  }
+
+  // ================= MOBILE BOTTOM NAVIGATION =================
+  initMobileBottomNav() {
+    const homeBtn = document.getElementById('mobileNavHome');
+    const catalogBtn = document.getElementById('mobileNavCatalog');
+    const cartBtn = document.getElementById('mobileNavCart');
+    const wishlistBtn = document.getElementById('mobileNavWishlist');
+    const ordersBtn = document.getElementById('mobileNavOrders');
+
+    const setActive = (targetBtn) => {
+      document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+      if (targetBtn) targetBtn.classList.add('active');
+    };
+
+    if (homeBtn) {
+      homeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.closeMegaMenu();
+        this.closeModal('wishlistModalOverlay');
+        this.closeModal('ordersModalOverlay');
+        this.closeCart();
+        setActive(homeBtn);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    if (catalogBtn) {
+      catalogBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.closeModal('wishlistModalOverlay');
+        this.closeModal('ordersModalOverlay');
+        this.closeCart();
+        this.toggleMegaMenu();
+      });
+    }
+
+    if (cartBtn) {
+      cartBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.closeMegaMenu();
+        this.closeModal('wishlistModalOverlay');
+        this.closeModal('ordersModalOverlay');
+        this.openCart();
+        setActive(cartBtn);
+      });
+    }
+
+    if (wishlistBtn) {
+      wishlistBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.closeMegaMenu();
+        this.closeCart();
+        this.closeModal('ordersModalOverlay');
+        this.openWishlistModal();
+        setActive(wishlistBtn);
+      });
+    }
+
+    if (ordersBtn) {
+      ordersBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.closeMegaMenu();
+        this.closeCart();
+        this.closeModal('wishlistModalOverlay');
+        this.openOrdersModal();
+        setActive(ordersBtn);
+      });
     }
   }
 
@@ -138,14 +232,17 @@ class NovaMarketApp {
 
     catalogBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      catalogBtn.classList.toggle('active');
-      megaMenu.classList.toggle('active');
+      this.toggleMegaMenu();
     });
 
     document.addEventListener('click', (e) => {
-      if (!megaMenu.contains(e.target) && !catalogBtn.contains(e.target)) {
-        catalogBtn.classList.remove('active');
-        megaMenu.classList.remove('active');
+      const mobileBtn = document.getElementById('mobileNavCatalog');
+      if (
+        !megaMenu.contains(e.target) &&
+        !catalogBtn.contains(e.target) &&
+        (!mobileBtn || !mobileBtn.contains(e.target))
+      ) {
+        this.closeMegaMenu();
       }
     });
 
@@ -209,20 +306,44 @@ class NovaMarketApp {
     const catalogBtn = document.getElementById('headerCatalogBtn');
     const megaMenu = document.getElementById('headerMegaMenu');
     const mobileBtn = document.getElementById('mobileNavCatalog');
+    const homeBtn = document.getElementById('mobileNavHome');
     if (!megaMenu) return;
 
     const isActive = megaMenu.classList.toggle('active');
     if (catalogBtn) catalogBtn.classList.toggle('active', isActive);
-    if (mobileBtn) mobileBtn.classList.toggle('active', isActive);
+    if (mobileBtn) {
+      document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+      if (isActive) {
+        mobileBtn.classList.add('active');
+      } else if (homeBtn) {
+        homeBtn.classList.add('active');
+      }
+    }
   }
 
   closeMegaMenu() {
     const catalogBtn = document.getElementById('headerCatalogBtn');
     const megaMenu = document.getElementById('headerMegaMenu');
     const mobileBtn = document.getElementById('mobileNavCatalog');
+    const homeBtn = document.getElementById('mobileNavHome');
     if (catalogBtn) catalogBtn.classList.remove('active');
     if (megaMenu) megaMenu.classList.remove('active');
     if (mobileBtn) mobileBtn.classList.remove('active');
+    if (homeBtn && !document.querySelector('.modal-overlay.active') && !document.querySelector('.cart-overlay.active')) {
+      homeBtn.classList.add('active');
+    }
+  }
+
+  openCart() {
+    if (this.cartFeature) {
+      this.cartFeature.open();
+    }
+  }
+
+  closeCart() {
+    if (this.cartFeature) {
+      this.cartFeature.close();
+    }
   }
 
   // ================= QUICK CATEGORY PILLS =================
@@ -520,6 +641,11 @@ class NovaMarketApp {
   closeModal(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) modal.classList.remove('active');
+    const homeBtn = document.getElementById('mobileNavHome');
+    if (homeBtn && !document.querySelector('.modal-overlay.active') && !document.querySelector('.cart-overlay.active') && !document.querySelector('.mega-menu.active')) {
+      document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+      homeBtn.classList.add('active');
+    }
   }
 
   showToast(title, message, icon = 'fa-check') {
@@ -546,8 +672,16 @@ class NovaMarketApp {
   }
 }
 
-// Instantiate and expose globally
-document.addEventListener('DOMContentLoaded', () => {
-  window.novaMarketApp = new NovaMarketApp();
-  window.novaMarketApp.init();
-});
+// Instantiate and expose globally with immediate fallback
+const initNovaMarket = () => {
+  if (!window.novaMarketApp) {
+    window.novaMarketApp = new NovaMarketApp();
+    window.novaMarketApp.init();
+  }
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initNovaMarket);
+} else {
+  initNovaMarket();
+}

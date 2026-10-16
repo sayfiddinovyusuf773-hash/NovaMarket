@@ -933,12 +933,18 @@ ul {
   position: relative;
   transition: var(--transition);
   box-shadow: var(--shadow-card);
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-.product-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: rgba(112, 0, 255, 0.3);
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(112, 0, 255, 0.3);
+  }
 }
 
 /* Card Badges */
@@ -950,6 +956,7 @@ ul {
   flex-direction: column;
   gap: 4px;
   z-index: 2;
+  pointer-events: none;
 }
 
 .badge-discount {
@@ -990,11 +997,14 @@ ul {
   color: var(--text-muted);
   font-size: 15px;
   z-index: 2;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.card-wishlist-btn:hover {
-  color: var(--danger);
-  transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+  .card-wishlist-btn:hover {
+    color: var(--danger);
+    transform: scale(1.1);
+  }
 }
 
 .card-wishlist-btn.active {
@@ -1013,17 +1023,26 @@ ul {
   overflow: hidden;
   margin-bottom: 12px;
   cursor: pointer;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
 }
 
 .card-thumb-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  pointer-events: none; /* Prevents image dragging / ghost selection during touch scroll */
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
-.product-card:hover .card-thumb-wrap img {
-  transform: scale(1.05);
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover .card-thumb-wrap img {
+    transform: scale(1.05);
+  }
 }
 
 /* Card Info */
@@ -2155,6 +2174,8 @@ ul {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 8px !important;
     padding: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .product-card {
@@ -2165,12 +2186,26 @@ ul {
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
+    transform: none !important;
+    transition: none !important;
+    touch-action: pan-y !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  .product-card:hover,
+  .product-card:active {
+    transform: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+    border-color: #EEF0F4 !important;
   }
 
   .card-badges {
     top: 6px !important;
     left: 6px !important;
     gap: 3px !important;
+    pointer-events: none !important;
   }
 
   .badge-discount {
@@ -2192,16 +2227,39 @@ ul {
     height: 28px !important;
     font-size: 13px !important;
     background: rgba(255, 255, 255, 0.95) !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .card-wishlist-btn:hover,
+  .card-wishlist-btn:active {
+    transform: none !important;
   }
 
   .card-thumb-wrap {
     height: 170px !important;
     border-radius: 8px !important;
     margin-bottom: 8px !important;
+    transform: none !important;
+    transition: none !important;
+    touch-action: pan-y !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -webkit-touch-callout: none !important;
   }
 
   .card-thumb-wrap img {
     border-radius: 8px !important;
+    transform: none !important;
+    transition: none !important;
+    pointer-events: none !important;
+    -webkit-user-drag: none !important;
+    user-select: none !important;
+  }
+
+  .product-card:hover .card-thumb-wrap img,
+  .product-card:active .card-thumb-wrap img {
+    transform: none !important;
   }
 
   .card-title {

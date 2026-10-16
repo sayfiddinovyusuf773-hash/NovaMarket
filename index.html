@@ -49,13 +49,22 @@
   <!-- ================= MAIN STICKY HEADER ================= -->
   <header class="main-header" id="mainHeader">
     <div class="container header__inner">
-      <!-- Logo -->
-      <a href="index.html" class="logo">
-        <div class="logo__badge">
-          <i class="fa-solid fa-cube"></i>
-        </div>
-        <div class="logo__name">Nova<span>Market</span></div>
-      </a>
+      <div class="header__top-row">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <div class="logo__badge">
+            <i class="fa-solid fa-cube"></i>
+          </div>
+          <div class="logo__name">Nova<span>Market</span></div>
+        </a>
+
+        <!-- Mobile City Selector (Uzum style) -->
+        <button class="mobile-city-btn" onclick="window.novaMarketApp.openModal('cityModalOverlay')">
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="mobileTopCity">Toshkent</span>
+          <i class="fa-solid fa-chevron-down" style="font-size: 8px;"></i>
+        </button>
+      </div>
 
       <!-- Catalog Mega Button -->
       <button class="btn btn-catalog" id="headerCatalogBtn">
@@ -262,7 +271,10 @@
           <aside class="catalog-sidebar" id="catalogSidebar">
             <div class="sidebar-title-row">
               <h3><i class="fa-solid fa-sliders"></i> Filtrlar</h3>
-              <button class="reset-filters-btn" onclick="window.novaMarketApp.resetFilters()">Tozalash</button>
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="reset-filters-btn" onclick="window.novaMarketApp.resetFilters()">Tozalash</button>
+                <button class="mobile-sidebar-close-btn" onclick="window.novaMarketApp.toggleMobileFilters()"><i class="fa-solid fa-xmark"></i></button>
+              </div>
             </div>
 
             <!-- Price Filter -->
@@ -294,22 +306,31 @@
                 </label>
               </div>
             </div>
+
+            <button class="btn btn-primary btn-block mobile-sidebar-apply-btn" onclick="window.novaMarketApp.toggleMobileFilters()" style="margin-top: 16px;">
+              Natijalarni ko'rsatish
+            </button>
           </aside>
 
           <!-- Catalog Products Main Area -->
           <div class="catalog-main">
             <!-- Top Controls -->
             <div class="catalog-top-controls">
-              <div class="catalog-results-info">
-                Barcha toifalar bo'yicha mahsulotlar
+              <div class="catalog-top-controls-left">
+                <button class="mobile-filter-open-btn" onclick="window.novaMarketApp.toggleMobileFilters()">
+                  <i class="fa-solid fa-sliders"></i> Filtrlar
+                </button>
+                <div class="catalog-results-info">
+                  Barcha toifalar bo'yicha
+                </div>
               </div>
               <div>
                 <select class="catalog-sort-select" id="catalogSortSelect">
-                  <option value="popular">Ommabopligi bo'yicha</option>
+                  <option value="popular">Ommabop</option>
                   <option value="price-asc">Avval arzonlari</option>
                   <option value="price-desc">Avval qimmatlari</option>
-                  <option value="rating">Reytingi bo'yicha</option>
-                  <option value="discount">Chegirma hajmi bo'yicha</option>
+                  <option value="rating">Reytingi</option>
+                  <option value="discount">Chegirmali</option>
                 </select>
               </div>
             </div>
@@ -604,6 +625,36 @@
 
   <!-- Floating Toast Notifications -->
   <div class="toast-container" id="toastNotificationContainer"></div>
+
+  <!-- ================= UZUM MARKET STYLE MOBILE BOTTOM NAV ================= -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav">
+    <a href="#catalog" class="mobile-nav-item active" id="mobileNavHome" onclick="window.novaMarketApp.handleNavTab('home')">
+      <i class="fa-solid fa-house"></i>
+      <span>Bosh sahifa</span>
+    </a>
+    <button type="button" class="mobile-nav-item" id="mobileNavCatalog" onclick="window.novaMarketApp.toggleMegaMenu()">
+      <i class="fa-solid fa-layer-group"></i>
+      <span>Katalog</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mobileNavCart" onclick="window.novaMarketApp.cartFeature.openDrawer()">
+      <div class="mobile-nav-icon-wrap">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="mobile-nav-badge" id="mobileCartBadge">0</span>
+      </div>
+      <span>Savatcha</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mobileNavWishlist" onclick="window.novaMarketApp.openWishlistModal()">
+      <div class="mobile-nav-icon-wrap">
+        <i class="fa-solid fa-heart"></i>
+        <span class="mobile-nav-badge" id="mobileWishlistBadge">0</span>
+      </div>
+      <span>Sevimlilar</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mobileNavOrders" onclick="window.novaMarketApp.openOrdersModal()">
+      <i class="fa-solid fa-box-open"></i>
+      <span>Buyurtmalar</span>
+    </button>
+  </nav>
 
   <!-- Main JavaScript Module -->
   <script type="module" src="src/main.js"></script>

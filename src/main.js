@@ -89,7 +89,9 @@ class NovaMarketApp {
   initCity() {
     const currentCity = StorageService.getCity();
     const cityEl = document.getElementById('topBarCurrentCity');
+    const mobileCityEl = document.getElementById('mobileTopCity');
     if (cityEl) cityEl.textContent = currentCity;
+    if (mobileCityEl) mobileCityEl.textContent = currentCity;
 
     const cityBtn = document.getElementById('topBarCityBtn');
     if (cityBtn) {
@@ -102,9 +104,27 @@ class NovaMarketApp {
   selectCity(city) {
     StorageService.setCity(city);
     const cityEl = document.getElementById('topBarCurrentCity');
+    const mobileCityEl = document.getElementById('mobileTopCity');
     if (cityEl) cityEl.textContent = city;
+    if (mobileCityEl) mobileCityEl.textContent = city;
     this.closeModal('cityModalOverlay');
     this.showToast('Shahar o\'zgartirildi', `Yetkazib berish shahri: ${city}`, 'fa-location-dot');
+  }
+
+  toggleMobileFilters() {
+    const sidebar = document.getElementById('catalogSidebar');
+    if (sidebar) {
+      sidebar.classList.toggle('active');
+    }
+  }
+
+  handleNavTab(tabName) {
+    document.querySelectorAll('.mobile-nav-item').forEach(btn => btn.classList.remove('active'));
+    if (tabName === 'home') {
+      const homeBtn = document.getElementById('mobileNavHome');
+      if (homeBtn) homeBtn.classList.add('active');
+      this.closeMegaMenu();
+    }
   }
 
   // ================= MEGA MENU =================
@@ -185,11 +205,24 @@ class NovaMarketApp {
     });
   }
 
+  toggleMegaMenu() {
+    const catalogBtn = document.getElementById('headerCatalogBtn');
+    const megaMenu = document.getElementById('headerMegaMenu');
+    const mobileBtn = document.getElementById('mobileNavCatalog');
+    if (!megaMenu) return;
+
+    const isActive = megaMenu.classList.toggle('active');
+    if (catalogBtn) catalogBtn.classList.toggle('active', isActive);
+    if (mobileBtn) mobileBtn.classList.toggle('active', isActive);
+  }
+
   closeMegaMenu() {
     const catalogBtn = document.getElementById('headerCatalogBtn');
     const megaMenu = document.getElementById('headerMegaMenu');
+    const mobileBtn = document.getElementById('mobileNavCatalog');
     if (catalogBtn) catalogBtn.classList.remove('active');
     if (megaMenu) megaMenu.classList.remove('active');
+    if (mobileBtn) mobileBtn.classList.remove('active');
   }
 
   // ================= QUICK CATEGORY PILLS =================
@@ -271,7 +304,9 @@ class NovaMarketApp {
   updateWishlistCount() {
     const count = StorageService.getWishlist().length;
     const badge = document.getElementById('headerWishlistBadge');
+    const mobileBadge = document.getElementById('mobileWishlistBadge');
     if (badge) badge.textContent = count;
+    if (mobileBadge) mobileBadge.textContent = count;
   }
 
   openWishlistModal() {

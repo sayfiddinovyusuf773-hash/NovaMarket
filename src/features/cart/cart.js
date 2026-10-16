@@ -123,8 +123,10 @@ export class CartFeature {
 
     // Update Header Badge and Total
     const badge = document.getElementById('headerCartBadge');
+    const mobileBadge = document.getElementById('mobileCartBadge');
     const headerTotal = document.getElementById('headerCartTotal');
     if (badge) badge.textContent = totals.totalItems;
+    if (mobileBadge) mobileBadge.textContent = totals.totalItems;
     if (headerTotal) headerTotal.textContent = formatPrice(totals.grandTotal);
 
     // Update Drawer Title Count

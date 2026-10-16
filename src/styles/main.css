@@ -1820,6 +1820,21 @@ ul {
 }
 
 /* ==========================================================================
+   MOBILE-FIRST CONTROLS (Hidden by default on Desktop)
+   ========================================================================== */
+.mobile-city-btn,
+.mobile-bottom-nav,
+.mobile-filter-open-btn,
+.mobile-sidebar-close-btn,
+.mobile-sidebar-apply-btn {
+  display: none;
+}
+
+.header__top-row {
+  display: contents;
+}
+
+/* ==========================================================================
    RESPONSIVE DESIGN (Media Queries)
    ========================================================================== */
 @media (max-width: 1200px) {
@@ -1850,64 +1865,549 @@ ul {
 }
 
 @media (max-width: 768px) {
-  .top-bar {
-    display: none;
+  body {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px)) !important;
+    overflow-x: hidden;
   }
-  .header__inner {
-    flex-wrap: wrap;
-  }
-  .search-container {
-    order: 3;
-    width: 100%;
-    margin-top: 4px;
-  }
-  .header-cart-info {
-    display: none;
-  }
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .advantages-grid {
-    grid-template-columns: 1fr;
-  }
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-  .form-grid-2, .payment-options-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
-@media (max-width: 480px) {
-  .hero-slide-content {
-    max-width: 100%;
+  .container {
+    padding: 0 12px !important;
   }
-  .hero-slide-desc {
-    display: none;
+
+  .top-bar {
+    display: none !important;
+  }
+
+  /* Header Mobile Layout */
+  .main-header {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    padding: 8px 0 !important;
+    background: #ffffff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  }
+
+  .header__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .header__top-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+
+  .logo {
+    gap: 8px;
+  }
+  .logo__badge {
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+  }
+  .logo__name {
+    font-size: 19px;
+  }
+
+  .mobile-city-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    background: #F3EDFF;
+    border: none;
+    border-radius: 20px;
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btn-catalog,
+  .header__actions {
+    display: none !important;
+  }
+
+  /* Full Width Mobile Search */
+  .search-container {
+    width: 100% !important;
+    margin: 0 !important;
+    display: flex !important;
+    gap: 6px !important;
+  }
+
+  .search-input-box {
+    height: 40px !important;
+    background: #F2F4F7 !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+  }
+
+  .search-input-box i.fa-magnifying-glass {
+    font-size: 14px;
+    color: #8C93A3;
+  }
+
+  .search-input-box input {
+    font-size: 13px !important;
+  }
+
+  .search-action-btn {
+    height: 40px !important;
+    padding: 0 14px !important;
+    font-size: 12.5px !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+  }
+
+  /* Quick Categories Bar */
+  .quick-categories-bar {
+    padding: 6px 0 !important;
+  }
+  .quick-cat-btn {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+  }
+
+  /* Hero Banner */
+  .hero-section {
+    padding: 10px 0 !important;
+  }
+  .hero-slider {
+    height: 150px !important;
+    border-radius: 12px !important;
+  }
+  .hero-slide {
+    padding: 16px 20px !important;
+  }
+  .hero-slide-badge {
+    font-size: 10px !important;
+    padding: 2px 8px !important;
+    margin-bottom: 6px !important;
   }
   .hero-slide-title {
-    font-size: 22px;
+    font-size: 17px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 0 !important;
+    max-width: 70% !important;
   }
+  .hero-slide-desc {
+    display: none !important;
+  }
+  .hero-slide-btn {
+    display: none !important;
+  }
+  .hero-arrow {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 11px !important;
+  }
+
+  /* Advantages Bar (2x2 Grid on Mobile) */
+  .advantages-bar {
+    margin: 8px 0 14px 0 !important;
+    padding: 10px 12px !important;
+    border-radius: 10px !important;
+  }
+  .advantages-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+  .advantage-item {
+    gap: 8px !important;
+  }
+  .advantage-icon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+  }
+  .advantage-text strong {
+    font-size: 12px !important;
+  }
+  .advantage-text span {
+    display: none !important;
+  }
+
+  /* Catalog Layout & Controls */
+  .catalog-layout {
+    display: block !important;
+  }
+  .section {
+    padding: 14px 0 !important;
+  }
+  .section-head {
+    margin-bottom: 10px !important;
+  }
+  .section-title {
+    font-size: 18px !important;
+  }
+
+  .catalog-top-controls {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 12px !important;
+    padding-bottom: 8px !important;
+    gap: 8px !important;
+  }
+
+  .catalog-top-controls-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .mobile-filter-open-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    height: 34px;
+    padding: 0 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--dark);
+    cursor: pointer;
+  }
+
+  .catalog-results-info {
+    font-size: 12px !important;
+    color: var(--text-muted);
+  }
+
+  .catalog-sort-select {
+    height: 34px !important;
+    padding: 0 10px !important;
+    font-size: 12px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Catalog Sidebar as Mobile Bottom Sheet Drawer */
+  .catalog-sidebar {
+    display: none;
+  }
+
+  .catalog-sidebar.active {
+    display: flex !important;
+    position: fixed !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    z-index: 2500 !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    padding: 0 !important;
+    border: none !important;
+    animation: fadeIn 0.2s ease;
+  }
+
+  .catalog-sidebar.active > * {
+    max-width: 100%;
+  }
+
+  .catalog-sidebar.active .sidebar-title-row {
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 18px 20px 10px;
+    margin: 0;
+  }
+
+  .catalog-sidebar.active .filter-section {
+    background: #fff;
+    padding: 12px 20px;
+    margin: 0;
+  }
+
+  .mobile-sidebar-close-btn {
+    display: flex !important;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .mobile-sidebar-apply-btn {
+    display: block !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  /* ===================================================
+     UZUM MARKET EXACT 2-COLUMN PRODUCTS GRID ON MOBILE
+     =================================================== */
+  .products-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 0 !important;
+  }
+
   .product-card {
-    padding: 8px;
+    padding: 6px 6px 10px 6px !important;
+    border-radius: 10px !important;
+    border: 1px solid #EEF0F4 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
   }
-  .card-cart-action-btn {
-    height: 32px;
-    padding: 0 8px;
-    font-size: 12px;
-    gap: 4px;
+
+  .card-badges {
+    top: 6px !important;
+    left: 6px !important;
+    gap: 3px !important;
   }
-  .card-cart-action-btn span {
-    font-size: 11px;
+
+  .badge-discount {
+    font-size: 9.5px !important;
+    padding: 2px 5px !important;
+    border-radius: 4px !important;
   }
-  .card-current-price {
-    font-size: 13px;
+
+  .badge-delivery {
+    font-size: 8.5px !important;
+    padding: 2px 5px !important;
+    border-radius: 4px !important;
   }
-  .card-old-price {
-    font-size: 10px;
+
+  .card-wishlist-btn {
+    top: 6px !important;
+    right: 6px !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 13px !important;
+    background: rgba(255, 255, 255, 0.95) !important;
   }
+
+  .card-thumb-wrap {
+    height: 170px !important;
+    border-radius: 8px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .card-thumb-wrap img {
+    border-radius: 8px !important;
+  }
+
   .card-title {
-    font-size: 12px;
-    height: 32px;
+    font-size: 12.5px !important;
+    line-height: 1.35 !important;
+    height: 34px !important;
+    margin-bottom: 4px !important;
+    font-weight: 500 !important;
+    color: #1F2026 !important;
+  }
+
+  .card-rating-row {
+    font-size: 10.5px !important;
+    margin-bottom: 4px !important;
+    gap: 3px !important;
+  }
+
+  .card-installment-chip {
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    padding: 2px 6px !important;
+    margin-bottom: 6px !important;
+    background: #FFF8E6 !important;
+    color: #B38600 !important;
+    border-radius: 4px !important;
+  }
+
+  .card-footer-row {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    margin-top: auto !important;
+  }
+
+  .card-prices {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .card-old-price {
+    font-size: 10px !important;
+  }
+
+  .card-current-price {
+    font-size: 13.5px !important;
+    font-weight: 800 !important;
+    color: #1F2026 !important;
+  }
+
+  /* Compact Uzum-Style Cart Add Button */
+  .card-cart-action-btn {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 8px !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+  }
+
+  .card-cart-action-btn span {
+    display: none !important;
+  }
+
+  .card-cart-action-btn i {
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+
+  .card-qty-controller {
+    height: 30px !important;
+    padding: 0 4px !important;
+    gap: 2px !important;
+  }
+
+  .card-qty-controller button {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 9px !important;
+  }
+
+  .card-qty-controller span {
+    font-size: 12px !important;
+    padding: 0 3px !important;
+  }
+
+  /* Mega Menu as Full Screen Mobile Overlay */
+  .mega-menu {
+    position: fixed !important;
+    inset: 0 0 60px 0 !important;
+    background: #fff !important;
+    z-index: 1500 !important;
+    overflow-y: auto !important;
+  }
+  .mega-menu__inner {
+    grid-template-columns: 1fr !important;
+    min-height: auto !important;
+  }
+  .mega-menu__sidebar {
+    border-right: none !important;
+    background: #fff !important;
+    padding: 10px 0 !important;
+  }
+  .mega-menu-cat-item {
+    padding: 14px 18px !important;
+    font-size: 14.5px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+  }
+  .mega-menu__content {
+    display: none !important;
+  }
+
+  /* Modals as Mobile Bottom Sheets */
+  .modal-overlay {
+    align-items: flex-end !important;
+    padding: 0 !important;
+  }
+  .modal-window {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 20px 20px 0 0 !important;
+    max-height: 85vh !important;
+    overflow-y: auto !important;
+    padding: 20px !important;
+  }
+  .cart-drawer {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .product-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .detail-main-img {
+    height: 250px !important;
+  }
+
+  /* ===================================================
+     MOBILE BOTTOM APP NAVIGATION (Uzum Market Style)
+     =================================================== */
+  .mobile-bottom-nav {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 56px !important;
+    background: #ffffff !important;
+    border-top: 1px solid #ECEFF2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    z-index: 2000 !important;
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .mobile-nav-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3px !important;
+    background: transparent !important;
+    border: none !important;
+    color: #8C93A3 !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    flex: 1 !important;
+    height: 100% !important;
+    padding: 4px 0 !important;
+    transition: all 0.15s ease !important;
+  }
+
+  .mobile-nav-item i {
+    font-size: 18px !important;
+  }
+
+  .mobile-nav-item.active {
+    color: var(--primary) !important;
+    font-weight: 700 !important;
+  }
+
+  .mobile-nav-icon-wrap {
+    position: relative !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .mobile-nav-badge {
+    position: absolute !important;
+    top: -6px !important;
+    right: -10px !important;
+    background: var(--primary) !important;
+    color: #fff !important;
+    font-size: 9.5px !important;
+    font-weight: 800 !important;
+    min-width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 4px !important;
   }
 }

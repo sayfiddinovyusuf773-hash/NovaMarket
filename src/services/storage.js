@@ -183,9 +183,17 @@ export const StorageService = {
 
   createOrder(orderData) {
     const orders = this.getOrders();
+    const city = orderData.delivery?.city || 'Toshkent';
+    // Yetkazib berish muddati: Toshkent shahriga 2 kun, viloyatlarga 3 kun
+    const deliveryDays = city.toLowerCase().includes('toshkent') ? 2 : 3;
+    const now = new Date();
+    const deliveryDate = new Date(now.getTime() + deliveryDays * 24 * 60 * 60 * 1000);
+
     const newOrder = {
       orderId: 'NM-' + Math.floor(100000 + Math.random() * 900000),
-      createdAt: new Date().toISOString(),
+      createdAt: now.toISOString(),
+      deliveryDays,
+      estimatedDeliveryDate: deliveryDate.toISOString(),
       status: 'Yangi', // Yangi, Yig'ilmoqda, Yetkazilmoqda, Yetkazib berildi, Bekor qilindi
       ...orderData
     };
@@ -194,11 +202,44 @@ export const StorageService = {
     return newOrder;
   },
 
+  cancelOrder(orderId) {
+    const orders = this.getOrders();
+    const order = orders.find(o => o.orderId === orderId);
+    if (!order) return { success: false, message: "Buyurtma topilmadi" };
+
+    if (order.status === 'Bekor qilindi' || order.status === 'Bekor qilingan') {
+      return { success: false, message: "Ushbu buyurtma allaqachon bekor qilingan." };
+    }
+
+    if (order.status === 'Yetkazib berildi') {
+      return { success: false, message: "Buyurtma yetkazib berilgan, uni bekor qilib bo'lmaydi." };
+    }
+
+    // Yetkazilishiga 1 kun (24 soat) yoki undan kam qolganligini tekshirish
+    const deliveryTime = new Date(order.estimatedDeliveryDate || (new Date(order.createdAt).getTime() + (order.deliveryDays || 2) * 24 * 3600 * 1000)).getTime();
+    const hoursRemaining = (deliveryTime - Date.now()) / (1000 * 60 * 60);
+
+    if (hoursRemaining <= 24) {
+      return { 
+        success: false, 
+        message: "Mahsulot yetkazilishiga 1 kun yoki undan kam vaqt qoldi. Tovar yo'lga chiqarilgani sababli bekor qilib bo'lmaydi." 
+      };
+    }
+
+    order.status = 'Bekor qilindi';
+    order.cancelledAt = new Date().toISOString();
+    localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
+    return { success: true, message: "Buyurtma muvaffaqiyatli bekor qilindi.", order };
+  },
+
   updateOrderStatus(orderId, newStatus) {
     const orders = this.getOrders();
     const order = orders.find(o => o.orderId === orderId);
     if (order) {
       order.status = newStatus;
+      if (newStatus === 'Bekor qilindi' || newStatus === 'Bekor qilingan') {
+        order.cancelledAt = new Date().toISOString();
+      }
       localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
     }
     return orders;

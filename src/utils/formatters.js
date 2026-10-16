@@ -49,3 +49,31 @@ export function highlightMatch(text, query) {
   const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
   return text.replace(regex, '<mark class="highlight">$1</mark>');
 }
+
+/**
+ * Sanani o'zbek tilida chiroyli formatlash: masalan "18-oktyabr, 14:30"
+ */
+export function formatUzbekDateTime(isoString) {
+  if (!isoString) return '';
+  const d = new Date(isoString);
+  if (isNaN(d.getTime())) return '';
+  const monthsUz = ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentyabr', 'oktyabr', 'noyabr', 'dekabr'];
+  const day = d.getDate();
+  const month = monthsUz[d.getMonth()];
+  const hours = String(d.getHours()).padStart(2, '0');
+  const minutes = String(d.getMinutes()).padStart(2, '0');
+  return `${day}-${month}, soat ${hours}:${minutes}`;
+}
+
+/**
+ * Yetkazib berish kunini formatlash: masalan "18-oktyabr"
+ */
+export function formatDeliveryDate(isoString) {
+  if (!isoString) return '';
+  const d = new Date(isoString);
+  if (isNaN(d.getTime())) return '';
+  const monthsUz = ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentyabr', 'oktyabr', 'noyabr', 'dekabr'];
+  const day = d.getDate();
+  const month = monthsUz[d.getMonth()];
+  return `${day}-${month}`;
+}

@@ -163,15 +163,18 @@ export class AdminDashboard {
           <div style="font-size: 13px; font-weight: 600;">${o.customer?.fullName || 'Xaridor'}</div>
           <small style="color: var(--text-muted);">${o.customer?.phone || '—'}</small>
         </td>
-        <td><small>${o.delivery?.city}, ${o.delivery?.address}</small></td>
+        <td>
+          <small>${o.delivery?.city}, ${o.delivery?.address}</small><br>
+          <small style="color: #166534; font-weight: 700;"><i class="fa-solid fa-truck-fast"></i> ${o.deliveryDays || 2} kun ichida</small>
+        </td>
         <td><strong>${formatPrice(o.totals?.grandTotal || 0)}</strong></td>
         <td>
-          <select class="order-status-select" onchange="window.adminDashboard.changeOrderStatus('${o.orderId}', this.value)" style="padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; border: 1px solid var(--border);">
+          <select class="order-status-select" onchange="window.adminDashboard.changeOrderStatus('${o.orderId}', this.value)" style="padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; border: 1px solid var(--border); ${o.status === 'Bekor qilindi' || o.status === 'Bekor qilingan' ? 'color: var(--danger); background: #FEF2F2;' : ''}">
             <option value="Yangi" ${o.status === 'Yangi' ? 'selected' : ''}>Yangi</option>
             <option value="Yig'ilmoqda" ${o.status === "Yig'ilmoqda" ? 'selected' : ''}>Yig'ilmoqda</option>
             <option value="Yetkazilmoqda" ${o.status === 'Yetkazilmoqda' ? 'selected' : ''}>Yetkazilmoqda</option>
             <option value="Yetkazib berildi" ${o.status === 'Yetkazib berildi' ? 'selected' : ''}>Yetkazib berildi</option>
-            <option value="Bekor qilindi" ${o.status === 'Bekor qilindi' ? 'selected' : ''}>Bekor qilindi</option>
+            <option value="Bekor qilindi" ${o.status === 'Bekor qilindi' || o.status === 'Bekor qilingan' ? 'selected' : ''}>Bekor qilindi</option>
           </select>
         </td>
         <td><small>${new Date(o.createdAt).toLocaleDateString('uz-UZ')}</small></td>

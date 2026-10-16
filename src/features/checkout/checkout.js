@@ -2,7 +2,7 @@
  * NovaMarket — Buyurtma Rasmiylashtirish Moduli (Checkout Feature)
  */
 import { StorageService } from '../../services/storage.js';
-import { formatPrice } from '../../utils/formatters.js';
+import { formatPrice, formatDeliveryDate } from '../../utils/formatters.js';
 
 export class CheckoutFeature {
   constructor(options = {}) {
@@ -113,9 +113,15 @@ export class CheckoutFeature {
     const orderAddressEl = document.getElementById('successOrderAddress');
     const orderTotalEl = document.getElementById('successOrderTotal');
 
+    const orderDeliveryEtaEl = document.getElementById('successOrderDeliveryEta');
+
     if (orderIdEl) orderIdEl.textContent = order.orderId;
     if (orderAddressEl) orderAddressEl.textContent = `${order.delivery.city}, ${order.delivery.address}`;
     if (orderTotalEl) orderTotalEl.textContent = formatPrice(order.totals.grandTotal);
+    if (orderDeliveryEtaEl) {
+      const etaDate = order.estimatedDeliveryDate ? formatDeliveryDate(order.estimatedDeliveryDate) : '';
+      orderDeliveryEtaEl.textContent = `${order.deliveryDays || 2} kun ichida (${etaDate}gacha)`;
+    }
 
     if (successModal) successModal.classList.add('active');
 

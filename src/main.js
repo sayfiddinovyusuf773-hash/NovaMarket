@@ -7,7 +7,7 @@ import { CatalogFeature } from './features/catalog/catalog.js';
 import { SearchFeature } from './features/search/search.js';
 import { CartFeature } from './features/cart/cart.js';
 import { CheckoutFeature } from './features/checkout/checkout.js';
-import { formatPrice, formatInstallment } from './utils/formatters.js';
+import { formatPrice, formatInstallment, formatDeliveryDate, formatUzbekDateTime } from './utils/formatters.js';
 
 class NovaMarketApp {
   constructor() {
@@ -605,32 +605,145 @@ class NovaMarketApp {
         </div>
       `;
     } else {
-      list.innerHTML = orders.map(o => `
-        <div style="border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 14px; background: #fff; box-shadow: var(--shadow-sm);">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-            <div>
-              <strong style="color: var(--primary); font-size: 15px;">#${o.orderId}</strong>
-              <span style="font-size: 12px; color: var(--text-muted); margin-left: 8px;">${new Date(o.createdAt).toLocaleString('uz-UZ')}</span>
+      list.innerHTML = orders.map(o => {
+        // Delivery ETA & 1-day remaining cancellation rule
+        const now = Date.now();
+        const deliveryDays = o.deliveryDays || (o.delivery?.city?.toLowerCase().includes('toshkent') ? 2 : 3);
+        const deliveryTime = new Date(o.estimatedDeliveryDate || (new Date(o.createdAt).getTime() + deliveryDays * 24 * 3600 * 1000)).getTime();
+        const msRemaining = deliveryTime - now;
+        const hoursRemaining = msRemaining / (1000 * 60 * 60);
+
+        const isCancelled = o.status === 'Bekor qilindi' || o.status === 'Bekor qilingan';
+        const isDelivered = o.status === 'Yetkazib berildi';
+        const isTooLateToCancel = hoursRemaining <= 24;
+
+        // Status badge styling
+        let badgeBg = '#EBF8FF';
+        let badgeColor = '#0284C7';
+        if (isCancelled) {
+          badgeBg = '#FEE2E2';
+          badgeColor = '#DC2626';
+        } else if (isDelivered) {
+          badgeBg = '#DCFCE7';
+          badgeColor = '#15803D';
+        } else if (o.status === "Yig'ilmoqda") {
+          badgeBg = '#FEF3C7';
+          badgeColor = '#D97706';
+        } else if (o.status === 'Yetkazilmoqda') {
+          badgeBg = '#F3E8FF';
+          badgeColor = '#7E22CE';
+        }
+
+        const formattedEtaDate = formatDeliveryDate(new Date(deliveryTime).toISOString());
+        const createdDateStr = formatUzbekDateTime(o.createdAt);
+
+        // Cancellation action or notice
+        let cancelSectionHtml = '';
+        if (isCancelled) {
+          cancelSectionHtml = `
+            <div class="order-cancelled-notice">
+              <i class="fa-solid fa-ban"></i> Ushbu buyurtma bekor qilingan
             </div>
-            <span style="display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; background: #EBF8FF; color: #0284C7;">
-              ${o.status || 'Yangi'}
-            </span>
+          `;
+        } else if (isDelivered) {
+          cancelSectionHtml = `
+            <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 8px; padding: 8px 12px; font-size: 12.5px; color: #166534; font-weight: 700; display: flex; align-items: center; gap: 6px; margin-top: 10px;">
+              <i class="fa-solid fa-circle-check"></i> Mahsulot muvaffaqiyatli yetkazib berilgan
+            </div>
+          `;
+        } else if (isTooLateToCancel) {
+          cancelSectionHtml = `
+            <div class="order-lock-notice">
+              <i class="fa-solid fa-lock" style="color: #D97706; font-size: 14px;"></i>
+              <div style="flex: 1;">
+                <strong>Bekor qilish imkoni yo'q:</strong> Mahsulot olib kelinishiga 1 kundan kam vaqt qoldi. Tovar yo'lda yoki kuryerga topshirilgan.
+              </div>
+            </div>
+          `;
+        } else {
+          // More than 1 day remains: user can cancel!
+          cancelSectionHtml = `
+            <div class="order-cancel-row">
+              <span class="order-cancel-hint">
+                <i class="fa-regular fa-clock" style="color: var(--primary);"></i> Yetkazilishiga 1 kundan ko'p vaqt bor (bekor qilish mumkin)
+              </span>
+              <button type="button" class="btn-outline-danger" onclick="window.novaMarketApp.cancelUserOrder('${o.orderId}')">
+                <i class="fa-solid fa-xmark"></i> Buyurtmani bekor qilish
+              </button>
+            </div>
+          `;
+        }
+
+        // Items preview
+        const itemsHtml = (o.items || []).map(item => {
+          const p = StorageService.getProductById(item.id);
+          if (!p) return '';
+          return `
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px;">
+              <img src="${p.image}" alt="${p.name}" style="width: 36px; height: 36px; border-radius: 6px; object-fit: cover; border: 1px solid #ECEFF2;">
+              <div style="flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                <span style="font-weight: 600;">${p.name}</span>
+                <span style="color: var(--text-muted); margin-left: 6px;">× ${item.quantity} dona</span>
+              </div>
+              <strong style="font-size: 12.5px;">${formatPrice(p.price * item.quantity)}</strong>
+            </div>
+          `;
+        }).join('');
+
+        return `
+          <div class="order-card-box">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <div>
+                <strong style="color: var(--primary); font-size: 15px;">#${o.orderId}</strong>
+                <span style="font-size: 12px; color: var(--text-muted); margin-left: 8px;">${createdDateStr}</span>
+              </div>
+              <span style="display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; background: ${badgeBg}; color: ${badgeColor};">
+                ${o.status || 'Yangi'}
+              </span>
+            </div>
+
+            <!-- Delivery Time & City -->
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0;">
+              <div class="order-delivery-eta-badge">
+                <i class="fa-solid fa-truck-fast"></i> Yetkazib berish: <strong>${formattedEtaDate}gacha (${deliveryDays} kun ichida)</strong>
+              </div>
+            </div>
+
+            <div style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;">
+              <i class="fa-solid fa-location-dot text-primary"></i> Yetkazish manzili: <strong>${o.delivery?.city || ''}, ${o.delivery?.address || ''}</strong>
+            </div>
+
+            <!-- Items list -->
+            <div style="background: #F8FAFC; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+              ${itemsHtml || `<div style="font-size: 13px; color: var(--text-muted);">Mahsulotlar: ${o.items?.length || 0} xil</div>`}
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px;">
+              <span style="font-size: 13px; color: var(--text-muted);">Jami to'lov:</span>
+              <strong style="font-size: 16px; color: var(--dark);">${formatPrice(o.totals?.grandTotal || 0)}</strong>
+            </div>
+
+            ${cancelSectionHtml}
           </div>
-          <div style="font-size: 13px; color: var(--text-secondary); margin-bottom: 8px;">
-            <i class="fa-solid fa-location-dot text-primary"></i> Yetkazish manzili: <strong>${o.delivery?.city || ''}, ${o.delivery?.address || ''}</strong>
-          </div>
-          <div style="font-size: 13px; margin-bottom: 10px;">
-            Xarid qilingan tovarlar: <strong>${o.items?.length || 0} xil</strong>
-          </div>
-          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px dashed var(--border); padding-top: 10px;">
-            <span style="font-size: 13px; color: var(--text-muted);">Jami to'lov summasi:</span>
-            <strong style="font-size: 16px; color: var(--dark);">${formatPrice(o.totals?.grandTotal || 0)}</strong>
-          </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
     modal.classList.add('active');
+  }
+
+  cancelUserOrder(orderId) {
+    if (!confirm(`#${orderId} raqamli buyurtmani haqiqatan ham bekor qilmoqchimisiz?`)) {
+      return;
+    }
+
+    const res = StorageService.cancelOrder(orderId);
+    if (res.success) {
+      this.showToast('Buyurtma bekor qilindi', `#${orderId} muvaffaqiyatli bekor qilindi`, 'fa-ban');
+      this.openOrdersModal();
+    } else {
+      alert(res.message);
+    }
   }
 
   openModal(modalId) {

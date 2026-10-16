@@ -1,0 +1,26 @@
+{
+  "name": "novamarket",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NovaMarket — O'zbekiston uchun zamonaviy va professional ko'p tarmoqli internet-do'kon (Marketplace)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/catalog.test.js"
+  },
+  "keywords": [
+    "marketplace",
+    "marketplace-uzbekistan",
+    "novamarket",
+    "ecommerce",
+    "online-store",
+    "uzbekistan"
+  ],
+  "author": "NovaMarket Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

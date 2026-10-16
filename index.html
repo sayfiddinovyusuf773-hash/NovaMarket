@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaMarket — O'zbekistondagi Eng Katta Internet-Do'kon</title>
+  <meta name="description" content="NovaMarket — elektronika, maishiy texnika, kiyim-kechak, uy-ro'zg'or buyumlari va boshqa barcha mahsulotlarni 1 kunda bepul yetkazib beruvchi marketplace.">
+  <!-- Preconnect & DNS-Prefetch for ultra-fast loading -->
+  <link rel="dns-prefetch" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+
+  <!-- ================= TOP UTILITY BAR ================= -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__left">
+        <button class="city-select-btn" id="topBarCityBtn">
+          <i class="fa-solid fa-location-dot"></i>
+          Shahar: <span id="topBarCurrentCity">Toshkent</span>
+          <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 2px;"></i>
+        </button>
+        <div class="delivery-promo-badge">
+          <i class="fa-solid fa-truck-fast"></i> Buyurtmangizni 1 kunda bepul yetkazib beramiz!
+        </div>
+      </div>
+      <div class="top-bar__right">
+        <ul class="top-links">
+          <li><a href="#about">Biz haqimizda</a></li>
+          <li><a href="#delivery">Yetkazib berish punktlari</a></li>
+          <li><a href="#faq">Savol-javob</a></li>
+        </ul>
+        <a href="tel:+998712007000" style="font-weight: 700; color: var(--dark);">
+          <i class="fa-solid fa-phone" style="color: var(--primary);"></i> +998 (71) 200-70-00
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN STICKY HEADER ================= -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header__inner">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <div class="logo__badge">
+          <i class="fa-solid fa-cube"></i>
+        </div>
+        <div class="logo__name">Nova<span>Market</span></div>
+      </a>
+
+      <!-- Catalog Mega Button -->
+      <button class="btn btn-catalog" id="headerCatalogBtn">
+        <div class="catalog-burger-icon">
+          <span></span><span></span><span></span>
+        </div>
+        <span>Katalog</span>
+      </button>
+
+      <!-- Universal Search Bar -->
+      <div class="search-container">
+        <div class="search-input-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="universalSearchInput" placeholder="Istalgan tovar, brend yoki xususiyatni qidiring: iPhone, televizor, sovutkich, krossovka..." autocomplete="off">
+          <button class="clear-search-btn" id="clearSearchBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <button class="search-action-btn" onclick="window.novaMarketApp.catalogFeature.setSearchQuery(document.getElementById('universalSearchInput').value.trim());">
+          Qidirish
+        </button>
+
+        <!-- Live Search Suggestions Dropdown -->
+        <div class="search-dropdown" id="searchSuggestionsDropdown"></div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="header__actions">
+        <!-- Wishlist -->
+        <button class="header-action-btn" id="headerWishlistBtn" title="Sevimlilar">
+          <div class="action-icon-wrap">
+            <i class="fa-regular fa-heart"></i>
+            <span class="action-badge" id="headerWishlistBadge">0</span>
+          </div>
+          <span class="action-label">Sevimlilar</span>
+        </button>
+
+        <!-- Orders -->
+        <button class="header-action-btn" onclick="window.novaMarketApp.openOrdersModal()" title="Mening buyurtmalarim">
+          <div class="action-icon-wrap">
+            <i class="fa-solid fa-box-open"></i>
+          </div>
+          <span class="action-label">Buyurtmalar</span>
+        </button>
+
+        <!-- Cart Button -->
+        <button class="header-cart-btn" id="headerCartBtn" title="Savatcha">
+          <div class="action-icon-wrap">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="action-badge" id="headerCartBadge">0</span>
+          </div>
+          <div class="header-cart-info">
+            <span class="header-cart-title">Savatcha</span>
+            <span class="header-cart-total" id="headerCartTotal">0 so'm</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mega Menu Overlay Dropdown -->
+    <div class="mega-menu" id="headerMegaMenu">
+      <div class="container mega-menu__inner">
+        <div class="mega-menu__sidebar" id="megaMenuCategoriesList">
+          <!-- Populated dynamically by categories.js -->
+        </div>
+        <div class="mega-menu__content" id="megaMenuSubcatContent">
+          <!-- Subcategories populated dynamically -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= QUICK CATEGORY PILLS BAR ================= -->
+  <nav class="quick-categories-bar">
+    <div class="container">
+      <div class="quick-categories-list" id="quickCategoriesList">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main>
+    <!-- Hero Banner Slider -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <!-- Main Carousel -->
+        <div class="hero-slider" id="heroSlider">
+          <!-- Slide 1 -->
+          <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80');">
+            <div class="hero-slide-overlay"></div>
+            <div class="hero-slide-content">
+              <span class="hero-pill-badge">🔥 Haftalik Mega-Chegirma</span>
+              <h1 class="hero-slide-title">Yangi iPhone 16 Pro Max va Flagman Smartfonlar</h1>
+              <p class="hero-slide-desc">Eng so'nggi gadjetlarni 12 oygacha muddatli to'lov va 1 kunda bepul yetkazib berish bilan xarid qiling!</p>
+              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('electronics')">
+                <i class="fa-solid fa-cart-shopping"></i> Xarid qilish
+              </button>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=1400&q=80');">
+            <div class="hero-slide-overlay"></div>
+            <div class="hero-slide-content">
+              <span class="hero-pill-badge">📺 Katta Ekranlar Olami</span>
+              <h2 class="hero-slide-title">Smart Televizorlar va Maishiy Texnikalar</h2>
+              <p class="hero-slide-desc">Samsung QLED va LG OLED televizorlariga 20% gacha keshbek va kafolatlangan sovg'alar.</p>
+              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('appliances')">
+                Texnikalarni ko'rish
+              </button>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=80');">
+            <div class="hero-slide-overlay"></div>
+            <div class="hero-slide-content">
+              <span class="hero-pill-badge">👟 Yangi Mavsum Kolleksiyasi</span>
+              <h2 class="hero-slide-title">Original Kiyimlar, Poyabzallar va Brendlar</h2>
+              <p class="hero-slide-desc">Nike, Jordan, Adidas va yetakchi brendlarning asl mahsulotlari arzon narxlarda.</p>
+              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('fashion')">
+                Kolleksiyaga o'tish
+              </button>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="hero-controls">
+            <button class="hero-nav-btn" id="heroSlidePrevBtn"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="hero-nav-btn" id="heroSlideNextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Side Promo Cards -->
+        <div class="hero-side-cards">
+          <div class="side-promo-card" style="background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80');">
+            <div class="side-promo-content">
+              <span class="hero-pill-badge" style="background: #fff; color: var(--primary);">0-0-12 Nasiya</span>
+              <h3>Boshlang'ich to'lovsiz muddatli to'lov</h3>
+              <p>Hujjatlarsiz, bir necha daqiqada onlayn rasmiylashtiring</p>
+              <button class="btn btn-sm btn-secondary" onclick="window.novaMarketApp.filterCategory('electronics')">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <div class="side-promo-card side-promo-card--orange" style="background-image: url('https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=600&q=80');">
+            <div class="side-promo-content">
+              <span class="hero-pill-badge" style="background: #fff; color: #D84315;">Kafolatlangan sifat</span>
+              <h3>Oshxona va Uy uchun chegirmalar</h3>
+              <p>Tefal qozonlar to'plami va ortopedik krovatlar</p>
+              <button class="btn btn-sm btn-secondary" onclick="window.novaMarketApp.filterCategory('home')">Tanlash <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages Bar -->
+    <div class="container">
+      <div class="advantages-bar">
+        <div class="advantages-grid">
+          <div class="advantage-item">
+            <div class="advantage-icon advantage-icon--speed"><i class="fa-solid fa-bolt"></i></div>
+            <div class="advantage-text">
+              <strong>1 kunda yetkazib berish</strong>
+              <span>Eshikkacha yoki tarqatish punktiga</span>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="advantage-icon advantage-icon--warranty"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="advantage-text">
+              <strong>Rasmiy Kafolat</strong>
+              <span>Barcha tovarlarga 100% asl sifat</span>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="advantage-icon advantage-icon--installment"><i class="fa-solid fa-credit-card"></i></div>
+            <div class="advantage-text">
+              <strong>Qulay Muddatli To'lov</strong>
+              <span>12 oygacha foizsiz bo'lib to'lash</span>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="advantage-icon advantage-icon--payment"><i class="fa-solid fa-rotate-left"></i></div>
+            <div class="advantage-text">
+              <strong>Oson Qaytarish</strong>
+              <span>10 kun ichida to'siqsiz qaytarib berish</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Catalog Section -->
+    <section class="section" id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">
+            <i class="fa-solid fa-layer-group text-primary"></i> Mahsulotlar Katalogi
+            <span class="badge" id="catalogProductsCount">0 ta mahsulot</span>
+          </h2>
+        </div>
+
+        <div class="catalog-layout">
+          <!-- Sidebar Filters -->
+          <aside class="catalog-sidebar" id="catalogSidebar">
+            <div class="sidebar-title-row">
+              <h3><i class="fa-solid fa-sliders"></i> Filtrlar</h3>
+              <button class="reset-filters-btn" onclick="window.novaMarketApp.resetFilters()">Tozalash</button>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="filter-section">
+              <h4 class="filter-section-title">Narx (so'mda)</h4>
+              <div class="filter-price-inputs">
+                <div class="price-box">
+                  <span>dan</span>
+                  <input type="number" id="filterPriceMin" placeholder="0" min="0">
+                </div>
+                <div class="price-box">
+                  <span>gacha</span>
+                  <input type="number" id="filterPriceMax" placeholder="40000000" min="0">
+                </div>
+              </div>
+              <input type="range" class="range-slider" id="filterPriceRange" min="0" max="40000000" step="50000" value="40000000">
+            </div>
+
+            <!-- Toggles -->
+            <div class="filter-section">
+              <div class="filter-checkbox-list">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="filterOnlyDiscount">
+                  <span>Faqat chegirmadagi tovarlar</span>
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" id="filterOnlyInStock">
+                  <span>Faqat omborda mavjudlari</span>
+                </label>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Catalog Products Main Area -->
+          <div class="catalog-main">
+            <!-- Top Controls -->
+            <div class="catalog-top-controls">
+              <div class="catalog-results-info">
+                Barcha toifalar bo'yicha mahsulotlar
+              </div>
+              <div>
+                <select class="catalog-sort-select" id="catalogSortSelect">
+                  <option value="popular">Ommabopligi bo'yicha</option>
+                  <option value="price-asc">Avval arzonlari</option>
+                  <option value="price-desc">Avval qimmatlari</option>
+                  <option value="rating">Reytingi bo'yicha</option>
+                  <option value="discount">Chegirma hajmi bo'yicha</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="catalogProductsGrid">
+              <!-- Rendered dynamically by CatalogFeature -->
+            </div>
+
+            <!-- Ultra-Fast Dynamic Pagination & Infinite Scroll -->
+            <div id="catalogPaginationContainer" style="margin-top: 36px; text-align: center;"></div>
+            <div id="catalogScrollSentinel" style="height: 30px; margin-top: 10px;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 14px;">
+            <div class="logo__badge"><i class="fa-solid fa-cube"></i></div>
+            <div class="logo__name">Nova<span>Market</span></div>
+          </a>
+          <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6; max-width: 320px; margin-bottom: 16px;">
+            NovaMarket — O'zbekistonning barcha hududlariga tez va ishonchli xarid qilish imkoniyatini beruvchi zamonaviy marketplace.
+          </p>
+          <div style="font-size: 13px; color: var(--dark); font-weight: 700;">
+            Qo'llab-quvvatlash xizmati: <br>
+            <span style="color: var(--primary); font-size: 16px;">+998 (71) 200-70-00</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Foydalanuvchilarga</h4>
+          <ul>
+            <li><a href="#delivery">Yetkazib berish punktlari</a></li>
+            <li><a href="#faq">Ko'p beriladigan savollar</a></li>
+            <li><a href="#help">Qanday buyurtma beriladi?</a></li>
+            <li><a href="#warranty">Mahsulotni qaytarish</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tadbirkorlarga</h4>
+          <ul>
+            <li><a href="#seller">NovaMarket'da soting</a></li>
+            <li><a href="#seller-cabinet">Sotuvchi kabineti</a></li>
+            <li><a href="#terms">Hamkorlik shartlari</a></li>
+            <li><a href="#offer">Ommaviy oferta</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Ilovani yuklab oling</h4>
+          <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 14px;">
+            Buyurtmalarni tezroq va qulayroq rasmiylashtirish uchun mobil ilovamizdan foydalaning.
+          </p>
+          <div style="display: flex; gap: 8px;">
+            <a href="#" class="btn btn-outline btn-sm"><i class="fa-brands fa-apple"></i> App Store</a>
+            <a href="#" class="btn btn-outline btn-sm"><i class="fa-brands fa-google-play"></i> Google Play</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 NovaMarket. Barcha huquqlar himoyalangan.</div>
+        <div style="display: flex; gap: 10px; font-size: 18px; color: var(--text-muted);">
+          <span><i class="fa-brands fa-cc-visa"></i></span>
+          <span><i class="fa-brands fa-cc-mastercard"></i></span>
+          <span style="font-size: 12px; font-weight: 800; border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px;">HUMO</span>
+          <span style="font-size: 12px; font-weight: 800; border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px;">UZCARD</span>
+          <span style="font-size: 12px; font-weight: 800; border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px; color: var(--primary);">Payme</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODALS & DRAWERS ================= -->
+
+  <!-- Cart Slide-out Drawer -->
+  <div class="cart-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <h3><i class="fa-solid fa-bag-shopping text-primary"></i> Savatcha <span id="cartDrawerItemsCount" style="font-size: 14px; font-weight: 600; color: var(--text-muted);">(0 ta)</span></h3>
+        <button class="modal-close-btn" id="cartDrawerCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="cart-items-body" id="cartDrawerBody">
+        <!-- Cart items rendered dynamically -->
+      </div>
+
+      <div class="cart-footer" id="cartDrawerFooter">
+        <!-- Promo code input -->
+        <div style="display: flex; gap: 8px; margin-bottom: 14px;">
+          <input type="text" id="promoCodeInput" placeholder="Promokod (masalan: NOVAMARKET)" style="flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; text-transform: uppercase; font-size: 13px;">
+          <button class="btn btn-sm btn-outline" id="applyPromoCodeBtn">Qo'llash</button>
+        </div>
+
+        <div class="cart-summary-line">
+          <span>Tovarlar summasi:</span>
+          <span id="cartDrawerSubtotal">0 so'm</span>
+        </div>
+        <div class="cart-summary-line" id="cartDrawerDiscountLine" style="display: none; color: var(--danger);">
+          <span>Promokod chegirmasi:</span>
+          <span id="cartDrawerDiscountVal">-0 so'm</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Yetkazib berish:</span>
+          <span id="cartDrawerShipping">Bepul</span>
+        </div>
+        <div class="cart-summary-line total">
+          <span>Jami to'lov:</span>
+          <span class="total-amount" id="cartDrawerGrandTotal">0 so'm</span>
+        </div>
+
+        <button class="btn btn-primary btn-block btn-lg" id="startCheckoutBtn" style="margin-top: 14px;">
+          Buyurtma berish <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="productDetailModalOverlay">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="productDetailCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      <div id="productDetailModalBody">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Wishlist Modal -->
+  <div class="modal-overlay" id="wishlistModalOverlay">
+    <div class="modal-window" style="max-width: 600px; padding: 24px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">
+        <h3 style="font-size: 18px; font-weight: 800;"><i class="fa-solid fa-heart text-danger"></i> Sevimli Mahsulotlar</h3>
+        <button class="modal-close-btn" id="wishlistModalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="wishlistModalItemsList">
+        <!-- Wishlist items -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Orders History Modal -->
+  <div class="modal-overlay" id="ordersModalOverlay">
+    <div class="modal-window" style="max-width: 650px; padding: 24px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">
+        <h3 style="font-size: 18px; font-weight: 800;"><i class="fa-solid fa-box-open text-primary"></i> Mening Buyurtmalarim</h3>
+        <button class="modal-close-btn" id="ordersModalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="ordersModalList" style="max-height: 480px; overflow-y: auto;">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal-window checkout-modal-window">
+      <button class="modal-close-btn" id="checkoutModalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      <h3 style="font-size: 20px; font-weight: 800; margin-bottom: 20px;"><i class="fa-solid fa-truck-ramp-box text-primary"></i> Buyurtmani Rasmiylashtirish</h3>
+
+      <form id="checkoutOrderForm">
+        <!-- 1. Qabul qiluvchi -->
+        <div class="checkout-step">
+          <h4 class="checkout-step-title"><span class="num">1</span> Qabul qiluvchi ma'lumotlari</h4>
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label>Ism va Familiya *</label>
+              <input type="text" id="checkoutFullName" placeholder="Masalan: Sardor Alimov" required>
+            </div>
+            <div class="form-field">
+              <label>Telefon raqam *</label>
+              <input type="tel" id="checkoutPhone" placeholder="+998 (90) 123-45-67" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Yetkazib berish -->
+        <div class="checkout-step">
+          <h4 class="checkout-step-title"><span class="num">2</span> Yetkazib berish usuli va manzili</h4>
+          <div class="form-grid-2" style="margin-bottom: 12px;">
+            <label class="payment-card-label active">
+              <input type="radio" name="deliveryType" value="courier" checked>
+              <span><i class="fa-solid fa-motorcycle"></i> Kuryer orqali eshikkacha (1 kunda)</span>
+            </label>
+            <label class="payment-card-label">
+              <input type="radio" name="deliveryType" value="pvz">
+              <span><i class="fa-solid fa-store"></i> Tarqatish punkti (PVZ)</span>
+            </label>
+          </div>
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label>Shahar</label>
+              <input type="text" id="checkoutCity" value="Toshkent" required>
+            </div>
+            <div class="form-field">
+              <label>Ko'cha, uy, xonadon raqami *</label>
+              <input type="text" id="checkoutAddress" placeholder="Amir Temur ko'chasi, 24-uy, 15-xonadon" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Kuryer uchun izoh</label>
+            <input type="text" id="checkoutComment" placeholder="Masalan: Domofon kodi 15, yetib kelganda qo'ng'iroq qiling">
+          </div>
+        </div>
+
+        <!-- 3. To'lov usuli -->
+        <div class="checkout-step">
+          <h4 class="checkout-step-title"><span class="num">3</span> To'lov turi</h4>
+          <div class="payment-options-grid">
+            <label class="payment-card-label active">
+              <input type="radio" name="paymentMethod" value="payme" checked>
+              <span><i class="fa-solid fa-qrcode text-primary"></i> Payme onlayn to'lov</span>
+            </label>
+            <label class="payment-card-label">
+              <input type="radio" name="paymentMethod" value="click">
+              <span><i class="fa-solid fa-mobile-screen text-primary"></i> Click onlayn to'lov</span>
+            </label>
+            <label class="payment-card-label">
+              <input type="radio" name="paymentMethod" value="cash">
+              <span><i class="fa-solid fa-money-bill-wave text-success"></i> Qabul qilganda naqd pul</span>
+            </label>
+            <label class="payment-card-label">
+              <input type="radio" name="paymentMethod" value="nasiya">
+              <span><i class="fa-solid fa-wallet text-secondary"></i> Muddatli to'lov (Nasiya)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Submit row -->
+        <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 10px;">
+          <div>
+            <span style="font-size: 13px; color: var(--text-muted); display: block;">Jami to'lov:</span>
+            <strong style="font-size: 22px; color: var(--primary);" id="checkoutTotalAmountDisplay">0 so'm</strong>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">
+            Buyurtmani tasdiqlash <i class="fa-solid fa-check"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Order Success Modal -->
+  <div class="modal-overlay" id="orderSuccessModalOverlay">
+    <div class="modal-window success-modal-window">
+      <div class="success-check-icon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h2 style="font-size: 22px; font-weight: 800; margin-bottom: 8px;">Buyurtmangiz qabul qilindi!</h2>
+      <div class="success-order-id" id="successOrderNumber">#NM-849201</div>
+      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px;">
+        Buyurtma tafsilotlari va kuryer holati profilingizda saqlandi. <br>
+        Manzil: <strong id="successOrderAddress">Toshkent</strong> <br>
+        To'lov summasi: <strong id="successOrderTotal">0 so'm</strong>
+      </p>
+      <div style="display: flex; gap: 12px; justify-content: center;">
+        <button class="btn btn-primary" id="orderSuccessModalCloseBtn">Xaridni davom ettirish</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.openOrdersModal(); window.novaMarketApp.closeModal('orderSuccessModalOverlay');">
+          <i class="fa-solid fa-box-open"></i> Mening buyurtmalarim
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- City Selection Modal -->
+  <div class="modal-overlay" id="cityModalOverlay">
+    <div class="modal-window" style="max-width: 440px; padding: 24px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+        <h3 style="font-size: 17px; font-weight: 800;"><i class="fa-solid fa-location-dot text-primary"></i> Shahringizni tanlang</h3>
+        <button class="modal-close-btn" id="cityModalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Toshkent')">Toshkent</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Samarqand')">Samarqand</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Buxoro')">Buxoro</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Namangan')">Namangan</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Andijon')">Andijon</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Farg\'ona')">Farg'ona</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Qarshi')">Qarshi</button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Urganch')">Urganch</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notifications -->
+  <div class="toast-container" id="toastNotificationContainer"></div>
+
+  <!-- Main JavaScript Module -->
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

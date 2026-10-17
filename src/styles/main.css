@@ -2610,3 +2610,259 @@ ul {
   color: #ffffff;
   border-color: #E53E3E;
 }
+
+/* ==========================================================================
+   INSTALLMENT (MUDDATLI TO'LOV / NASIYA) STYLES
+   ========================================================================== */
+.checkout-installment-box {
+  margin-top: 14px;
+  background: #FFFDF5;
+  border: 1.5px solid #FCD34D;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.installment-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.installment-box-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.installment-zero-badge,
+.zero-badge {
+  background: #FEF3C7;
+  color: #B45309;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #FDE68A;
+}
+
+.installment-month-pills,
+.detail-month-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.installment-pill,
+.month-tab-btn {
+  background: #ffffff;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 8px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.installment-pill:hover,
+.month-tab-btn:hover {
+  border-color: var(--primary);
+  background: #F8FAFC;
+}
+
+.installment-pill.active,
+.month-tab-btn.active {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  box-shadow: 0 0 0 2px rgba(112, 0, 255, 0.15);
+}
+
+.pill-months,
+.tab-m {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--dark);
+}
+
+.installment-pill.active .pill-months,
+.month-tab-btn.active .tab-m {
+  color: var(--primary);
+}
+
+.pill-tag,
+.tab-b,
+.month-tab-btn small {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #EDF2F7;
+  color: #4A5568;
+}
+
+.tag-green {
+  background: #DCFCE7 !important;
+  color: #15803D !important;
+}
+
+.tag-purple {
+  background: #F3E8FF !important;
+  color: #7E22CE !important;
+}
+
+.installment-calc-card,
+.detail-installment-summary-box {
+  background: #ffffff;
+  border: 1px solid #FDE68A;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.calc-main-row,
+.summary-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.calc-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.calc-amount {
+  font-size: 19px;
+  font-weight: 900;
+  color: #B45309;
+}
+
+.calc-pill-summary {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.calc-breakdown-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  border-top: 1px dashed #F1F5F9;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.calc-breakdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.calc-breakdown-item span {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.calc-breakdown-item strong {
+  font-size: 12.5px;
+  color: var(--dark);
+}
+
+/* Detail Modal Installment Wrap */
+.detail-installment-calc-wrap {
+  background: #FFFDF5;
+  border: 1.5px solid #FCD34D;
+  border-radius: var(--radius-md);
+  padding: 14px;
+  margin-bottom: 18px;
+}
+
+.calc-top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.calc-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.summary-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px dashed #F1F5F9;
+  padding-top: 6px;
+  margin-top: 4px;
+}
+
+.first-pay-tag {
+  color: var(--success);
+  font-weight: 700;
+}
+
+/* Orders Modal Installment Card */
+.order-installment-card {
+  background: #FFFDF5;
+  border: 1px solid #FDE68A;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.order-schedule-btn {
+  background: #ffffff;
+  border: 1px solid #FCD34D;
+  color: #92400E;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.order-schedule-btn:hover {
+  background: #FEF3C7;
+}
+
+@media (max-width: 600px) {
+  .installment-month-pills,
+  .detail-month-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .calc-breakdown-grid {
+    grid-template-columns: 1fr;
+  }
+}

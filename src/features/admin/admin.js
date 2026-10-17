@@ -167,7 +167,18 @@ export class AdminDashboard {
           <small>${o.delivery?.city}, ${o.delivery?.address}</small><br>
           <small style="color: #166534; font-weight: 700;"><i class="fa-solid fa-truck-fast"></i> ${o.deliveryDays || 2} kun ichida</small>
         </td>
-        <td><strong>${formatPrice(o.totals?.grandTotal || 0)}</strong></td>
+        <td>
+          <strong>${formatPrice(o.payment?.totalInstallmentAmount || o.totals?.grandTotal || 0)}</strong>
+          ${o.payment?.method === 'nasiya' ? `
+            <div style="font-size: 11px; color: #B45309; font-weight: 700; margin-top: 2px;">
+              <i class="fa-solid fa-wallet"></i> Nasiya (${o.payment.installmentMonths || 12} oy): ${formatPrice(o.payment.monthlyPayment || 0)}/oy
+            </div>
+          ` : `
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">
+              ${o.payment?.method || 'Payme'}
+            </div>
+          `}
+        </td>
         <td>
           <select class="order-status-select" onchange="window.adminDashboard.changeOrderStatus('${o.orderId}', this.value)" style="padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 12px; border: 1px solid var(--border); ${o.status === 'Bekor qilindi' || o.status === 'Bekor qilingan' ? 'color: var(--danger); background: #FEF2F2;' : ''}">
             <option value="Yangi" ${o.status === 'Yangi' ? 'selected' : ''}>Yangi</option>

@@ -7,7 +7,7 @@ import { CatalogFeature } from './features/catalog/catalog.js';
 import { SearchFeature } from './features/search/search.js';
 import { CartFeature } from './features/cart/cart.js';
 import { CheckoutFeature } from './features/checkout/checkout.js';
-import { formatPrice, formatInstallment, formatDeliveryDate, formatUzbekDateTime } from './utils/formatters.js';
+import { formatPrice, formatInstallment, formatDeliveryDate, formatUzbekDateTime, calculateInstallment, INSTALLMENT_PLANS } from './utils/formatters.js';
 
 class NovaMarketApp {
   constructor() {
@@ -517,12 +517,51 @@ class NovaMarketApp {
           <div class="detail-price-box">
             <div class="detail-price-main">${formatPrice(p.price)}</div>
             ${p.oldPrice ? `<div style="text-decoration: line-through; color: var(--text-muted); font-size: 14px;">${formatPrice(p.oldPrice)}</div>` : ''}
-            <div class="detail-installment-box">
-              <i class="fa-solid fa-wallet"></i> ${formatInstallment(p.price)}
-            </div>
           </div>
 
-          <table class="detail-specs-table">
+          <!-- Interactive Installment Calculator in Product Details -->
+          <div class="detail-installment-calc-wrap">
+            <div class="calc-top-header">
+              <span class="calc-title"><i class="fa-solid fa-wallet text-secondary"></i> Muddatli to'lov (Nasiya):</span>
+              <span class="zero-badge"><i class="fa-solid fa-bolt"></i> 0% Boshlang'ich to'lov</span>
+            </div>
+
+            <div class="detail-month-tabs" id="detailMonthTabs">
+              <button type="button" class="month-tab-btn" data-months="3" onclick="window.novaMarketApp.setDetailInstallmentTerm(${p.price}, 3, ${p.id})">
+                <span class="tab-m">3 oy</span>
+                <span class="tab-b tag-green">0% Aksiya</span>
+              </button>
+              <button type="button" class="month-tab-btn" data-months="6" onclick="window.novaMarketApp.setDetailInstallmentTerm(${p.price}, 6, ${p.id})">
+                <span class="tab-m">6 oy</span>
+                <span class="tab-b">Qulay</span>
+              </button>
+              <button type="button" class="month-tab-btn active" data-months="12" onclick="window.novaMarketApp.setDetailInstallmentTerm(${p.price}, 12, ${p.id})">
+                <span class="tab-m">12 oy</span>
+                <span class="tab-b tag-purple">Ommabop</span>
+              </button>
+              <button type="button" class="month-tab-btn" data-months="24" onclick="window.novaMarketApp.setDetailInstallmentTerm(${p.price}, 24, ${p.id})">
+                <span class="tab-m">24 oy</span>
+                <span class="tab-b">Eng kichik</span>
+              </button>
+            </div>
+
+            <div class="detail-installment-summary-box">
+              <div class="summary-top">
+                <span>Oylik to'lov:</span>
+                <strong id="detailInstallmentPerMonth">${calculateInstallment(p.price, 12).formattedPerMonth} / oy</strong>
+              </div>
+              <div class="summary-sub">
+                <span id="detailInstallmentTotal">Jami: ${calculateInstallment(p.price, 12).formattedTotal} (${calculateInstallment(p.price, 12).note})</span>
+                <span class="first-pay-tag">1-to'lov 30 kundan so'ng</span>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-secondary btn-block" style="margin-top: 10px; font-weight: 700; padding: 10px 14px;" id="detailInstallmentBuyBtn" onclick="window.novaMarketApp.buyOnInstallment(${p.id}, 12)">
+              <i class="fa-solid fa-file-invoice-dollar"></i> Muddatli to'lovga olish (Nasiya)
+            </button>
+          </div>
+
+          <table class="detail-specs-table" style="margin-top: 18px;">
             <tbody>
               <tr><td>Kategoriya</td><td>${p.category}</td></tr>
               <tr><td>Brend</td><td>${p.brand || 'NovaMarket'}</td></tr>
@@ -548,6 +587,32 @@ class NovaMarketApp {
     `;
 
     modal.classList.add('active');
+  }
+
+  setDetailInstallmentTerm(price, months, productId) {
+    document.querySelectorAll('.month-tab-btn').forEach(btn => {
+      btn.classList.toggle('active', parseInt(btn.dataset.months) === months);
+    });
+
+    const calc = calculateInstallment(price, months);
+    const perMonthEl = document.getElementById('detailInstallmentPerMonth');
+    const totalEl = document.getElementById('detailInstallmentTotal');
+    const buyBtn = document.getElementById('detailInstallmentBuyBtn');
+
+    if (perMonthEl) perMonthEl.textContent = `${calc.formattedPerMonth} / oy`;
+    if (totalEl) totalEl.textContent = `Jami: ${calc.formattedTotal} (${calc.note})`;
+    if (buyBtn) {
+      buyBtn.setAttribute('onclick', `window.novaMarketApp.buyOnInstallment(${productId}, ${months})`);
+    }
+  }
+
+  buyOnInstallment(productId, months = 12) {
+    this.addToCart(productId, 1);
+    this.closeModal('productDetailModalOverlay');
+    if (this.checkoutFeature) {
+      this.checkoutFeature.open();
+      this.checkoutFeature.selectInstallmentPlan(months);
+    }
   }
 
   // ================= GENERAL MODALS =================
@@ -718,9 +783,29 @@ class NovaMarketApp {
               ${itemsHtml || `<div style="font-size: 13px; color: var(--text-muted);">Mahsulotlar: ${o.items?.length || 0} xil</div>`}
             </div>
 
+            <!-- Installment info if paid via Nasiya -->
+            ${o.payment?.method === 'nasiya' ? `
+              <div class="order-installment-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                  <span style="font-weight: 700; color: #B45309; font-size: 13px;">
+                    <i class="fa-solid fa-wallet"></i> Muddatli to'lov (${o.payment.installmentMonths || 12} oy):
+                  </span>
+                  <strong style="color: #92400E; font-size: 14px;">${formatPrice(o.payment.monthlyPayment || Math.round((o.payment.totalInstallmentAmount || o.totals?.grandTotal) / (o.payment.installmentMonths || 12)))} / oy</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 12px; color: #78350F; margin-bottom: 8px;">
+                  <span>Boshlang'ich to'lov: <strong>0 so'm</strong></span>
+                  <span>Jami shartnoma: <strong>${formatPrice(o.payment.totalInstallmentAmount || o.totals?.grandTotal)}</strong></span>
+                </div>
+                <button type="button" class="order-schedule-btn" onclick="window.novaMarketApp.togglePaymentSchedule('${o.orderId}')">
+                  <i class="fa-solid fa-calendar-days"></i> Oylik to'lovlar taqvimi <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i>
+                </button>
+                <div id="schedule-${o.orderId}" style="display: none; margin-top: 8px;"></div>
+              </div>
+            ` : ''}
+
             <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px;">
               <span style="font-size: 13px; color: var(--text-muted);">Jami to'lov:</span>
-              <strong style="font-size: 16px; color: var(--dark);">${formatPrice(o.totals?.grandTotal || 0)}</strong>
+              <strong style="font-size: 16px; color: var(--dark);">${formatPrice(o.payment?.totalInstallmentAmount || o.totals?.grandTotal || 0)}</strong>
             </div>
 
             ${cancelSectionHtml}
@@ -730,6 +815,47 @@ class NovaMarketApp {
     }
 
     modal.classList.add('active');
+  }
+
+  togglePaymentSchedule(orderId) {
+    const el = document.getElementById(`schedule-${orderId}`);
+    if (!el) return;
+    if (el.style.display === 'block') {
+      el.style.display = 'none';
+      return;
+    }
+
+    const order = StorageService.getOrders().find(o => o.orderId === orderId);
+    if (!order || !order.payment) return;
+
+    const months = order.payment.installmentMonths || 12;
+    const perMonth = order.payment.monthlyPayment || Math.round((order.payment.totalInstallmentAmount || order.totals?.grandTotal) / months);
+    const startDate = new Date(order.createdAt);
+
+    let rowsHtml = '';
+    for (let i = 1; i <= months; i++) {
+      const payDate = new Date(startDate);
+      payDate.setDate(payDate.getDate() + (i * 30));
+      rowsHtml += `
+        <div style="display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px dashed #FDE68A; font-size: 12px;">
+          <span>${i}-oy (${formatDeliveryDate(payDate.toISOString())}):</span>
+          <strong>${formatPrice(perMonth)}</strong>
+        </div>
+      `;
+    }
+
+    el.innerHTML = `
+      <div style="background: #FEF3C7; border: 1px solid #FDE68A; border-radius: 8px; padding: 10px;">
+        <div style="font-size: 12px; font-weight: 700; color: #92400E; margin-bottom: 6px;">
+          <i class="fa-solid fa-clock-rotate-left"></i> ${months} oylik to'lovlar rejasi:
+        </div>
+        ${rowsHtml}
+        <div style="font-size: 11px; color: #B45309; margin-top: 6px;">
+          To'lov har oy ko'rsatilgan sanagacha Payme, Click yoki bank ilovalari orqali to'lanadi.
+        </div>
+      </div>
+    `;
+    el.style.display = 'block';
   }
 
   cancelUserOrder(orderId) {

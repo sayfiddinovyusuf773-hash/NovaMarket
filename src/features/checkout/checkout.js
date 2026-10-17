@@ -1,13 +1,11 @@
-/**
- * NovaMarket — Buyurtma Rasmiylashtirish Moduli (Checkout Feature)
- */
 import { StorageService } from '../../services/storage.js';
-import { formatPrice, formatDeliveryDate } from '../../utils/formatters.js';
+import { formatPrice, formatDeliveryDate, calculateInstallment, INSTALLMENT_PLANS } from '../../utils/formatters.js';
 
 export class CheckoutFeature {
   constructor(options = {}) {
     this.modalId = options.modalId || 'checkoutModalOverlay';
     this.cartFeature = options.cartFeature || null;
+    this.selectedInstallmentMonths = 12;
   }
 
   init() {
@@ -34,13 +32,79 @@ export class CheckoutFeature {
       form.addEventListener('submit', (e) => this.handleSubmit(e));
     }
 
-    // Payment radio styling
+    // Payment radio styling and installment box toggle
     document.querySelectorAll('input[name="paymentMethod"]').forEach(radio => {
       radio.addEventListener('change', () => {
         document.querySelectorAll('.payment-card-label').forEach(label => label.classList.remove('active'));
         radio.closest('.payment-card-label')?.classList.add('active');
+
+        const installmentBox = document.getElementById('checkoutInstallmentBox');
+        if (installmentBox) {
+          if (radio.value === 'nasiya') {
+            installmentBox.style.display = 'block';
+            this.updateInstallmentCalculation();
+          } else {
+            installmentBox.style.display = 'none';
+          }
+        }
       });
     });
+
+    // Installment month pills
+    const pillsContainer = document.getElementById('checkoutInstallmentPills');
+    if (pillsContainer) {
+      pillsContainer.querySelectorAll('.installment-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          pillsContainer.querySelectorAll('.installment-pill').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          this.selectedInstallmentMonths = parseInt(btn.dataset.months) || 12;
+          this.updateInstallmentCalculation();
+        });
+      });
+    }
+  }
+
+  updateInstallmentCalculation() {
+    const totals = this.cartFeature ? this.cartFeature.getTotals() : { grandTotal: 0 };
+    const grandTotal = totals.grandTotal || 0;
+    const calc = calculateInstallment(grandTotal, this.selectedInstallmentMonths);
+
+    const perMonthEl = document.getElementById('checkoutInstallmentPerMonth');
+    const termSummaryEl = document.getElementById('checkoutInstallmentTermSummary');
+    const totalEl = document.getElementById('checkoutInstallmentTotal');
+    const firstDateEl = document.getElementById('checkoutInstallmentFirstDate');
+
+    if (perMonthEl) perMonthEl.textContent = `${calc.formattedPerMonth} / oyiga`;
+    if (termSummaryEl) termSummaryEl.textContent = `${calc.months} oylik muddat (${calc.note})`;
+    if (totalEl) totalEl.textContent = `${calc.formattedTotal} (Jami to'lov)`;
+
+    if (firstDateEl) {
+      const firstDate = new Date();
+      firstDate.setDate(firstDate.getDate() + 30);
+      firstDateEl.textContent = `${formatDeliveryDate(firstDate.toISOString())} (30 kundan keyin)`;
+    }
+  }
+
+  selectInstallmentPlan(months = 12) {
+    this.selectedInstallmentMonths = months;
+    const radioNasiya = document.querySelector('input[name="paymentMethod"][value="nasiya"]');
+    if (radioNasiya) {
+      radioNasiya.checked = true;
+      document.querySelectorAll('.payment-card-label').forEach(l => l.classList.remove('active'));
+      radioNasiya.closest('.payment-card-label')?.classList.add('active');
+    }
+
+    const installmentBox = document.getElementById('checkoutInstallmentBox');
+    if (installmentBox) installmentBox.style.display = 'block';
+
+    const pillsContainer = document.getElementById('checkoutInstallmentPills');
+    if (pillsContainer) {
+      pillsContainer.querySelectorAll('.installment-pill').forEach(b => {
+        b.classList.toggle('active', parseInt(b.dataset.months) === months);
+      });
+    }
+
+    this.updateInstallmentCalculation();
   }
 
   open() {
@@ -57,6 +121,8 @@ export class CheckoutFeature {
     const totals = this.cartFeature ? this.cartFeature.getTotals() : { grandTotal: 0 };
     const totalEl = document.getElementById('checkoutTotalAmountDisplay');
     if (totalEl) totalEl.textContent = formatPrice(totals.grandTotal);
+
+    this.updateInstallmentCalculation();
   }
 
   close() {
@@ -78,6 +144,28 @@ export class CheckoutFeature {
     const cart = StorageService.getCart();
     const totals = this.cartFeature ? this.cartFeature.getTotals() : { grandTotal: 0 };
 
+    let paymentPayload = {
+      method: paymentMethod,
+      isPaid: paymentMethod === 'payme' || paymentMethod === 'click'
+    };
+
+    if (paymentMethod === 'nasiya') {
+      const calc = calculateInstallment(totals.grandTotal, this.selectedInstallmentMonths);
+      paymentPayload = {
+        method: 'nasiya',
+        name: 'Muddatli to\'lov (Nasiya)',
+        installmentMonths: this.selectedInstallmentMonths,
+        monthlyPayment: calc.perMonth,
+        totalInstallmentAmount: calc.totalAmount,
+        initialPayment: 0,
+        markupPercent: calc.markupPercent,
+        passport: document.getElementById('checkoutNasiyaPassport')?.value.trim() || '',
+        phone: document.getElementById('checkoutNasiyaPhone')?.value.trim() || phone,
+        isPaid: false,
+        status: 'Nasiya shartnomasi rasmiylashtirildi'
+      };
+    }
+
     const orderPayload = {
       customer: { fullName, phone },
       delivery: {
@@ -85,10 +173,7 @@ export class CheckoutFeature {
         city,
         address: deliveryType === 'courier' ? address : 'NovaMarket Tarqatish Punkti (PVZ)'
       },
-      payment: {
-        method: paymentMethod,
-        isPaid: paymentMethod === 'payme' || paymentMethod === 'click' // simulated payment state
-      },
+      payment: paymentPayload,
       items: cart,
       totals,
       comment
@@ -117,7 +202,13 @@ export class CheckoutFeature {
 
     if (orderIdEl) orderIdEl.textContent = order.orderId;
     if (orderAddressEl) orderAddressEl.textContent = `${order.delivery.city}, ${order.delivery.address}`;
-    if (orderTotalEl) orderTotalEl.textContent = formatPrice(order.totals.grandTotal);
+    if (orderTotalEl) {
+      if (order.payment?.method === 'nasiya') {
+        orderTotalEl.textContent = `${formatPrice(order.payment.totalInstallmentAmount || order.totals.grandTotal)} (Nasiya: ${order.payment.installmentMonths} oy x ${formatPrice(order.payment.monthlyPayment)}/oy)`;
+      } else {
+        orderTotalEl.textContent = formatPrice(order.totals.grandTotal);
+      }
+    }
     if (orderDeliveryEtaEl) {
       const etaDate = order.estimatedDeliveryDate ? formatDeliveryDate(order.estimatedDeliveryDate) : '';
       orderDeliveryEtaEl.textContent = `${order.deliveryDays || 2} kun ichida (${etaDate}gacha)`;

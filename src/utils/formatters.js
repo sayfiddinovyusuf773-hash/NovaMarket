@@ -12,12 +12,43 @@ export function formatPrice(amount) {
 }
 
 /**
+ * Muddatli to'lov rejalari (3, 6, 12, 24 oy)
+ */
+export const INSTALLMENT_PLANS = {
+  3: { months: 3, markupPercent: 0, label: "3 oy", note: "0% Aksiyada" },
+  6: { months: 6, markupPercent: 6, label: "6 oy", note: "Qulay reja" },
+  12: { months: 12, markupPercent: 15, label: "12 oy", note: "Ommabop" },
+  24: { months: 24, markupPercent: 26, label: "24 oy", note: "Kichik to'lov" }
+};
+
+/**
+ * Muddatli to'lov hisob-kitob funksiyasi
+ */
+export function calculateInstallment(amount, months = 12) {
+  const plan = INSTALLMENT_PLANS[months] || INSTALLMENT_PLANS[12];
+  const totalAmount = Math.round(amount * (1 + plan.markupPercent / 100));
+  const perMonth = Math.round(totalAmount / plan.months);
+  return {
+    months: plan.months,
+    markupPercent: plan.markupPercent,
+    label: plan.label,
+    note: plan.note,
+    originalAmount: amount,
+    totalAmount,
+    perMonth,
+    initialPayment: 0,
+    formattedPerMonth: formatPrice(perMonth),
+    formattedTotal: formatPrice(totalAmount)
+  };
+}
+
+/**
  * Nasiya / Muddatli to'lov oylik to'lovini hisoblash va formatlash
  * Masalan: 1200000 -> "oyiga 100 000 so'mdan"
  */
 export function formatInstallment(price, months = 12) {
-  const perMonth = Math.round(price / months);
-  return `oyiga ${Number(perMonth).toLocaleString('ru-RU')} so'mdan`;
+  const calc = calculateInstallment(price, months);
+  return `oyiga ${calc.formattedPerMonth}dan`;
 }
 
 /**

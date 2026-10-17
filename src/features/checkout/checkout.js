@@ -246,6 +246,15 @@ export class CheckoutFeature {
       orderDeliveryEtaEl.textContent = `${order.deliveryDays || 2} kun ichida (${etaDate}gacha)`;
     }
 
+    // Uzum Market Style QR-Code & Pickup Code
+    const qrImgEl = document.getElementById('successOrderQrImg');
+    const qrTextEl = document.getElementById('successOrderQrCodeText');
+    const qrPayload = encodeURIComponent(`NOVAMARKET:${order.orderId}:CUSTOMER=${order.customer?.phone || ''}`);
+    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${qrPayload}&color=7000FF&bgcolor=FFFFFF`;
+
+    if (qrImgEl) qrImgEl.src = qrUrl;
+    if (qrTextEl) qrTextEl.textContent = `KOD: ${order.orderId}`;
+
     if (successModal) successModal.classList.add('active');
 
     // Trigger re-render of catalog cards

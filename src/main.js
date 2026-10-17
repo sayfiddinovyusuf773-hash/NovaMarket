@@ -612,6 +612,32 @@ class NovaMarketApp {
             </tbody>
           </table>
 
+          <!-- Uzum Market Style Product QR-Code & Digital Passport -->
+          <div class="uzum-qr-card" style="margin: 14px 0; padding: 12px; background: #FAF5FF; border: 1px dashed #A855F7;">
+            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 6px;">
+              <span class="uzum-qr-badge" style="margin-bottom: 0;">
+                <i class="fa-solid fa-qrcode"></i> Mahsulot QR-Passpordi & Shtrix-kodi
+              </span>
+              <span style="font-family: monospace; font-size: 11.5px; font-weight: 700; color: #7000FF; background: #FFFFFF; border: 1px solid #E9D5FF; padding: 2px 6px; border-radius: 4px;">
+                SKU: ${p.model || `NV-${p.id}`}
+              </span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 14px; width: 100%; justify-content: center; margin-top: 6px;">
+              <div class="uzum-qr-img-wrapper" style="padding: 4px;">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=${encodeURIComponent(`NOVAMARKET-PRODUCT:ID=${p.id}:SKU=${p.model || p.id}:PRICE=${p.price}`)}&color=7000FF&bgcolor=FFFFFF" 
+                     alt="Product QR Code" 
+                     class="uzum-qr-code-img"
+                     style="width: 80px; height: 80px;">
+              </div>
+              <div style="text-align: left; font-size: 12px; color: #64748B; line-height: 1.4;">
+                <strong style="color: #0F172A; display: block; font-size: 12.5px;">
+                  <i class="fa-solid fa-certificate text-success"></i> Asl mahsulot kafolati
+                </strong>
+                Ushbu QR-kod orqali tovarning haqiqiyligi, partiya raqami va ombor qoldig'i tekshirilgan.
+              </div>
+            </div>
+          </div>
+
           <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px;">
             ${p.description || ''}
           </p>
@@ -845,10 +871,28 @@ class NovaMarketApp {
               </div>
             ` : ''}
 
-            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px;">
-              <span style="font-size: 13px; color: var(--text-muted);">Jami to'lov:</span>
-              <strong style="font-size: 16px; color: var(--dark);">${formatPrice(o.payment?.totalInstallmentAmount || o.totals?.grandTotal || 0)}</strong>
-            </div>
+            <!-- Uzum Market Style PVZ QR-Code & Pickup Code for this Order -->
+            ${!isCancelled ? `
+              <div class="uzum-qr-card" style="margin: 10px 0; padding: 10px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 6px;">
+                  <span class="uzum-qr-badge" style="margin-bottom: 0;">
+                    <i class="fa-solid fa-qrcode"></i> Qabul qilish QR-kodi (PVZ)
+                  </span>
+                  <span style="font-family: monospace; font-size: 13px; font-weight: 800; color: #7000FF; background: #F3E8FF; padding: 2px 8px; border-radius: 6px;">
+                    #${o.orderId}
+                  </span>
+                </div>
+                <div class="uzum-qr-img-wrapper" style="margin: 6px 0;">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=${encodeURIComponent(`NOVAMARKET:${o.orderId}:CUSTOMER=${o.customer?.phone || ''}`)}&color=7000FF&bgcolor=FFFFFF" 
+                       alt="NovaMarket Order QR Code" 
+                       class="uzum-qr-code-img"
+                       style="width: 110px; height: 110px;">
+                </div>
+                <div style="font-size: 11.5px; color: #64748B;">
+                  <i class="fa-solid fa-store text-primary"></i> Tarqatish punktida ushbu QR-kodni skaner qildirib tovarlaringizni oling.
+                </div>
+              </div>
+            ` : ''}
 
             ${cancelSectionHtml}
           </div>

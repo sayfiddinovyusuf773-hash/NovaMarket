@@ -681,6 +681,20 @@
           <i class="fa-solid fa-circle-info text-primary"></i> <strong>Eslatma:</strong> Mahsulot olib kelinishiga 1 kun qolgunga qadar uni "Mening buyurtmalarim" bo'limidan bekor qilishingiz mumkin.
         </span>
       </p>
+
+      <!-- Uzum Market Style Tarqatish Punkti (PVZ) QR-Code -->
+      <div class="uzum-qr-card">
+        <span class="uzum-qr-badge">
+          <i class="fa-solid fa-qrcode"></i> Buyurtmani olish uchun QR-kod (PVZ)
+        </span>
+        <div class="uzum-qr-img-wrapper">
+          <img src="" alt="NovaMarket Order QR Code" class="uzum-qr-code-img" id="successOrderQrImg">
+        </div>
+        <div class="uzum-qr-code-text" id="successOrderQrCodeText">NM-XXXXXX</div>
+        <p class="uzum-qr-instructions">
+          <i class="fa-solid fa-circle-check text-success"></i> Tarqatish punktida (PVZ) xodimga ushbu QR-kodni ko'rsatib tovaringizni tezkor qabul qiling.
+        </p>
+      </div>
       <div style="display: flex; gap: 12px; justify-content: center;">
         <button class="btn btn-primary" id="orderSuccessModalCloseBtn">Xaridni davom ettirish</button>
         <button class="btn btn-outline" onclick="window.novaMarketApp.openOrdersModal(); window.novaMarketApp.closeModal('orderSuccessModalOverlay');">

@@ -161,68 +161,68 @@
         <!-- Main Carousel -->
         <div class="hero-slider" id="heroSlider">
           <!-- Slide 1 -->
-          <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80');">
+          <div class="hero-slide active" onclick="window.novaMarketApp.filterCategory('phones_smartphones', 'Flagman Smartfonlar bo\'limi')" style="cursor: pointer; background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80');">
             <div class="hero-slide-overlay"></div>
             <div class="hero-slide-content">
               <span class="hero-pill-badge">🔥 Haftalik Mega-Chegirma</span>
               <h1 class="hero-slide-title">Yangi iPhone 16 Pro Max va Flagman Smartfonlar</h1>
               <p class="hero-slide-desc">Eng so'nggi gadjetlarni 12 oygacha muddatli to'lov va 1 kunda bepul yetkazib berish bilan xarid qiling!</p>
-              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('electronics')">
+              <button class="btn btn-secondary btn-lg" onclick="event.stopPropagation(); window.novaMarketApp.filterCategory('phones_smartphones', 'Flagman Smartfonlar bo\'limi')">
                 <i class="fa-solid fa-cart-shopping"></i> Xarid qilish
               </button>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=1400&q=80');">
+          <div class="hero-slide" onclick="window.novaMarketApp.filterCategory('televisions', 'Smart Televizorlar olami')" style="cursor: pointer; background-image: url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=1400&q=80');">
             <div class="hero-slide-overlay"></div>
             <div class="hero-slide-content">
               <span class="hero-pill-badge">📺 Katta Ekranlar Olami</span>
               <h2 class="hero-slide-title">Smart Televizorlar va Maishiy Texnikalar</h2>
               <p class="hero-slide-desc">Samsung QLED va LG OLED televizorlariga 20% gacha keshbek va kafolatlangan sovg'alar.</p>
-              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('appliances')">
+              <button class="btn btn-secondary btn-lg" onclick="event.stopPropagation(); window.novaMarketApp.filterCategory('appliances', 'Maishiy Texnika bo\'limi')">
                 Texnikalarni ko'rish
               </button>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=80');">
+          <div class="hero-slide" onclick="window.novaMarketApp.filterCategory('footwear', 'Original Poyabzallar va Kiyimlar')" style="cursor: pointer; background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=80');">
             <div class="hero-slide-overlay"></div>
             <div class="hero-slide-content">
               <span class="hero-pill-badge">👟 Yangi Mavsum Kolleksiyasi</span>
               <h2 class="hero-slide-title">Original Kiyimlar, Poyabzallar va Brendlar</h2>
               <p class="hero-slide-desc">Nike, Jordan, Adidas va yetakchi brendlarning asl mahsulotlari arzon narxlarda.</p>
-              <button class="btn btn-secondary btn-lg" onclick="window.novaMarketApp.filterCategory('fashion')">
+              <button class="btn btn-secondary btn-lg" onclick="event.stopPropagation(); window.novaMarketApp.filterCategory('footwear', 'Original Poyabzallar va Kiyimlar')">
                 Kolleksiyaga o'tish
               </button>
             </div>
           </div>
 
           <!-- Slider Controls -->
-          <div class="hero-controls">
-            <button class="hero-nav-btn" id="heroSlidePrevBtn"><i class="fa-solid fa-chevron-left"></i></button>
-            <button class="hero-nav-btn" id="heroSlideNextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="hero-controls" onclick="event.stopPropagation();">
+            <button class="hero-nav-btn" id="heroSlidePrevBtn" onclick="event.stopPropagation();"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="hero-nav-btn" id="heroSlideNextBtn" onclick="event.stopPropagation();"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
 
         <!-- Side Promo Cards -->
         <div class="hero-side-cards">
-          <div class="side-promo-card" style="background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80');">
+          <div class="side-promo-card" onclick="window.novaMarketApp.openPromoNasiya()" style="cursor: pointer; background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80');">
             <div class="side-promo-content">
               <span class="hero-pill-badge" style="background: #fff; color: var(--primary);">0-0-12 Nasiya</span>
               <h3>Boshlang'ich to'lovsiz muddatli to'lov</h3>
               <p>Hujjatlarsiz, bir necha daqiqada onlayn rasmiylashtiring</p>
-              <button class="btn btn-sm btn-secondary" onclick="window.novaMarketApp.filterCategory('electronics')">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+              <button class="btn btn-sm btn-secondary" onclick="event.stopPropagation(); window.novaMarketApp.openPromoNasiya();">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
 
-          <div class="side-promo-card side-promo-card--orange" style="background-image: url('https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=600&q=80');">
+          <div class="side-promo-card side-promo-card--orange" onclick="window.novaMarketApp.openPromoKitchenHome()" style="cursor: pointer; background-image: url('https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=600&q=80');">
             <div class="side-promo-content">
               <span class="hero-pill-badge" style="background: #fff; color: #D84315;">Kafolatlangan sifat</span>
               <h3>Oshxona va Uy uchun chegirmalar</h3>
               <p>Tefal qozonlar to'plami va ortopedik krovatlar</p>
-              <button class="btn btn-sm btn-secondary" onclick="window.novaMarketApp.filterCategory('home')">Tanlash <i class="fa-solid fa-arrow-right"></i></button>
+              <button class="btn btn-sm btn-secondary" onclick="event.stopPropagation(); window.novaMarketApp.openPromoKitchenHome();">Tanlash <i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
         </div>
@@ -233,28 +233,28 @@
     <div class="container">
       <div class="advantages-bar">
         <div class="advantages-grid">
-          <div class="advantage-item">
+          <div class="advantage-item" onclick="window.novaMarketApp.catalogFeature.state.onlyInStock=true; window.novaMarketApp.catalogFeature.render(); document.getElementById('catalog').scrollIntoView({behavior:'smooth'}); window.novaMarketApp.showToast('1 kunda yetkazish', 'Tezkor 1 kunda yetkazib beriladigan tovarlar saralandi!', 'fa-bolt');" style="cursor: pointer;">
             <div class="advantage-icon advantage-icon--speed"><i class="fa-solid fa-bolt"></i></div>
             <div class="advantage-text">
               <strong>1 kunda yetkazib berish</strong>
               <span>Eshikkacha yoki tarqatish punktiga</span>
             </div>
           </div>
-          <div class="advantage-item">
+          <div class="advantage-item" onclick="window.novaMarketApp.showToast('Rasmiy Kafolat', 'Barcha tovarlar 100% original va kafolatga ega', 'fa-shield-halved');" style="cursor: pointer;">
             <div class="advantage-icon advantage-icon--warranty"><i class="fa-solid fa-shield-halved"></i></div>
             <div class="advantage-text">
               <strong>Rasmiy Kafolat</strong>
               <span>Barcha tovarlarga 100% asl sifat</span>
             </div>
           </div>
-          <div class="advantage-item">
+          <div class="advantage-item" onclick="window.novaMarketApp.openPromoNasiya();" style="cursor: pointer;">
             <div class="advantage-icon advantage-icon--installment"><i class="fa-solid fa-credit-card"></i></div>
             <div class="advantage-text">
               <strong>Qulay Muddatli To'lov</strong>
               <span>12 oygacha foizsiz bo'lib to'lash</span>
             </div>
           </div>
-          <div class="advantage-item">
+          <div class="advantage-item" onclick="window.novaMarketApp.showToast('Oson Qaytarish', '10 kun ichida to\'siqsiz qaytarib berish kafolatlanadi', 'fa-rotate-left');" style="cursor: pointer;">
             <div class="advantage-icon advantage-icon--payment"><i class="fa-solid fa-rotate-left"></i></div>
             <div class="advantage-text">
               <strong>Oson Qaytarish</strong>

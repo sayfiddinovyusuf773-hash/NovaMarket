@@ -713,6 +713,16 @@ ul {
   color: #fff;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-slide:active {
+  opacity: 0.96;
+}
+
+.hero-slide button {
+  pointer-events: none;
 }
 
 .hero-slide.active {
@@ -804,6 +814,23 @@ ul {
   box-shadow: var(--shadow-sm);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.side-promo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.side-promo-card:active {
+  transform: scale(0.97);
+}
+
+.side-promo-card button {
+  pointer-events: none;
 }
 
 .side-promo-card::before {
@@ -855,6 +882,20 @@ ul {
   display: flex;
   align-items: center;
   gap: 14px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: var(--radius-md);
+  transition: background 0.2s ease, transform 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.advantage-item:hover {
+  background: var(--bg-subtle);
+  transform: translateY(-1px);
+}
+
+.advantage-item:active {
+  transform: scale(0.98);
 }
 
 .advantage-icon {

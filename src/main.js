@@ -362,15 +362,55 @@ class NovaMarketApp {
     `).join('');
   }
 
-  filterCategory(catId) {
+  filterCategory(catId, toastMsg) {
+    const validCat = CATEGORIES.some(c => c.id === catId) || catId === 'all';
+    const targetCat = validCat ? catId : 'all';
+
     document.querySelectorAll('.quick-cat-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.category === catId);
+      btn.classList.toggle('active', btn.dataset.category === targetCat);
     });
 
-    this.catalogFeature.setCategory(catId);
+    this.catalogFeature.setCategory(targetCat);
 
     const catalogEl = document.getElementById('catalog');
     if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });
+
+    if (toastMsg) {
+      this.showToast("Bo'lim ochildi", toastMsg, 'fa-layer-group');
+    }
+  }
+
+  openPromoNasiya() {
+    this.catalogFeature.resetFilters();
+    this.catalogFeature.setCategory('phones_smartphones');
+    document.querySelectorAll('.quick-cat-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.category === 'phones_smartphones');
+    });
+
+    const catalogEl = document.getElementById('catalog');
+    if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });
+
+    this.showToast('0-0-12 Muddatli to\'lov', 'Boshlang\'ich to\'lovsiz 12 oygacha qulay muddatli to\'lov tovarlari!', 'fa-credit-card');
+  }
+
+  openPromoKitchenHome() {
+    this.catalogFeature.resetFilters();
+    this.catalogFeature.state.activeCategory = 'kitchenware';
+    this.catalogFeature.state.onlyDiscount = true;
+
+    const discountCheck = document.getElementById('filterOnlyDiscount');
+    if (discountCheck) discountCheck.checked = true;
+
+    document.querySelectorAll('.quick-cat-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.category === 'kitchenware');
+    });
+
+    this.catalogFeature.render();
+
+    const catalogEl = document.getElementById('catalog');
+    if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });
+
+    this.showToast('Oshxona va Uy chegirmalari', 'Tefal qozonlar va oshxona anjomlari chegirmada!', 'fa-fire');
   }
 
   resetFilters() {
@@ -393,13 +433,15 @@ class NovaMarketApp {
 
     let timer = setInterval(() => show(current + 1), 5000);
 
-    if (next) next.addEventListener('click', () => {
+    if (next) next.addEventListener('click', (e) => {
+      e.stopPropagation();
       clearInterval(timer);
       show(current + 1);
       timer = setInterval(() => show(current + 1), 5000);
     });
 
-    if (prev) prev.addEventListener('click', () => {
+    if (prev) prev.addEventListener('click', (e) => {
+      e.stopPropagation();
       clearInterval(timer);
       show(current - 1);
       timer = setInterval(() => show(current - 1), 5000);

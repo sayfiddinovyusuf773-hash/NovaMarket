@@ -141,7 +141,39 @@ export class CheckoutFeature {
     const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked')?.value || 'payme';
     const comment = document.getElementById('checkoutComment')?.value.trim() || '';
 
+    // Security & Validation: Check phone number
+    const cleanPhoneDigits = (phone || '').replace(/\D/g, '');
+    if (!fullName || fullName.length < 2) {
+      alert("Iltimos, ism va familiyangizni to'liq kiriting!");
+      return;
+    }
+
+    if (!cleanPhoneDigits || cleanPhoneDigits.length < 9) {
+      alert("Iltimos, to'g'ri telefon raqamingizni kiriting (+998 XX XXX XX XX)!");
+      return;
+    }
+
+    if (deliveryType === 'courier' && (!address || address.length < 5)) {
+      alert("Iltimos, aniq yetkazib berish manzilini (ko'cha, uy, xonadon) kiriting!");
+      return;
+    }
+
     const cart = StorageService.getCart();
+    if (!cart || cart.length === 0) {
+      alert("Savatchangiz bo'sh!");
+      return;
+    }
+
+    // Security & Validation: Verify inventory stock before placing order
+    const products = StorageService.getProducts();
+    for (const item of cart) {
+      const prod = products.find(p => p.id === item.id);
+      if (prod && (prod.inStock === undefined || prod.inStock < item.quantity)) {
+        alert(`Kechirasiz, «${prod.name}» tovaridan omborda faqat ${prod.inStock || 0} dona mavjud. Iltimos, sonini kamaytiring.`);
+        return;
+      }
+    }
+
     const totals = this.cartFeature ? this.cartFeature.getTotals() : { grandTotal: 0 };
 
     let paymentPayload = {

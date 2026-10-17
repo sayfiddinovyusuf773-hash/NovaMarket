@@ -1,5 +1,5 @@
 /**
- * NovaMarket — 528 ta Boy Mahsulotlar Ro'yxati (Noyob Rasmlar Bilan)
+ * NovaMarket — 528 ta Boy Mahsulotlar Ro'yxati (100% Toifasiga Mos Rasmlar Bilan)
  */
 export const INITIAL_PRODUCTS = [
   {
@@ -17,11 +17,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 18,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Apple iPhone 16 Pro Max 256GB Cho'l Titani — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -55,11 +55,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 35,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsung Galaxy S24 Ultra 12/512GB Kulrang Titan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -93,11 +93,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 52,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Apple iPhone 16 128GB Moviy — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -131,11 +131,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 69,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsung Galaxy A55 5G 8/256GB Binafsharang — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -169,11 +169,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 86,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Xiaomi 14 Ultra 16/512GB Leica Qora — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -206,11 +206,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 103,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Redmi Note 13 Pro+ 5G 12/512GB Oq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -243,11 +243,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 120,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "POCO F6 Pro 12/256GB Oq metall — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -280,11 +280,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 137,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Honor Magic6 Pro 12/512GB Yashil — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -317,11 +317,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 154,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Google Pixel 9 Pro 128GB Obsidian — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -354,11 +354,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "OnePlus 12 16/512GB Zumrad yashil — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -391,11 +391,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 188,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsung Galaxy Z Fold6 12/256GB Kumush — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -428,11 +428,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 205,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Nokia 105 4G Tugmali ishonchli telefon — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -465,11 +465,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 222,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Artel Mobile U5 Tugmali telefon — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -650,11 +650,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 57,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Nillkin CamShield Pro Samsung S24 Ultra g'ilofi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -687,11 +687,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 74,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus 100W Type-C to Type-C kabel 2 metr — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -724,11 +724,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 91,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Hoco 20W PD Apple Lightning kabel 1.2m — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -761,11 +761,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Smartfon Samsung Galaxy A15 6/128GB Moviy — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -798,11 +798,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Smartfon Xiaomi Redmi 13C 8/256GB Yashil — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1548,11 +1548,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1577975882846-431adc8c2009?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1577975882846-431adc8c2009?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1577975882846-431adc8c2009?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1577975882846-431adc8c2009?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsung 85 Crystal 4K Katta Ekran TV — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1583,11 +1583,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1486572788966-514d4a460986?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1486572788966-514d4a460986?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1486572788966-514d4a460986?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1486572788966-514d4a460986?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Universal Smart TV pulti Air Mouse va mikrofonli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1653,11 +1653,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 35,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kir yuvish mashinasi Samsung EcoBubble 8kg — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1688,11 +1688,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 52,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Konditsioner Gree Inverter 12000 BTU Wi-Fi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1723,11 +1723,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 69,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Changyutgich Samsung Siklon filtrli 2200W — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1758,11 +1758,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 86,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584990347449-399eb2e07e60?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mikroto'lqinli pech LG 23L Biokeramika — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1793,11 +1793,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 103,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Gaz plita Artel Apetito 4 ko'zli elektr pechli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1828,11 +1828,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 120,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Robot changyutgich Xiaomi Robot Vacuum X10+ — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1863,11 +1863,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 137,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586208958845-565593850121?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586208958845-565593850121?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586208958845-565593850121?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586208958845-565593850121?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomat kofemashina DeLonghi Magnifica S — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -1898,11 +1898,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 154,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Idish yuvish mashinasi Bosch Serie 4 13 komplekt — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2003,11 +2003,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 205,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bug' generatorli dazmol Braun CareStyle 7 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2038,11 +2038,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 222,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Sovutgich Samsung Side-by-Side 647L SpaceMax — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2073,11 +2073,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 239,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kir yuvish mashinasi LG AI DD 9kg Steam+ — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2108,11 +2108,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 256,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1617196034183-421b4917c92d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1617196034183-421b4917c92d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1617196034183-421b4917c92d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1617196034183-421b4917c92d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Konditsioner Midea Forest 18000 BTU Inverter — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2143,11 +2143,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Simsiz vertikal changyutgich Dyson V15 Detect — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2178,11 +2178,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 40,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'rnatiluvchi elektr duxovka Bosch Serie 6 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2213,11 +2213,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 57,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1520697830682-bbb3e85cc18b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1520697830682-bbb3e85cc18b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1520697830682-bbb3e85cc18b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1520697830682-bbb3e85cc18b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mikroto'lqinli pech Samsung 23L Grilli Qora — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2248,11 +2248,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 74,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Go'shtqiymalagich Bosch ProPower 2200W metall — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2283,11 +2283,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 91,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1593062096030-f434329d8aaf?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1593062096030-f434329d8aaf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593062096030-f434329d8aaf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593062096030-f434329d8aaf?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektr sharbat siqqich Tefal Frutelia Pro — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2318,11 +2318,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Havo tozalagich Xiaomi Smart Air Purifier 4 Pro — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2353,11 +2353,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Oshxona havo tortgichi (Vityajka) Artel 60 sm — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2388,11 +2388,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 18,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Apple MacBook Air 13 M3 16/512GB Space Gray — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2425,11 +2425,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 35,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'yin noutbuki ASUS ROG Strix G16 RTX 4060 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2499,11 +2499,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 69,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Dell XPS 15 9530 Core i9 RTX 4070 32GB/1TB — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2536,11 +2536,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 86,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monitor LG UltraGear 27 2K QHD 165Hz Nano IPS — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2573,11 +2573,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 103,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monitor Samsung Odyssey G9 49 Curved 240Hz — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2610,11 +2610,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 120,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monoblok HP 27 All-in-One Core i7 16GB/1TB — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2647,11 +2647,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 137,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1515248137880-45e105b710e0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1515248137880-45e105b710e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515248137880-45e105b710e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515248137880-45e105b710e0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mexanik klaviatura Keychron K2 Pro QMK/VIA — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2684,11 +2684,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 154,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Simsiz sichqoncha Logitech MX Master 3S — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2721,11 +2721,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "SSD to'plagich Samsung 990 PRO 2TB M.2 NVMe — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2758,11 +2758,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 188,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1593642577999-f25c794e6062?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1593642577999-f25c794e6062?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593642577999-f25c794e6062?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1593642577999-f25c794e6062?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Tizim bloki HyperPC Core i5-14400F / RTX 4060 Ti — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2795,11 +2795,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 205,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542393545-71a5c4323e20?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542393545-71a5c4323e20?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542393545-71a5c4323e20?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542393545-71a5c4323e20?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Protsessor Intel Core i7-14700K 20-yadro LGA1700 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2832,11 +2832,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 222,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587614387466-0a72ca909e16?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587614387466-0a72ca909e16?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587614387466-0a72ca909e16?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587614387466-0a72ca909e16?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Operativ xotira Corsair Vengeance RGB DDR5 32GB — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2869,11 +2869,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 239,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Geymer korpusi DeepCool MATREXX 55 V3 RGB — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2906,11 +2906,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 256,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=700&q=80&novacat=computers_laptops&novaprod=1081",
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=700&q=80&novacat=computers_laptops&novaprod=1081",
+      "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=700&q=80&novacat=computers_laptops&novaprod=1081",
+      "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=700&q=80&novacat=computers_laptops&novaprod=1081"
     ],
     "description": "Noutbuk podstavkasi DeepCool N80 RGB sovutgichli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2943,11 +2943,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Veb-kamera Logitech Brio 4K Ultra HD HDR — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -2980,11 +2980,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 40,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "HP Pavilion 15 Core i5 16GB/512GB SSD Silver — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3017,11 +3017,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 57,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Wi-Fi 6 Router TP-Link Archer AX73 AX5400 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3054,11 +3054,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 74,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Grafik planshet Wacom One Medium qalamli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3091,11 +3091,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 91,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1547082297-6506a9f05544?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1547082297-6506a9f05544?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1547082297-6506a9f05544?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1547082297-6506a9f05544?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "ASUS Zenbook 14 OLED Ultra 7 32GB/1TB 120Hz — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3128,11 +3128,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1588702547923-70cf5854607e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1588702547923-70cf5854607e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588702547923-70cf5854607e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588702547923-70cf5854607e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mexanik geymer klaviaturasi Razer BlackWidow V4 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3165,11 +3165,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Noutbuk ryukzaki Mark Ryden suv o'tkazmaydigan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3202,11 +3202,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 18,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Apple AirPods Pro 2 USB-C ANC shovqin bostiruvchi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3239,11 +3239,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 35,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Sony WH-1000XM5 simsiz premium naushnik qora — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3276,11 +3276,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 52,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Marshall Stanmore III Bluetooth akustik kolonka — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3313,11 +3313,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 69,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "JBL Charge 5 suv o'tkazmaydigan portativ kolonka — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3387,11 +3387,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 103,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Sony PlayStation 5 Slim 1TB o'yin konsoli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3424,11 +3424,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 120,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "GoPro HERO 12 Black 5.3K Action kamera — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3461,11 +3461,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 137,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "DJI Mini 4 Pro pultli ixcham kvadrokopter — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3498,11 +3498,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 154,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsung Galaxy Watch 6 Classic 47mm LTE — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3535,11 +3535,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Geympad Sony DualSense PS5 simsiz pult oq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3572,11 +3572,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 188,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Polaroid Now Generation 2 lahzali fotoapparat — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3609,11 +3609,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 205,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Canon EOS R50 Mirrorless fotoapparat 18-45mm — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3646,11 +3646,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 222,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Geymer quloqchini HyperX Cloud II Red 7.1 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3683,11 +3683,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 239,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Boya BY-V20 simsiz mikrofon Type-C ikkita — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3720,11 +3720,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 256,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "3-in-1 Simsiz zaryadlash stantsiyasi MagSafe — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3756,11 +3756,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1572721546623-84dd91c1d263?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1572721546623-84dd91c1d263?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572721546623-84dd91c1d263?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572721546623-84dd91c1d263?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Xiaomi Sound Outdoor 30W simsiz kolonka qizil — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3793,11 +3793,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 40,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1574920162043-b872873f19c8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1105",
     "images": [
-      "https://images.unsplash.com/photo-1574920162043-b872873f19c8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574920162043-b872873f19c8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574920162043-b872873f19c8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1105",
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1105",
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1105"
     ],
     "description": "Simsiz quloqchin Xiaomi Redmi Buds 5 Pro — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3830,11 +3830,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 57,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1106",
     "images": [
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1106",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1106",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80&novacat=electronics_accessories&novaprod=1106"
     ],
     "description": "Smart fitnes-braslet Xiaomi Smart Band 9 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3867,11 +3867,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 74,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'yin konsoli Nintendo Switch OLED Model oq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3904,11 +3904,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 91,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1578319439584-104c94d37305?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1578319439584-104c94d37305?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578319439584-104c94d37305?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578319439584-104c94d37305?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Podkast mikrofon Fifine K688 dinamik USB/XLR — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3941,11 +3941,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Aqlli ko'zoynak Ray-Ban Meta Wayfarer kamerali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -3978,11 +3978,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Dinamik JBL Flip 6 portativ akustika moviy — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4015,11 +4015,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 18,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar 100% paxtali klassik ko'ylak oq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4049,11 +4049,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 35,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar klassik ikki qismli kostyum-shim — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4083,11 +4083,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 52,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qalin paxtali xudi sport uslubida — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4117,11 +4117,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 69,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Levi's 501 klassik to'g'ri jinsi shimi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4151,11 +4151,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 86,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar paxtali polo futbolkasi zamonaviy — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4185,11 +4185,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 103,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar yengil shamol o'tkazmaydigan kurtkasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4219,11 +4219,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 120,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar kargo shimi ko'p cho'ntakli xaki — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4253,11 +4253,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 137,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar asosiy paxtali futbolkalari (3 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4287,11 +4287,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 154,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qishki izolyatsiyalangan jiletkasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4321,11 +4321,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar sport kostyumi to'plami paxtali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4355,11 +4355,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 188,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1624222247344-550fa60580dc?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1624222247344-550fa60580dc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1624222247344-550fa60580dc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1624222247344-550fa60580dc?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar tabiiy buzoq charmidan klassik kamari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4389,11 +4389,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 205,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1488161628813-04466f872be2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1488161628813-04466f872be2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1488161628813-04466f872be2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1488161628813-04466f872be2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qalin qishki jun paltosi qora — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4423,11 +4423,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 222,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qishki flisli qalin sviteri yoqali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4457,11 +4457,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 239,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qisqa yengli dam olish ko'ylagi gulli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4491,11 +4491,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 256,
     "isFastDelivery": true,
     "inStock": 38,
-    "image": "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar klassik qora shimi dazmol chiziqli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4525,11 +4525,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar sport shortilari nafas oluvchi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4559,11 +4559,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 40,
     "isFastDelivery": true,
     "inStock": 8,
-    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1492447273231-0f8feabc1a3b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1492447273231-0f8feabc1a3b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492447273231-0f8feabc1a3b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492447273231-0f8feabc1a3b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar denim jinsi kurtkasi vintage uslubida — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4593,11 +4593,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 57,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar kardigani tugmali v-yoqali to'qilgan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4627,11 +4627,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 74,
     "isFastDelivery": true,
     "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar oversize ko'cha futbolkasi grafik printli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4661,11 +4661,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 91,
     "isFastDelivery": true,
     "inStock": 23,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar biznes sumkasi tabiiy charm noutbukbop — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4695,11 +4695,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 108,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar issiq termopaypoqlari (5 juft) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4729,11 +4729,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 125,
     "isFastDelivery": true,
     "inStock": 33,
-    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514315384763-ba401779410f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514315384763-ba401779410f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514315384763-ba401779410f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514315384763-ba401779410f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar to'qilgan jun sharfi va bosh kiyimi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4763,11 +4763,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 15,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar nafis midi shoyi ko'ylagi belbog'li — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4797,11 +4797,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar klassik ikki bortli kostyum-shimi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4831,11 +4831,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar oq ipak bluzkasi nafis yoqali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4865,11 +4865,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar keng palazzo shimi yuqori bel — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4899,11 +4899,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar paxtali oversize xudi yumshoq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -4933,11 +4933,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar pliseli trapesiya yubkasi zamonaviy — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5205,11 +5205,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar klassik ikki bortli kostyum-shimi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5239,11 +5239,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar oq ipak bluzkasi nafis yoqali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5273,11 +5273,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar keng palazzo shimi yuqori bel Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5307,11 +5307,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1479064555552-3349f0ff04e0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar paxtali oversize xudi yumshoq Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5341,11 +5341,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar pliseli trapesiya yubkasi zamonaviy Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5375,11 +5375,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar kashmir jun kardigan tugmali V-yoqa Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5409,11 +5409,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492707892479-7fb8d5a4cc97?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar klassik trenjkot paltosi qum rangli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5443,11 +5443,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar sport leggings va top to'plami fitnes Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5477,11 +5477,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar yozgi havodor sarafan gul bosmali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5511,11 +5511,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 15,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'g'il bolalar sport to'plami (xudi va shim) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5545,11 +5545,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qiz bolalar bayramona chiroyli ko'ylagi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5579,11 +5579,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chaqaloqlar uchun organik paxta bodi (5 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5613,11 +5613,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar qishki kombinezoni suv o'tkazmaydigan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5647,11 +5647,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'g'il bolalar maktab kostyumi va shimi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5681,11 +5681,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qiz bolalar maktab sarfani va jaketi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5715,11 +5715,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar paxtali pijama to'plami printli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5749,11 +5749,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar qalin jinsi shimi elastik bel bilan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5783,11 +5783,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar kapyushonli demi-kurtkasi suv o'tkazmas — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5817,11 +5817,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qiz bolalar trikotaj kardigani naqshli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5851,11 +5851,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar paxtali futbolkalar to'plami (3 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -5885,11 +5885,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chaqaloqlar junli konvert-adyoli qishki — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6191,11 +6191,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar kapyushonli demi-kurtkasi suv o'tkazmas Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6225,11 +6225,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qiz bolalar trikotaj kardigani naqshli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6327,11 +6327,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar plyaj shortilari tez quriydigan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6361,11 +6361,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar bikini va pareo to'plami plyaj — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6395,11 +6395,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Uniseks paxtali panama shlyapa quyoshga — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6429,11 +6429,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar zig'ir ko'ylak qisqa yengli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6463,11 +6463,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar yozgi paxtali krop-top va shorti — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6497,11 +6497,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar somon shlyapasi keng hoshiyali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6531,11 +6531,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar yozgi yengil paxtali brinjilari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6565,11 +6565,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar yozgi ipakli kombinezoni tasmali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6599,11 +6599,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar yozgi futbolka va shorti to'plami — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6633,11 +6633,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1188",
     "images": [
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1188",
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1188",
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1188"
     ],
     "description": "Quyoshdan himoyalovchi yengil kepka paxtali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6667,11 +6667,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1189",
     "images": [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1189",
+      "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1189",
+      "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1189"
     ],
     "description": "Erkaklar yozgi zig'ir (linen) shortilari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6701,11 +6701,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1190",
     "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1190",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1190",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1190"
     ],
     "description": "Ayollar havodor shifon yozgi ko'ylagi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6735,11 +6735,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1501686637-b7654a938386?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1191",
     "images": [
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1501686637-b7654a938386?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1191",
+      "https://images.unsplash.com/photo-1501686637-b7654a938386?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1191",
+      "https://images.unsplash.com/photo-1501686637-b7654a938386?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1191"
     ],
     "description": "Erkaklar plyaj shortilari tez quriydigan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6769,11 +6769,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1192",
     "images": [
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1192",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1192",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1192"
     ],
     "description": "Ayollar bikini va pareo to'plami plyaj Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6803,11 +6803,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1193",
     "images": [
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1193",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1193",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1193"
     ],
     "description": "Uniseks paxtali panama shlyapa quyoshga Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6837,11 +6837,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1194",
     "images": [
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1194",
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1194",
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1194"
     ],
     "description": "Erkaklar zig'ir ko'ylak qisqa yengli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6871,11 +6871,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1195",
     "images": [
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1195",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1195",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1195"
     ],
     "description": "Ayollar yozgi paxtali krop-top va shorti Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6905,11 +6905,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1196",
     "images": [
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1196",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1196",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80&novacat=summer_clothing&novaprod=1196"
     ],
     "description": "Ayollar somon shlyapasi keng hoshiyali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6939,11 +6939,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar yozgi yengil paxtali brinjilari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -6973,11 +6973,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar yozgi ipakli kombinezoni tasmali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7109,11 +7109,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "100% merinos juni qalin sviter baland yoqa — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7143,11 +7143,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qishki izolyatsiyalangan kargo shimi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7177,11 +7177,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qishki jun shapka va uzun sharf to'plami — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7211,11 +7211,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Sensorli ekranlar uchun charm qo'lqoplar junli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7245,11 +7245,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar qalin qishki dublyonkasi eko-mo'yna — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7279,11 +7279,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar tog' chang'i kurtkasi membranali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7313,11 +7313,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar qishki qalin jun paypoqlari (3 juft) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7347,11 +7347,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar kashmir jun kardigani uzun qalin — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7381,11 +7381,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar anorak qishki kurtkasi qalin astarlik — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7415,11 +7415,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c8b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qalin g'oz pati to'ldirilgan puxovik Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7449,11 +7449,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar uzun qishki kurtkasi mo'yna yoqali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7483,11 +7483,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Uniseks qishki termokiyim to'plami faol Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7517,11 +7517,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "100% merinos juni qalin sviter baland yoqa Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7551,11 +7551,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar qishki izolyatsiyalangan kargo shimi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7585,11 +7585,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qishki jun shapka va uzun sharf to'plami Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7619,11 +7619,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Sensorli ekranlar uchun charm qo'lqoplar junli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7653,11 +7653,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar qalin qishki dublyonkasi eko-mo'yna Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7687,11 +7687,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar tog' chang'i kurtkasi membranali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7721,11 +7721,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar qishki qalin jun paypoqlari (3 juft) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7789,11 +7789,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Adidas Ultraboost Light professional yugurish — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7823,11 +7823,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "New Balance 9060 zamonaviy krossovkalari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7857,11 +7857,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1525966226538-4e3a1175705c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar klassik oksford tuflilari buzoq charmi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -7891,11 +7891,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar nafis baland poshnali qora tuflilari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8027,11 +8027,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Asics Gel-Kayano 30 yugurish sport poyabzali — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8061,11 +8061,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512374382149-233c42b661ac?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar yumshoq charm mokasinalari qulay — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8095,11 +8095,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ayollar zamonaviy loferlari metall zanjirli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8129,11 +8129,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qulay ortopedik uy shippaklari tabiiy kigizli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8163,11 +8163,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1233",
     "images": [
-      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1233",
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1233",
+      "https://images.unsplash.com/photo-1514989940748-038202517565?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1233"
     ],
     "description": "Nike Air Jordan 1 Retro High OG krossovka Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8197,11 +8197,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1234",
     "images": [
-      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1234",
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1234",
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1234"
     ],
     "description": "Adidas Ultraboost Light professional yugurish Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8231,11 +8231,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1235",
     "images": [
-      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1235",
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1235",
+      "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1235"
     ],
     "description": "New Balance 9060 zamonaviy krossovkalari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8265,11 +8265,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1236",
     "images": [
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1236",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1236",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1236"
     ],
     "description": "Erkaklar klassik oksford tuflilari buzoq charmi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8299,11 +8299,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1237",
     "images": [
-      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1237",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1237",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1237"
     ],
     "description": "Ayollar nafis baland poshnali qora tuflilari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8333,11 +8333,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1238",
     "images": [
-      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1238",
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1238",
+      "https://images.unsplash.com/photo-1534653299134-96a171b61581?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1238"
     ],
     "description": "Timberland 6-Inch Premium suv o'tkazmaydigan botinka Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8367,11 +8367,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1239",
     "images": [
-      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1239",
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1239",
+      "https://images.unsplash.com/photo-1575537305964-5431c773fe8f?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1239"
     ],
     "description": "UGG Classic Ultra Mini etiklari tabiiy qo'y junli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8401,11 +8401,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1240",
     "images": [
-      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1240",
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1240",
+      "https://images.unsplash.com/photo-1551107696-a4b085a0d9a6?auto=format&fit=crop&w=700&q=80&novacat=footwear&novaprod=1240"
     ],
     "description": "Puma Suede Classic zamonaviy ko'cha kedalari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8435,11 +8435,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Asics Gel-Kayano 30 yugurish sport poyabzali Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8469,11 +8469,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Erkaklar yumshoq charm mokasinalari qulay Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8571,11 +8571,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Xiaomi WalkingPad R2 buklanuvchi yugurish yo'lakchasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8605,11 +8605,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Everlast charm boks qoplari va qo'lqoplari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8639,11 +8639,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Adidas Champions League rasmiy futbol to'pi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8673,11 +8673,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mikasa V200W professional voleybol to'pi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8707,11 +8707,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yoga va fitnes uchun 10mm sirpanmaydigan gilamcha — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8741,11 +8741,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kettler ko'p funksiyali devoriy turnik-brus — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8775,11 +8775,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Fitnes elastik rezinkalar to'plami 5 ta — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8809,11 +8809,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Izolyatsiyalangan sport termobutulkasi 1000ml — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8843,11 +8843,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Velosiped dubulg'asi aerodinamik chiroqli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8877,11 +8877,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektrosamokat Xiaomi Mi Electric Scooter 4 Pro — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8912,11 +8912,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518459031867-a89b944b005a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Trinx M100 Pro tog' velosipedi 26 alyuminiy Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8946,11 +8946,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Torneo 20 kg xromlangan portativ gantellar Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -8980,11 +8980,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Xiaomi WalkingPad R2 buklanuvchi yugurish yo'lakchasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9014,11 +9014,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Everlast charm boks qoplari va qo'lqoplari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9048,11 +9048,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Adidas Champions League rasmiy futbol to'pi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9082,11 +9082,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mikasa V200W professional voleybol to'pi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9116,11 +9116,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yoga va fitnes uchun 10mm sirpanmaydigan gilamcha Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9150,11 +9150,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517927033939-9d14216b8780?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kettler ko'p funksiyali devoriy turnik-brus Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9184,11 +9184,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578768079052-aa76e525032b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Fitnes elastik rezinkalar to'plami 5 ta Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9218,11 +9218,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Izolyatsiyalangan sport termobutulkasi 1000ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9286,11 +9286,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Askona ortopedik krovat va 7-zonalik matras — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9320,11 +9320,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ochilib-yopiluvchi 6 kishilik ovqatlanish stoli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9354,11 +9354,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "3 eshikli kiyim shkafi oyna va tortmalar bilan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9388,11 +9388,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ergonomik to'rli ofis kreslosi bel tayanchi bilan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9422,11 +9422,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Loft yozuv stoli metall oyoq va eman sirti bilan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9456,11 +9456,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Osma TV tumbasi va javonlar mehmonxona uchun — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9728,11 +9728,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ochilib-yopiluvchi 6 kishilik ovqatlanish stoli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9762,11 +9762,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "3 eshikli kiyim shkafi oyna va tortmalar bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9796,11 +9796,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ergonomik to'rli ofis kreslosi bel tayanchi bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9830,11 +9830,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Loft yozuv stoli metall oyoq va eman sirti bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9864,11 +9864,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Osma TV tumbasi va javonlar mehmonxona uchun Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9898,11 +9898,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yumshoq baxmal kreslo oyoq tayanchi pufik bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9932,11 +9932,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "4 qavatli poyabzal javoni qulay o'rindiq bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -9966,11 +9966,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758870432-324e57749288?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar uchun ikki qavatli xavfsiz yog'och krovat Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10103,11 +10103,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yumshoq xona gilami 2x3 metr qalin zich to'qilgan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10137,11 +10137,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bambuk hammom aksessuarlari to'plami 4 qismli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10171,11 +10171,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qalin mikrofibra hammom sochiqlari (4 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10205,11 +10205,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ultratovushli xushbo'y hid beruvchi havo namlagich — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10240,11 +10240,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Metall kiyim quritgich 20m osma sig'imli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10274,11 +10274,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bug'li dazmol taxtasi rozetkali va sim ushlagich — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10308,11 +10308,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kir yuvish uchun 3 bo'limli g'ildirakli savat — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10342,11 +10342,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&novacat=household&novaprod=1297",
     "images": [
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&novacat=household&novaprod=1297",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&novacat=household&novaprod=1297",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&novacat=household&novaprod=1297"
     ],
     "description": "Anatomik xotirali ortopedik yostiq Memory Foam — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10376,11 +10376,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Stol usti LED sensorli o'qish lampasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10411,11 +10411,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "LED kristall osma lyustra pultli 3 xil rangda Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10446,11 +10446,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1505692794406-0a0684f18378?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1505692794406-0a0684f18378?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505692794406-0a0684f18378?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1505692794406-0a0684f18378?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "100% Misr paxtasidan ikki kishilik choyshab Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10480,11 +10480,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1533779283484-84e12e93e841?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1533779283484-84e12e93e841?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1533779283484-84e12e93e841?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1533779283484-84e12e93e841?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qalin jakkardli yorug'lik o'tkazmas pardalar (Blackout) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10514,11 +10514,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1540574167026-643ea20ade25?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540574167026-643ea20ade25?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540574167026-643ea20ade25?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540574167026-643ea20ade25?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yumshoq xona gilami 2x3 metr qalin zich to'qilgan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10548,11 +10548,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bambuk hammom aksessuarlari to'plami 4 qismli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10582,11 +10582,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qalin mikrofibra hammom sochiqlari (4 dona) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10616,11 +10616,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ultratovushli xushbo'y hid beruvchi havo namlagich Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10651,11 +10651,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Metall kiyim quritgich 20m osma sig'imli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10685,11 +10685,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bug'li dazmol taxtasi rozetkali va sim ushlagich Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10719,11 +10719,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526887593683-460f97003888?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kir yuvish uchun 3 bo'limli g'ildirakli savat Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10787,11 +10787,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Zanglamas po'latdan 6 qismli oshpaz pichoqlari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10821,11 +10821,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Luminarc 24 kishilik fransuz oq idish-tovoqlar — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10855,11 +10855,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chexiya kristall bakallari to'plami (6 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10890,11 +10890,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektr choynak va keramika damlagich to'plami — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10924,11 +10924,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Silikon oshxona anjomlari to'plami 12 dona — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10958,11 +10958,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Cho'yan qovurish tovasi chuqur qopqoqli 28 sm — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -10992,11 +10992,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Non saqlash qutisi bambuk qopqoqli metall — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11026,11 +11026,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ziravorlar uchun 16 qismli aylanuvchi stend — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11060,11 +11060,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Zanglamas termos-choynak 2L harorat ko'rsatgichli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11094,11 +11094,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Granit qoplamali vafli va sendvich pishirgich — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11128,11 +11128,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583394293214-2aedd8079731?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583394293214-2aedd8079731?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583394293214-2aedd8079731?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583394293214-2aedd8079731?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Shisha germetik oziq-ovqat konteynerlari (5 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11162,11 +11162,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Tefal Ingenio 12 qismli olinuvchi tutqichli qozonlar Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11196,11 +11196,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1322",
     "images": [
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1322",
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1322",
+      "https://images.unsplash.com/photo-1590794056226-79738c8632e7?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1322"
     ],
     "description": "Zanglamas po'latdan 6 qismli oshpaz pichoqlari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11230,11 +11230,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1323",
     "images": [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1323",
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1323",
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=700&q=80&novacat=kitchenware&novaprod=1323"
     ],
     "description": "Luminarc 24 kishilik fransuz oq idish-tovoqlar Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11264,11 +11264,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1556911073-38141963c9e0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1556911073-38141963c9e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556911073-38141963c9e0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1556911073-38141963c9e0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chexiya kristall bakallari to'plami (6 dona) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11299,11 +11299,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektr choynak va keramika damlagich to'plami Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11333,11 +11333,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Silikon oshxona anjomlari to'plami 12 dona Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11367,11 +11367,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Cho'yan qovurish tovasi chuqur qopqoqli 28 sm Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11401,11 +11401,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Non saqlash qutisi bambuk qopqoqli metall Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11435,11 +11435,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589782182703-20092dd0f298?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ziravorlar uchun 16 qismli aylanuvchi stend Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11469,11 +11469,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Zanglamas termos-choynak 2L harorat ko'rsatgichli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11673,11 +11673,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "La Roche-Posay Anthelios SPF50+ quyosh kremi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11707,11 +11707,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Estee Lauder Advanced Night Repair zardobi 50ml — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11741,11 +11741,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Olaplex No.3 sochni tiklovchi eliksir 100ml — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11775,11 +11775,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1608248597359-2e11894a4176?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Oral-B iO Series 9 aqlli elektr tish cho'tkasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11809,11 +11809,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "The Ordinary Niacinamide 10% + Zinc 1% zardobi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11843,11 +11843,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Maybelline Sky High uzaytiruvchi tush va pomada — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11877,11 +11877,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Soch tekislovchi titan dazmol Babyliss Pro — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11911,11 +11911,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522337094133-f4b23842c210?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Dior Sauvage Eau de Parfum erkaklar atiri 100ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11945,11 +11945,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chanel Coco Mademoiselle ayollar parfyumi 100ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -11979,11 +11979,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Dyson Supersonic feni magnit nozullar bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12013,11 +12013,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567928815119-943085601248?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Philips Series 9000 elektr ustarasi nam va quruq Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12047,11 +12047,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Braun Silk-expert Pro 5 fotoepilyator uyda Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12081,11 +12081,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "La Roche-Posay Anthelios SPF50+ quyosh kremi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12115,11 +12115,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512290900672-1f023330f452?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Estee Lauder Advanced Night Repair zardobi 50ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12149,11 +12149,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Olaplex No.3 sochni tiklovchi eliksir 100ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12183,11 +12183,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Oral-B iO Series 9 aqlli elektr tish cho'tkasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12217,11 +12217,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "The Ordinary Niacinamide 10% + Zinc 1% zardobi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12455,11 +12455,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar uchun chizma molberti ikki tomonlama — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12489,11 +12489,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Hot Wheels 10 ta metall poyga mashinalari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12523,11 +12523,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Barbie Dreamhouse 3 qavatli qo'g'irchoq uyi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12557,11 +12557,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar proyektor yulduzli osmon tungi chirog'i — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12591,11 +12591,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1560859250-71791a82f3c0?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1560859250-71791a82f3c0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560859250-71791a82f3c0?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560859250-71791a82f3c0?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Masofadan boshqariladigan tezyurar 4x4 drift mashinasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12625,11 +12625,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1567705781361-2e42436d4085?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1567705781361-2e42436d4085?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567705781361-2e42436d4085?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567705781361-2e42436d4085?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "LEGO Technic 42151 Bugatti Bolide poyga avtomobili — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12659,11 +12659,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "LEGO City 60316 Politsiya uchastkasi 668 qismli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12693,11 +12693,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Chicco Bravo Trio universal bolalar aravachasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12727,11 +12727,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mercedes-Benz G63 bolalar elektromobili pultli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12761,11 +12761,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Magnitli konstruktor 100 qismli to'plam Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12795,11 +12795,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Katta interaktiv gapiruvchi ayiqcha bolalar uchun Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12829,11 +12829,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530047625168-4b29eb8045a3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yog'och Montessori mantiqiy o'yinlar taxtasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12863,11 +12863,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar uchun chizma molberti ikki tomonlama Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12897,11 +12897,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Hot Wheels 10 ta metall poyga mashinalari Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12931,11 +12931,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1471286174890-9c112ffca564?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Barbie Dreamhouse 3 qavatli qo'g'irchoq uyi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -12965,11 +12965,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar proyektor yulduzli osmon tungi chirog'i Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13034,11 +13034,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus 15W simsiz tezkor avto telefon ushlagich — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13068,11 +13068,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus A2 Pro portativ avto changyutgichi 6000Pa — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13103,11 +13103,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "70mai portativ avto kompressor raqamli manometr — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13171,11 +13171,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomobil charm chexollar to'plami anatomik — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13205,11 +13205,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus metall avtomobil xushbo'ylantirgich panelli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13239,11 +13239,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Akkumulyator booster Jump Starter 12000mAh — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13273,11 +13273,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomobil yuvish uchun bosimli ko'pik pistoleti — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13307,11 +13307,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1517524008697-84bee1a9d7c3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517524008697-84bee1a9d7c3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517524008697-84bee1a9d7c3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517524008697-84bee1a9d7c3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avto oynalari uchun qishki muz erituvchi sprey — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13341,11 +13341,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "70mai orqa ko'rinish kamerasi RC06 to'liq to'plam — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13375,11 +13375,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1541348263662-e0b86666cde5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1541348263662-e0b86666cde5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541348263662-e0b86666cde5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541348263662-e0b86666cde5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomobil eshiklariga himoya rezina lentalari — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13409,11 +13409,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Videoregistrator 70mai Dash Cam Pro Plus+ GPS Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13444,11 +13444,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus 15W simsiz tezkor avto telefon ushlagich Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13478,11 +13478,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus A2 Pro portativ avto changyutgichi 6000Pa Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13513,11 +13513,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "70mai portativ avto kompressor raqamli manometr Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13547,11 +13547,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "EVA 3D salon poliklari barcha mashinalar uchun Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13581,11 +13581,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomobil charm chexollar to'plami anatomik Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13615,11 +13615,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Baseus metall avtomobil xushbo'ylantirgich panelli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13683,11 +13683,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avtomobil yuvish uchun bosimli ko'pik pistoleti Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13717,11 +13717,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Avto oynalari uchun qishki muz erituvchi sprey Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13751,11 +13751,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 15,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bosch Professional GBH 2-26 DRE perforator 800W — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13786,11 +13786,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "DeWalt 20V simsiz drel-shurupovert 2 ta batareya — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13856,11 +13856,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1586864387967-d02ef88d7801?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1586864387967-d02ef88d7801?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586864387967-d02ef88d7801?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1586864387967-d02ef88d7801?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Huepar 3D 12 chiziqli yashil nurli lazer uroven — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13891,11 +13891,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Total 2200W burchakli maydalagich (bolgarka) 230mm — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13926,11 +13926,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1402",
     "images": [
-      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1402",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1402",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1402"
     ],
     "description": "Crown 2000W qurilish feni harorat regulyatori — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13961,11 +13961,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1580983561371-7f4521584e8e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1580983561371-7f4521584e8e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580983561371-7f4521584e8e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1580983561371-7f4521584e8e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Stanley 8 metrli magnitli lenta o'lchagich — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -13996,11 +13996,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Inverter payvandlash apparati Resanta 220A — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14031,11 +14031,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ingco elektr bo'yoq purkagich kraskapult 800ml — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14066,11 +14066,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1578885136359-16c5bd438686?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1406",
     "images": [
-      "https://images.unsplash.com/photo-1578885136359-16c5bd438686?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578885136359-16c5bd438686?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1578885136359-16c5bd438686?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1406",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1406",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1406"
     ],
     "description": "Elektriklar asboblar to'plami multimetr bilan — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14100,11 +14100,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bosch sirkulyar qo'l arrasi 1400W 190mm diskli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14135,11 +14135,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Optik lazer masofa o'lchagich (lazer ruletka) 60m — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14170,11 +14170,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1504307651554-66f7845899f4?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1504307651554-66f7845899f4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1504307651554-66f7845899f4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1504307651554-66f7845899f4?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bosch Professional GBH 2-26 DRE perforator 800W Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14205,11 +14205,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1581092160607-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581092160607-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092160607-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092160607-ee22621ddbb3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "DeWalt 20V simsiz drel-shurupovert 2 ta batareya Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14240,11 +14240,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Deko 168 qismli universal metall asboblar to'plami Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14275,11 +14275,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1581092162610-1845bb0b8158?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1412",
     "images": [
-      "https://images.unsplash.com/photo-1581092162610-1845bb0b8158?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092162610-1845bb0b8158?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092162610-1845bb0b8158?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1412",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1412",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1412"
     ],
     "description": "Huepar 3D 12 chiziqli yashil nurli lazer uroven Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14310,11 +14310,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1581092160567-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581092160567-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092160567-ee22621ddbb3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092160567-ee22621ddbb3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Total 2200W burchakli maydalagich (bolgarka) 230mm Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14345,11 +14345,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1581092532470-349079f18078?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581092532470-349079f18078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092532470-349079f18078?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581092532470-349079f18078?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Crown 2000W qurilish feni harorat regulyatori Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14380,11 +14380,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1581093588407-2a54388147d3?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581093588407-2a54388147d3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093588407-2a54388147d3?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093588407-2a54388147d3?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Stanley 8 metrli magnitli lenta o'lchagich Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14415,11 +14415,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1581093458790-2e067c293784?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1416",
     "images": [
-      "https://images.unsplash.com/photo-1581093458790-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458790-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458790-2e067c293784?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1416",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1416",
+      "https://images.unsplash.com/photo-1578898887982-f5544325a3a1?auto=format&fit=crop&w=700&q=80&novacat=construction_tools&novaprod=1416"
     ],
     "description": "Inverter payvandlash apparati Resanta 220A Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14450,11 +14450,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1581093458428-2e067c293784?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581093458428-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458428-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458428-2e067c293784?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ingco elektr bo'yoq purkagich kraskapult 800ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14485,11 +14485,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1581093458123-2e067c293784?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1581093458123-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458123-2e067c293784?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1581093458123-2e067c293784?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektriklar asboblar to'plami multimetr bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14519,11 +14519,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 15,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Jeyms Klir «Atom Odatlari» — O'zbek tilida — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14589,11 +14589,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Robert Kiyosaki «Boy Ota, Kambag'al Ota» — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14623,11 +14623,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Brayan Treysi «Chala qolgan ishlarni unuting» — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14657,11 +14657,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Katta O'zbekcha-Inglizcha ensiklopedik lug'at — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14691,11 +14691,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'zbekiston Milliy Ensiklopediyasi rangli suratli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14725,11 +14725,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2f35b34?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2f35b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1532012164546-f432f2f35b34?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1532012164546-f432f2f35b34?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar uchun ertaklar va jumboqlar kitobi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14759,11 +14759,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Parker Jotter original metall sharikli ruchka — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14794,11 +14794,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Moleskine klassik qattiq muqovali bloknot A5 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14863,11 +14863,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Antuan de Sent-Ekzyuperi «Kichkina Shahzoda» — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14897,11 +14897,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kantselyariya to'plami stendli (skotch, qaychi, zımba) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14931,11 +14931,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Jeyms Klir «Atom Odatlari» — O'zbek tilida Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -14966,11 +14966,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1476275466022-4e907fb0f868?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1476275466022-4e907fb0f868?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1476275466022-4e907fb0f868?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1476275466022-4e907fb0f868?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Abdulla Qodiriy «O'tkan Kunlar» to'plami Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15035,11 +15035,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1532012164546-f432f2f37b73?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Brayan Treysi «Chala qolgan ishlarni unuting» Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15069,11 +15069,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476275466028-403b22b64a2d?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Katta O'zbekcha-Inglizcha ensiklopedik lug'at Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15103,11 +15103,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1507842229458-577630623224?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507842229458-577630623224?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507842229458-577630623224?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507842229458-577630623224?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'zbekiston Milliy Ensiklopediyasi rangli suratli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15137,11 +15137,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1510172955811-681140326e40?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1510172955811-681140326e40?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510172955811-681140326e40?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510172955811-681140326e40?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bolalar uchun ertaklar va jumboqlar kitobi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15206,11 +15206,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Moleskine klassik qattiq muqovali bloknot A5 Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15309,11 +15309,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ahmad Tea Earl Grey xushbo'y qora choy 500g — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15343,11 +15343,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Lindt Excellence 85% achchiq Shveysariya shokoladi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15377,11 +15377,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monini Extra Virgin sovuq presslangan zaytun moyi 1L — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15411,11 +15411,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Barilla Spaghetti No.5 italyan makaroni (5 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15445,11 +15445,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'zbekistonning tabiiy tog' asali toza 1kg banka — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15479,11 +15479,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samarkand saralangan quritilgan meva va yong'oq 1kg — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15513,11 +15513,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ferrero Rocher bayramona shokolad konfetlari 300g — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15547,11 +15547,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Lipton Yellow Label yuqori sifatli qora choy 500g — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15581,11 +15581,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Nutella findiqli shokolad kremi 750g banka — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15615,11 +15615,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Basmati saralangan uzun guruchi 2kg premium — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15649,11 +15649,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1499028344343-cd1730c1673f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1499028344343-cd1730c1673f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1499028344343-cd1730c1673f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1499028344343-cd1730c1673f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Zanjabil va limonli tabiiy murabbo 450g — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15683,11 +15683,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1563729784-49f9d8a3ae42?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1563729784-49f9d8a3ae42?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563729784-49f9d8a3ae42?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1563729784-49f9d8a3ae42?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Lavazza Qualita Oro tabiiy arabika kofe 1kg Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15717,11 +15717,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ahmad Tea Earl Grey xushbo'y qora choy 500g Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15751,11 +15751,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Lindt Excellence 85% achchiq Shveysariya shokoladi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15785,11 +15785,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monini Extra Virgin sovuq presslangan zaytun moyi 1L Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15819,11 +15819,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Barilla Spaghetti No.5 italyan makaroni (5 dona) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15853,11 +15853,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1482049016688-2d3a1b311543?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1482049016688-2d3a1b311543?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1482049016688-2d3a1b311543?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1482049016688-2d3a1b311543?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "O'zbekistonning tabiiy tog' asali toza 1kg banka Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15887,11 +15887,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1484723091799-0040382a495b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1484723091799-0040382a495b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484723091799-0040382a495b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484723091799-0040382a495b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samarkand saralangan quritilgan meva va yong'oq 1kg Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -15989,11 +15989,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Nutella findiqli shokolad kremi 750g banka Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16057,11 +16057,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1537151625745-0d486333215f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1537151625745-0d486333215f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1537151625745-0d486333215f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1537151625745-0d486333215f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Pro Plan kichik zotli itlar uchun to'liq ozuqa 3kg — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16091,11 +16091,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun 3 qavatli tirnoq charxlovchi uycha — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16125,11 +16125,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun avtomatik lenta bo'yinbog' (ruletka) 5m — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16193,11 +16193,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun burchakli qulay tovoq (lotok) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16227,11 +16227,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1576201836186-459ee4e79a36?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576201836186-459ee4e79a36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576201836186-459ee4e79a36?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1576201836186-459ee4e79a36?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun anatomik yumshoq ko'krak tasmasi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16261,11 +16261,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun interaktiv avtomat lazer o'yinchoq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16295,11 +16295,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun gipoallergenik yumshoq shampun 500ml — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16329,11 +16329,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Jun tozalovchi ikki tomonlama Furminator taroq — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16363,11 +16363,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yumshoq baxmal it va mushuk yotog'i yuviluvchi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16397,11 +16397,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Uy hayvonlari uchun xavfsiz sayohat konteyneri (perevozka) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16431,11 +16431,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1548199973-53c45958827e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1548199973-53c45958827e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1548199973-53c45958827e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1548199973-53c45958827e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Royal Canin kattalar mushuklari uchun ozuqa 4kg Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16465,11 +16465,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Pro Plan kichik zotli itlar uchun to'liq ozuqa 3kg Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16499,11 +16499,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1533738363-b7f30ef54642?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1533738363-b7f30ef54642?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1533738363-b7f30ef54642?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1533738363-b7f30ef54642?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun 3 qavatli tirnoq charxlovchi uycha Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16533,11 +16533,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun avtomatik lenta bo'yinbog' (ruletka) 5m Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16567,11 +16567,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1576201836186-459ee49c70ac?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Ikki qavatli po'lat it va mushuk ovqat kosasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16601,11 +16601,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1517423460469-be58a8ab6d8c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517423460469-be58a8ab6d8c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517423460469-be58a8ab6d8c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1517423460469-be58a8ab6d8c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1537151625745-ac7874f555c8?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun burchakli qulay tovoq (lotok) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16635,11 +16635,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun anatomik yumshoq ko'krak tasmasi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16669,11 +16669,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Mushuklar uchun interaktiv avtomat lazer o'yinchoq Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16703,11 +16703,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1589924691995-40e17496ffec?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1589924691995-40e17496ffec?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589924691995-40e17496ffec?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589924691995-40e17496ffec?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1587300003388-521e37704842?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Itlar uchun gipoallergenik yumshoq shampun 500ml Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16806,11 +16806,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1592417817098-8f3d6ff72895?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1592417817098-8f3d6ff72895?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1592417817098-8f3d6ff72895?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1592417817098-8f3d6ff72895?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Tomchilatib sug'orish tizimi to'plami 100 metr — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16840,11 +16840,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kengayuvchi bog' shlangi 30m ko'p rejimli pistolet — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16942,11 +16942,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e17?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e17?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e17?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e17?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bog' uchun osma qulay karkasli pilla kreslo — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -16976,11 +16976,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1558904541-026046327371?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1491",
     "images": [
-      "https://images.unsplash.com/photo-1558904541-026046327371?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558904541-026046327371?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1558904541-026046327371?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1491",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1491",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1491"
     ],
     "description": "Quyosh panelli suv o'tkazmas bog' chiroqlari (6 dona) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17010,11 +17010,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Benzinli yengil kultivator moto-blok 3.5 Ot kuchi — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17045,11 +17045,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektr zanjirli arra Bosch UniversalChain 1800W — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17080,11 +17080,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yelkaga osiluvchi batareyali bog' purkagichi 16L — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17114,11 +17114,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Buklanuvchi sayohat stoli va 4 ta stul to'plami — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17148,11 +17148,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bog' kuraklari, belkurak va tirnoqlar to'plami — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17182,11 +17182,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektr maysa o'rgich Bosch ARM 34 1300W Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17217,11 +17217,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1498",
     "images": [
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1498",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1498",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1498"
     ],
     "description": "Tomchilatib sug'orish tizimi to'plami 100 metr Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17251,11 +17251,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Kengayuvchi bog' shlangi 30m ko'p rejimli pistolet Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17285,11 +17285,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1558904541-efa8cbe41e55?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Teleskopik baland shoxlarni kesuvchi sekator Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17319,11 +17319,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Zanglamas po'latdan katta barbekyu mangali stendli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17353,11 +17353,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bog' uchun osma qulay karkasli pilla kreslo Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17387,11 +17387,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Quyosh panelli suv o'tkazmas bog' chiroqlari (6 dona) Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17421,11 +17421,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1592417817098-8f3d6ef23674?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Benzinli yengil kultivator moto-blok 3.5 Ot kuchi Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17456,11 +17456,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1505",
     "images": [
-      "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1505",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1505",
+      "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80&novacat=garden_outdoor&novaprod=1505"
     ],
     "description": "Elektr zanjirli arra Bosch UniversalChain 1800W Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17491,11 +17491,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Yelkaga osiluvchi batareyali bog' purkagichi 16L Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17559,11 +17559,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 28,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Samsonite mustahkam sayohat chamadoni 75L g'ildirakli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17594,11 +17594,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 41,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektron kodli metall seyf A4 hujjatlar uchun — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17628,11 +17628,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 54,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1510",
     "images": [
-      "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1510",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1510",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1510"
     ],
     "description": "Celestron AstroMaster 70AZ fazoviy teleskop shtativli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17662,11 +17662,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 67,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1511",
     "images": [
-      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1511",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1511",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1511"
     ],
     "description": "Bushnell 10x42 suv o'tkazmaydigan sayyohlik binokli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17696,11 +17696,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 80,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1520116468418-0927944ceb24?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1512",
     "images": [
-      "https://images.unsplash.com/photo-1520116468418-0927944ceb24?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1520116468418-0927944ceb24?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1520116468418-0927944ceb24?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1512",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1512",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1512"
     ],
     "description": "Casio CT-S300 dinamik klaviaturali sintezator — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17730,11 +17730,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 93,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1513",
     "images": [
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1513",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1513",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1513"
     ],
     "description": "Shveytsariya armiya pichog'i Victorinox Huntsman 15 — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17764,11 +17764,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 106,
     "isFastDelivery": true,
     "inStock": 52,
-    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qo'lda o'yilgan yog'och shaxmat va shashka katta taxta — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17798,11 +17798,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 119,
     "isFastDelivery": true,
     "inStock": 13,
-    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Qimmatbaho esdalik sovg'alar to'plami Parker va charm — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17832,11 +17832,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 132,
     "isFastDelivery": true,
     "inStock": 19,
-    "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monopoliya klassik stol o'yini o'zbek tilida — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17866,11 +17866,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 145,
     "isFastDelivery": true,
     "inStock": 25,
-    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1517",
     "images": [
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1517",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1517",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1517"
     ],
     "description": "Sayohat uchun suv o'tkazmas shahar ryukzaki USB portli — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17900,11 +17900,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 158,
     "isFastDelivery": true,
     "inStock": 31,
-    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1518",
     "images": [
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1518",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1518",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1518"
     ],
     "description": "Yong'inga chidamli hujjatlar uchun maxsus metall keys — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17934,11 +17934,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 171,
     "isFastDelivery": true,
     "inStock": 37,
-    "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1519",
     "images": [
-      "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1519",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1519",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1519"
     ],
     "description": "Yamaha F310 akustik gitara g'ilof va mediatorlar bilan Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -17968,11 +17968,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 184,
     "isFastDelivery": true,
     "inStock": 43,
-    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1520",
     "images": [
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1520",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1520",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1520"
     ],
     "description": "Samsonite mustahkam sayohat chamadoni 75L g'ildirakli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18003,11 +18003,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 197,
     "isFastDelivery": true,
     "inStock": 49,
-    "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Elektron kodli metall seyf A4 hujjatlar uchun Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18037,11 +18037,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 210,
     "isFastDelivery": true,
     "inStock": 10,
-    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Celestron AstroMaster 70AZ fazoviy teleskop shtativli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18071,11 +18071,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 23,
     "isFastDelivery": true,
     "inStock": 16,
-    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Bushnell 10x42 suv o'tkazmaydigan sayyohlik binokli Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18105,11 +18105,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 36,
     "isFastDelivery": true,
     "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1524",
     "images": [
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1524",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1524",
+      "https://images.unsplash.com/photo-1510519138161-58474dfab9c7?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1524"
     ],
     "description": "Casio CT-S300 dinamik klaviaturali sintezator Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18139,11 +18139,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 49,
     "isFastDelivery": true,
     "inStock": 28,
-    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1525",
     "images": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1525",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1525",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1525"
     ],
     "description": "Shveytsariya armiya pichog'i Victorinox Huntsman 15 Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18173,11 +18173,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 62,
     "isFastDelivery": true,
     "inStock": 34,
-    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1526",
     "images": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1526",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1526",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1526"
     ],
     "description": "Qo'lda o'yilgan yog'och shaxmat va shashka katta taxta Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18207,11 +18207,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 75,
     "isFastDelivery": true,
     "inStock": 40,
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1527",
     "images": [
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1527",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1527",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80&novacat=other_goods&novaprod=1527"
     ],
     "description": "Qimmatbaho esdalik sovg'alar to'plami Parker va charm Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18241,11 +18241,11 @@ export const INITIAL_PRODUCTS = [
     "reviewsCount": 88,
     "isFastDelivery": true,
     "inStock": 46,
-    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
     ],
     "description": "Monopoliya klassik stol o'yini o'zbek tilida Pro (Yangilangan Model) — NovaMarket rasmiy kafolati bilan yuqori sifatli tovar. Tezkor 1 kunda yetkazib berish va 0% muddatli to'lov mavjud.",
     "specs": {
@@ -18259,186 +18259,5 @@ export const INITIAL_PRODUCTS = [
       "Standart"
     ],
     "seller": "Boshqa tovarlar Rasmiy Do'koni"
-  },
-  {
-    "id": 1529,
-    "name": "Muzlatgich Artel Grand HD 340L Smart Inverter (Xolodilnik / Haladenlik)",
-    "category": "appliances",
-    "subCategory": "refrigerators",
-    "brand": "Artel",
-    "model": "NV-ART-HD340",
-    "price": 4850000,
-    "oldPrice": 5600000,
-    "discount": 13,
-    "monthlyInstallment": 404166,
-    "rating": 4.8,
-    "reviewsCount": 42,
-    "isFastDelivery": true,
-    "inStock": 15,
-    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Artel Grand HD 340L Inverter Muzlatgich (Xolodilnik / Haladenlik) — tejamkor A+ energiya sinfi, No Frost texnologiyasi va 3 yil to'liq kafolat.",
-    "specs": {
-      "Hajm": "340 litr",
-      "Muzlatish turi": "Total No Frost",
-      "Kompressor": "Smart Inverter",
-      "Kafolat": "3 yil rasmiy"
-    },
-    "colors": ["Kumushrang", "Oq", "Qora"],
-    "sizes": ["Standart"],
-    "seller": "Artel Rasmiy Do'koni"
-  },
-  {
-    "id": 1530,
-    "name": "Sovutgich Bosch Serie 6 No Frost 435L (Muzlatgich / Xolodilnik)",
-    "category": "appliances",
-    "subCategory": "refrigerators",
-    "brand": "Bosch",
-    "model": "NV-BOSCH-KGN49",
-    "price": 10500000,
-    "oldPrice": 12200000,
-    "discount": 14,
-    "monthlyInstallment": 875000,
-    "rating": 4.9,
-    "reviewsCount": 29,
-    "isFastDelivery": true,
-    "inStock": 7,
-    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Sovutgich Bosch Serie 6 VitaFresh tizimli katta hajmli muzlatgich (xolodilnik). Mahsulotlarni 3 barobar uzoqroq yangi saqlaydi.",
-    "specs": {
-      "Hajm": "435 litr",
-      "Tizim": "VitaFresh Plus No Frost",
-      "Shovqin darajasi": "38 dB",
-      "Kafolat": "10 yil kompressorga"
-    },
-    "colors": ["Inox zanglamaydigan po'lat"],
-    "sizes": ["Standart"],
-    "seller": "Bosch Official Store"
-  },
-  {
-    "id": 1531,
-    "name": "Kir yuvish mashinasi Artel 7kg Avtomat Grand (Kirmashina / Kirmoshina)",
-    "category": "appliances",
-    "subCategory": "washing_machines",
-    "brand": "Artel",
-    "model": "NV-ART-WM70",
-    "price": 3890000,
-    "oldPrice": 4500000,
-    "discount": 14,
-    "monthlyInstallment": 324166,
-    "rating": 4.7,
-    "reviewsCount": 54,
-    "isFastDelivery": true,
-    "inStock": 18,
-    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Artel 7kg Avtomat Kir yuvish mashinasi (Kirmashina) — 1200 ayl/daq siqish tezligi, bug' bilan yuvish rejimi va jim motor.",
-    "specs": {
-      "Sig'im": "7 kg",
-      "Aylanish tezligi": "1200 ayl/daq",
-      "Dasturlar": "16 ta rejim",
-      "Kafolat": "3 yil rasmiy"
-    },
-    "colors": ["Oq", "To'q kulrang"],
-    "sizes": ["Standart"],
-    "seller": "Artel Rasmiy Do'koni"
-  },
-  {
-    "id": 1532,
-    "name": "Kir yuvish mashinasi Bosch Serie 6 9kg EcoSilence Drive (Kirmashina)",
-    "category": "appliances",
-    "subCategory": "washing_machines",
-    "brand": "Bosch",
-    "model": "NV-BOSCH-WAT28",
-    "price": 8900000,
-    "oldPrice": 10200000,
-    "discount": 13,
-    "monthlyInstallment": 741666,
-    "rating": 4.9,
-    "reviewsCount": 38,
-    "isFastDelivery": true,
-    "inStock": 9,
-    "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Bosch Serie 6 nemis sifatli kir yuvish mashinasi — EcoSilence Drive motori juda jim ishlaydi va energiyani tejaydi.",
-    "specs": {
-      "Sig'im": "9 kg",
-      "Aylanish tezligi": "1400 ayl/daq",
-      "Motor": "EcoSilence Drive inverter",
-      "Kafolat": "10 yil motorga"
-    },
-    "colors": ["Kumushrang"],
-    "sizes": ["Standart"],
-    "seller": "Bosch Official Store"
-  },
-  {
-    "id": 1533,
-    "name": "Huawei Watch GT 4 Smartwatch 46mm Smart soat (Qora / Jigarrang)",
-    "category": "electronics_accessories",
-    "subCategory": "smart_watches",
-    "brand": "Huawei",
-    "model": "NV-HUA-GT4",
-    "price": 2490000,
-    "oldPrice": 2990000,
-    "discount": 17,
-    "monthlyInstallment": 207500,
-    "rating": 4.8,
-    "reviewsCount": 73,
-    "isFastDelivery": true,
-    "inStock": 22,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Huawei Watch GT 4 premium aqlli soat (smartwatch) — 14 kungacha avtonom ishlash, AMOLED ekran, yurak urishi va SpO2 nazorati.",
-    "specs": {
-      "Ekran": "1.43 dyuym AMOLED",
-      "Batareya": "14 kungacha",
-      "Himoya": "5 ATM suv o'tkazmas",
-      "Ulanish": "Bluetooth 5.2, GPS"
-    },
-    "colors": ["Qora", "Jigarrang charm"],
-    "sizes": ["46mm"],
-    "seller": "Huawei Rasmiy Do'koni"
-  },
-  {
-    "id": 1534,
-    "name": "Apple Watch Ultra 2 Titanium GPS + Cellular 49mm Smartwatch",
-    "category": "electronics_accessories",
-    "subCategory": "smart_watches",
-    "brand": "Apple",
-    "model": "NV-APL-WULTRA2",
-    "price": 10890000,
-    "oldPrice": 12500000,
-    "discount": 13,
-    "monthlyInstallment": 907500,
-    "rating": 5.0,
-    "reviewsCount": 45,
-    "isFastDelivery": true,
-    "inStock": 6,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80"
-    ],
-    "description": "Apple Watch Ultra 2 — eng baquvvat titan korpusli smartwatch. 3000 nit yorqinlik, ikki chastotali GPS va 72 soatgacha ishlash vaqti.",
-    "specs": {
-      "Korpus": "Aerokosmik Titan 49mm",
-      "Ekran": "3000 nit Always-On Retina",
-      "Gidroizolyatsiya": "100 metr",
-      "Kafolat": "1 yil Apple rasmiy"
-    },
-    "colors": ["Titanium"],
-    "sizes": ["49mm"],
-    "seller": "Apple Rasmiy Do'koni"
   }
 ];

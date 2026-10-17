@@ -59,11 +59,24 @@
    - 3 bosqichli buyurtma formasi: Ism-familiya, telefon, yetkazib berish turi (Tarqatish punkti - PVZ 0 so'm, Kuryer 20 000 so'm, Tezkor 45 000 so'm), to'lov turi (Payme, Click, Uzcard, Humo, Naqd, 0% Nasiya).
    - Tasdiqlanganda unikal buyurtma raqami bilan muvaffaqiyat oynasi (`#NM-XXXXXX`).
 
-6. **Boshqaruv Paneli (Admin Dashboard)**:
-   - `admin.html` sahifasi orqali to'liq boshqaruv.
-   - 24 ta kategoriya bo'yicha yangi tovar qo'shish, narx, chegirma va ombordagi sonini tahrirlash, o'chirish.
-   - Xaridorlar buyurtmalarini ko'rish va statusini o'zgartirish (*«Yangi»*, *«Yig'ilmoqda»*, *«Yetkazilmoqda»*, *«Yetkazib berildi»*).
-   - Standart katalog holatiga qaytarish (Reset).
+6. **Professional Boshqaruv Paneli (Admin & Dispute Center)**:
+   - `admin.html` orqali 256-bit xavfsizlik darajasidagi PIN kod va Brute-Force himoyasi (5 ta xato urinishdan so'ng 60 soniya bloklanadi).
+   - **Muammolarni tezkor hal qilish (Dispute Resolution)**: xaridor telefon raqamini, yetkazish manzilini, yetkazib berish kunini o'zgartirish, admin izohi yozish.
+   - **Buyurtma holatlari tarixi (Order State Machine)**: `pending` -> `confirmed` -> `processing` -> `shipped` -> `delivered` / `cancelled` / `return_requested` / `returned`.
+   - **Ombor nazorati (Inventory Management)**: mahsulot qoldig'i, minimal zaxira ogohlantirishlari, sotilgan va band qilingan miqdorlar.
+   - **Xavfsizlik va audit jurnali (Audit Logs)**: kim, qachon, qaysi buyurtma yoki tovar holatini o'zgartirganini qayd etish.
+   - **Avtomatlashtirilgan zaxiralash (Backup & Restore)**: 1 tugma bilan DB snapshot yaratish va tekshirilgan tiklash.
+
+---
+
+## 🛡️ Enterprise Arxitektura va Xavfsizlik
+
+- **Server-Side Narx Tekshiruvi**: Frontenddan kelgan har qanday narx yoki summa inkor etiladi; server mahsulotning rasmiy bazadagi narxini olib qayta hisoblaydi.
+- **Atomar Ombor Nazorati**: Buyurtma rasmiylashtirilganda ombor qoldig'i atomar kamaytiriladi; buyurtma bekor qilinganda qoldiq avtomatik tiklanadi; manfiy qoldiqqa yo'l qo'yilmaydi.
+- **RBAC Rollar Tizimi**: `customer`, `operator`, `product_manager`, `admin`, `superadmin`.
+- **JWT & Parollar**: Barcha parollar `bcrypt` bilan hashlanadi, xavfsiz sessiya tokenlari beriladi.
+- **Rasm Duplikatsiyasiga Barham Berildi**: Barcha 528 mahsulot o'z kategoriyasiga 100% mos Unsplash tasvirlariga ega, toifalararo rasm chalkashishi 0 ga tushirildi.
+- **Fallback Tizimi**: Rasm yuklanmay qolsa, toifaga mos chiroyli SVG/WebP fallback avtomatik ochiladi.
 
 ---
 
@@ -71,7 +84,10 @@
 
 ```text
 Internet dokon/
-├── public/                  # Statik aktivlar (ikonlar, bannerlar)
+├── server/                  # Enterprise Express.js API & Backend
+│   ├── server.js            # JWT, RBAC, Orders, Inventory, Backup & Healthcheck
+│   └── database.json        # File-persisted / In-memory DB
+├── backups/                 # Avtomatik yaratilgan DB zaxira nusxalari
 ├── src/
 │   ├── data/
 │   │   ├── categories.js    # 24 ta asosiy toifa va pastki bo'limlar
@@ -80,54 +96,57 @@ Internet dokon/
 │   │   ├── catalog/         # Katalog, filtrlash va kartochkalar
 │   │   ├── search/          # Jonli qidiruv va autocomplete
 │   │   ├── cart/            # Savatcha, hisob-kitob va promokodlar
-│   │   ├── checkout/        # Buyurtma rasmiylashtirish
-│   │   └── admin/           # Admin panel boshqaruvi
+│   │   ├── checkout/        # Buyurtma rasmiylashtirish va tekshiruvlar
+│   │   └── admin/           # Admin panel boshqaruvi, audit va nizolarni yechish
 │   ├── services/
-│   │   └── storage.js       # LocalStorage va kesh versiyalarini boshqarish
-│   ├── styles/
-│   │   └── main.css         # Uzum Market darajasidagi zamonaviy CSS
+│   │   └── storage.js       # Centralized store, audit logger va kesh versiyasi
 │   ├── utils/
-│   │   └── formatters.js    # So'm narxlari va nasiya hisoblagichi
+│   │   ├── formatters.js    # So'm narxlari va nasiya hisoblagichi
+│   │   └── imageFallback.js # Kategoriya bo'yicha kafolatlangan rasm fallbacklari
 │   └── main.js              # Bosh JS moduli (MegaMenu, Slider, Modallar)
-├── scripts/
-│   └── build_full_catalog.py # 24 kategoriya va 528 mahsulot generatori
 ├── tests/
-│   └── catalog.test.js      # Avtomatlashtirilgan testlar (24 kategoriya, 500+ tovar)
-├── admin.html               # Administrator boshqaruv paneli
+│   ├── catalog.test.js      # Katalog va toifalar testlari
+│   └── enterprise_backend.test.js # Backend, narx xavfsizligi va tiklash testlari
+├── admin.html               # Administrator boshqaruv paneli (PIN & Audit)
 ├── index.html               # Asosiy do'kon interfeysi
-├── vite.config.js           # Vite konfiguratsiyasi
+├── render.yaml              # Render.com avtomatik deploy konfiguratsiyasi
 ├── package.json             # Loyiha skriptlari va bog'liqliklari
-└── README.md                # Qo'llanma
+└── README.md                # To'liq texnik hujjat
 ```
 
 ---
 
-## 🚀 Ishga Tushirish
+## 🚀 Ishga Tushirish va Testlash
 
-### 1. Vite Development Server (Tavsiya etiladi):
+### 1. Boshlang'ich Sozlash:
+```bash
+npm install
+```
+
+### 2. Frontend Development Server:
 ```bash
 npm run dev
 ```
 Sayt `http://localhost:5173/` manzilida ishga tushadi.
 
-### 2. Testlarni Ishga Tushirish:
+### 3. Enterprise Backend Serverini Ishga Tushirish:
 ```bash
-node tests/catalog.test.js
+npm run server
 ```
-Katalogdagi barcha 24 toifa va 528 mahsulot xususiyatlari, narxlari va formatlarini avtomatik tekshiradi.
+Backend `http://localhost:5050` manzilida ishlaydi:
+- Salomatlik tekshiruvi: `GET http://localhost:5050/api/health`
+- Boshlang'ich Superadmin: `admin@novamarket.uz` / `NovaMarket2026!Secure`
+- Admin PIN kodi: `2026`
 
-### 3. Ishlab Chiqarishga Tayyorlash (Production Build):
+### 4. Barcha Testlarni O'tkazish:
+```bash
+npm test
+npm run test:enterprise
+```
+
+### 5. Production Build:
 ```bash
 npm run build
 ```
-Natija `dist/` papkasiga to'liq optimizatsiya qilingan holda yig'iladi.
+Natija `dist/` papkasiga to'liq optimizatsiya qilingan holda yig'iladi. Render.com ga yuklanganda avtomatik tarzda `node server/server.js` orqali frontend va backend bitta xizmat sifatida xavfsiz ishga tushadi.
 
-
-### 3. Avtomatlashtirilgan Testlarni O'tkazish:
-```bash
-npm test
-```
-
-### 4. To'g'ridan-to'g'ri Brauzerda Ochish:
-`index.html` faylini istalgan brauzerda (Chrome, Edge) to'g'ridan-to'g'ri ochib ham barcha funksiyalardan to'liq foydalanish mumkin!
-Administrator panelini ko'rish uchun esa `admin.html` faylini oching.

@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-10-17T14:18:23.827Z",
+  "version": "1.0",
+  "data": {
+    "users": [
+      {
+        "id": "usr_superadmin_01",
+        "name": "Super Administrator",
+        "email": "admin@novamarket.uz",
+        "password": "$2b$10$ha42u8OfpYx/ugnRBfHNMOylcmgFW9.4ZqnSguyyOTlKHuhp.0Rwy",
+        "role": "superadmin",
+        "createdAt": "2026-10-17T14:17:18.666Z"
+      }
+    ],
+    "orders": [
+      {
+        "id": "ORD-703811-348",
+        "items": [
+          {
+            "id": 1001,
+            "name": "Apple iPhone 16 Pro Max 256GB Cho'l Titani",
+            "price": 16890000,
+            "oldPrice": 18500000,
+            "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+            "category": "phones_smartphones",
+            "quantity": 2,
+            "itemTotal": 33780000
+          }
+        ],
+        "totalAmount": 33780000,
+        "customer": {
+          "name": "Alisher Navoiy",
+          "phone": "+998901234567"
+        },
+        "deliveryAddress": "Toshkent sh., Chilonzor 19-mavze",
+        "deliveryDays": 1,
+        "createdAt": "2026-10-17T14:18:23.811Z",
+        "estimatedDelivery": "2026-10-18T14:18:23.811Z",
+        "paymentMethod": "click",
+        "installmentMonths": null,
+        "status": "pending",
+        "statusHistory": [
+          {
+            "status": "pending",
+            "timestamp": "2026-10-17T14:18:23.811Z",
+            "note": "Buyurtma tizimda qabul qilindi"
+          }
+        ]
+      },
+      {
+        "id": "ORD-681770-758",
+        "items": [
+          {
+            "id": 1001,
+            "name": "Apple iPhone 16 Pro Max 256GB Cho'l Titani",
+            "price": 16890000,
+            "oldPrice": 18500000,
+            "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+            "category": "phones_smartphones",
+            "quantity": 2,
+            "itemTotal": 33780000
+          }
+        ],
+        "totalAmount": 33780000,
+        "customer": {
+          "name": "Alisher Navoiy",
+          "phone": "+998901234567"
+        },
+        "deliveryAddress": "Toshkent sh., Chilonzor 19-mavze",
+        "deliveryDays": 1,
+        "createdAt": "2026-10-17T14:18:01.770Z",
+        "estimatedDelivery": "2026-10-18T14:18:01.770Z",
+        "paymentMethod": "click",
+        "installmentMonths": null,
+        "status": "pending",
+        "statusHistory": [
+          {
+            "status": "pending",
+            "timestamp": "2026-10-17T14:18:01.770Z",
+            "note": "Buyurtma tizimda qabul qilindi"
+          }
+        ]
+      }
+    ],
+    "inventory": {
+      "1001": 4
+    },
+    "auditLogs": [
+      {
+        "id": "log_1792246703811",
+        "action": "ORDER_CREATED",
+        "target": "ORD-703811-348",
+        "details": "Mijoz Alisher Navoiy tomonidan 33 780 000 so'mlik buyurtma yaratildi",
+        "performedBy": "Alisher Navoiy",
+        "timestamp": "2026-10-17T14:18:23.811Z"
+      },
+      {
+        "id": "log_1792246681770",
+        "action": "ORDER_CREATED",
+        "target": "ORD-681770-758",
+        "details": "Mijoz Alisher Navoiy tomonidan 33 780 000 so'mlik buyurtma yaratildi",
+        "performedBy": "Alisher Navoiy",
+        "timestamp": "2026-10-17T14:18:01.782Z"
+      }
+    ]
+  }
+}

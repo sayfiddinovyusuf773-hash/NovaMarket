@@ -3,7 +3,7 @@
  */
 import { INITIAL_PRODUCTS } from '../data/products.js';
 
-const CATALOG_VERSION = 'v4.1_smart_search_534';
+const CATALOG_VERSION = 'v5.0_enterprise_perfect_images';
 
 const STORAGE_KEYS = {
   VERSION: 'novamarket_catalog_version',
@@ -12,7 +12,9 @@ const STORAGE_KEYS = {
   WISHLIST: 'novamarket_wishlist_ids',
   ORDERS: 'novamarket_customer_orders',
   USER: 'novamarket_auth_user',
-  CITY: 'novamarket_selected_city'
+  CITY: 'novamarket_selected_city',
+  ADMIN_PIN: 'novamarket_admin_secure_pin',
+  AUDIT_LOGS: 'novamarket_admin_audit_logs'
 };
 
 export const StorageService = {
@@ -63,6 +65,7 @@ export const StorageService = {
     };
     products.unshift(productWithId);
     this.saveProducts(products);
+    this.addAuditLog('Mahsulot qo\'shildi', `Yangi mahsulot kiritildi: ${productWithId.name} (Narxi: ${productWithId.price} so'm, Omborda: ${productWithId.inStock})`);
     return productWithId;
   },
 
@@ -70,8 +73,10 @@ export const StorageService = {
     const products = this.getProducts();
     const index = products.findIndex(p => p.id === Number(id));
     if (index !== -1) {
+      const oldName = products[index].name;
       products[index] = { ...products[index], ...updatedFields };
       this.saveProducts(products);
+      this.addAuditLog('Mahsulot tahrirlandi', `ID: ${id} — «${oldName}» ma'lumotlari yangilandi`);
       return products[index];
     }
     return null;
@@ -79,14 +84,17 @@ export const StorageService = {
 
   deleteProduct(id) {
     const products = this.getProducts();
+    const target = products.find(p => p.id === Number(id));
     const filtered = products.filter(p => p.id !== Number(id));
     this.saveProducts(filtered);
+    this.addAuditLog('Mahsulot o\'chirildi', `ID: ${id} — «${target?.name || 'Mahsulot'}» o'chirildi`);
     return filtered;
   },
 
   resetProductsToDefault() {
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
     localStorage.setItem(STORAGE_KEYS.VERSION, CATALOG_VERSION);
+    this.addAuditLog('Katalog tiklandi', 'Barcha mahsulotlar boshlang\'ich holatga qaytarildi');
     return INITIAL_PRODUCTS;
   },
 
@@ -195,14 +203,29 @@ export const StorageService = {
       deliveryDays,
       estimatedDeliveryDate: deliveryDate.toISOString(),
       status: 'Yangi', // Yangi, Yig'ilmoqda, Yetkazilmoqda, Yetkazib berildi, Bekor qilindi
+      adminNotes: [],
       ...orderData
     };
+
+    // Ombordagi qoldiqni avtomatik kamaytirish (Stock Deduction)
+    if (Array.isArray(orderData.items) && orderData.items.length > 0) {
+      const products = this.getProducts();
+      orderData.items.forEach(cartItem => {
+        const prod = products.find(p => p.id === cartItem.id);
+        if (prod) {
+          prod.inStock = Math.max(0, (prod.inStock || 0) - (cartItem.quantity || 1));
+        }
+      });
+      this.saveProducts(products);
+    }
+
     orders.unshift(newOrder);
     localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
+    this.addAuditLog('Yangi buyurtma', `Buyurtma ${newOrder.orderId} qabul qilindi (${orderData.customer?.fullName || 'Xaridor'})`);
     return newOrder;
   },
 
-  cancelOrder(orderId) {
+  cancelOrder(orderId, isAdmin = false, reason = "Xaridor tomonidan bekor qilindi") {
     const orders = this.getOrders();
     const order = orders.find(o => o.orderId === orderId);
     if (!order) return { success: false, message: "Buyurtma topilmadi" };
@@ -211,24 +234,41 @@ export const StorageService = {
       return { success: false, message: "Ushbu buyurtma allaqachon bekor qilingan." };
     }
 
-    if (order.status === 'Yetkazib berildi') {
+    if (order.status === 'Yetkazib berildi' && !isAdmin) {
       return { success: false, message: "Buyurtma yetkazib berilgan, uni bekor qilib bo'lmaydi." };
     }
 
-    // Yetkazilishiga 1 kun (24 soat) yoki undan kam qolganligini tekshirish
-    const deliveryTime = new Date(order.estimatedDeliveryDate || (new Date(order.createdAt).getTime() + (order.deliveryDays || 2) * 24 * 3600 * 1000)).getTime();
-    const hoursRemaining = (deliveryTime - Date.now()) / (1000 * 60 * 60);
+    // Yetkazilishiga 1 kun (24 soat) yoki undan kam qolganligini tekshirish (faqat mijoz uchun)
+    if (!isAdmin) {
+      const deliveryTime = new Date(order.estimatedDeliveryDate || (new Date(order.createdAt).getTime() + (order.deliveryDays || 2) * 24 * 3600 * 1000)).getTime();
+      const hoursRemaining = (deliveryTime - Date.now()) / (1000 * 60 * 60);
 
-    if (hoursRemaining <= 24) {
-      return { 
-        success: false, 
-        message: "Mahsulot yetkazilishiga 1 kun yoki undan kam vaqt qoldi. Tovar yo'lga chiqarilgani sababli bekor qilib bo'lmaydi." 
-      };
+      if (hoursRemaining <= 24) {
+        return { 
+          success: false, 
+          message: "Mahsulot yetkazilishiga 1 kun yoki undan kam vaqt qoldi. Tovar yo'lga chiqarilgani sababli bekor qilib bo'lmaydi." 
+        };
+      }
     }
 
     order.status = 'Bekor qilindi';
     order.cancelledAt = new Date().toISOString();
+    order.cancelReason = reason;
+
+    // Ombordagi tovar qoldig'ini qaytarish (Stock Restoration)
+    if (Array.isArray(order.items) && order.items.length > 0) {
+      const products = this.getProducts();
+      order.items.forEach(cartItem => {
+        const prod = products.find(p => p.id === cartItem.id);
+        if (prod) {
+          prod.inStock = (prod.inStock || 0) + (cartItem.quantity || 1);
+        }
+      });
+      this.saveProducts(products);
+    }
+
     localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
+    this.addAuditLog('Buyurtma bekor qilindi', `Buyurtma ${orderId} bekor qilindi (${isAdmin ? 'Admin tomonidan' : 'Mijoz tomonidan'}). Sabab: ${reason}`);
     return { success: true, message: "Buyurtma muvaffaqiyatli bekor qilindi.", order };
   },
 
@@ -236,13 +276,91 @@ export const StorageService = {
     const orders = this.getOrders();
     const order = orders.find(o => o.orderId === orderId);
     if (order) {
+      const oldStatus = order.status;
       order.status = newStatus;
       if (newStatus === 'Bekor qilindi' || newStatus === 'Bekor qilingan') {
         order.cancelledAt = new Date().toISOString();
+        // Omborni qaytarish
+        if (Array.isArray(order.items) && oldStatus !== 'Bekor qilindi') {
+          const products = this.getProducts();
+          order.items.forEach(cartItem => {
+            const prod = products.find(p => p.id === cartItem.id);
+            if (prod) prod.inStock = (prod.inStock || 0) + (cartItem.quantity || 1);
+          });
+          this.saveProducts(products);
+        }
       }
       localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
+      this.addAuditLog('Buyurtma holati o\'zgardi', `Buyurtma ${orderId}: «${oldStatus}» -> «${newStatus}»`);
     }
     return orders;
+  },
+
+  updateOrderDetails(orderId, updateData) {
+    const orders = this.getOrders();
+    const order = orders.find(o => o.orderId === orderId);
+    if (!order) return { success: false, message: "Buyurtma topilmadi" };
+
+    if (updateData.customer) {
+      order.customer = { ...order.customer, ...updateData.customer };
+    }
+    if (updateData.delivery) {
+      order.delivery = { ...order.delivery, ...updateData.delivery };
+      if (updateData.delivery.deliveryDays) {
+        order.deliveryDays = Number(updateData.delivery.deliveryDays);
+        const createdDate = new Date(order.createdAt || Date.now());
+        order.estimatedDeliveryDate = new Date(createdDate.getTime() + order.deliveryDays * 24 * 60 * 60 * 1000).toISOString();
+      }
+    }
+    if (updateData.status && updateData.status !== order.status) {
+      this.updateOrderStatus(orderId, updateData.status);
+    }
+    if (updateData.adminNote) {
+      if (!Array.isArray(order.adminNotes)) order.adminNotes = [];
+      order.adminNotes.unshift({
+        text: updateData.adminNote,
+        date: new Date().toISOString()
+      });
+    }
+
+    order.updatedAt = new Date().toISOString();
+    localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(orders));
+    this.addAuditLog('Buyurtma tahrirlandi', `Admin ${orderId} buyurtma ma'lumotlarini to'g'irladi`);
+    return { success: true, order };
+  },
+
+  // ================= ADMIN SECURITY & AUDIT =================
+  getAdminPin() {
+    return localStorage.getItem(STORAGE_KEYS.ADMIN_PIN) || 'nova2026';
+  },
+
+  setAdminPin(newPin) {
+    if (!newPin || newPin.trim().length < 4) return false;
+    localStorage.setItem(STORAGE_KEYS.ADMIN_PIN, newPin.trim());
+    this.addAuditLog('Admin paroli o\'zgardi', "Do'kon boshqaruv paroli muvaffaqiyatli yangilandi");
+    return true;
+  },
+
+  getAuditLogs() {
+    try {
+      const stored = localStorage.getItem(STORAGE_KEYS.AUDIT_LOGS);
+      return stored ? JSON.parse(stored) : [];
+    } catch {
+      return [];
+    }
+  },
+
+  addAuditLog(action, details) {
+    try {
+      const logs = this.getAuditLogs();
+      logs.unshift({
+        id: Date.now() + Math.floor(Math.random() * 1000),
+        time: new Date().toISOString(),
+        action,
+        details
+      });
+      localStorage.setItem(STORAGE_KEYS.AUDIT_LOGS, JSON.stringify(logs.slice(0, 100)));
+    } catch (_) {}
   },
 
   // ================= USER & LOCATION =================

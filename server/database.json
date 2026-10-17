@@ -11,6 +11,40 @@
   ],
   "orders": [
     {
+      "id": "ORD-818610-684",
+      "items": [
+        {
+          "id": 1001,
+          "name": "Apple iPhone 16 Pro Max 256GB Cho'l Titani",
+          "price": 16890000,
+          "oldPrice": 18500000,
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80",
+          "category": "phones_smartphones",
+          "quantity": 2,
+          "itemTotal": 33780000
+        }
+      ],
+      "totalAmount": 33780000,
+      "customer": {
+        "name": "Alisher Navoiy",
+        "phone": "+998901234567"
+      },
+      "deliveryAddress": "Toshkent sh., Chilonzor 19-mavze",
+      "deliveryDays": 1,
+      "createdAt": "2026-10-17T14:53:38.610Z",
+      "estimatedDelivery": "2026-10-18T14:53:38.610Z",
+      "paymentMethod": "click",
+      "installmentMonths": null,
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-10-17T14:53:38.610Z",
+          "note": "Buyurtma tizimda qabul qilindi"
+        }
+      ]
+    },
+    {
       "id": "ORD-414835-639",
       "items": [
         {
@@ -148,9 +182,17 @@
     }
   ],
   "inventory": {
-    "1001": 0
+    "1001": 23
   },
   "auditLogs": [
+    {
+      "id": "log_1792248818610",
+      "action": "ORDER_CREATED",
+      "target": "ORD-818610-684",
+      "details": "Mijoz Alisher Navoiy tomonidan 33 780 000 so'mlik buyurtma yaratildi",
+      "performedBy": "Alisher Navoiy",
+      "timestamp": "2026-10-17T14:53:38.622Z"
+    },
     {
       "id": "log_1792248414835",
       "action": "ORDER_CREATED",

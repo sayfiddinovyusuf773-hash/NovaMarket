@@ -74,11 +74,15 @@
         <span>Katalog</span>
       </button>
 
-      <!-- Universal Search Bar -->
+      <!-- Universal Search Bar with Uzum Style QR Scanner -->
       <div class="search-container">
         <div class="search-input-box">
           <i class="fa-solid fa-magnifying-glass"></i>
           <input type="text" id="universalSearchInput" placeholder="Istalgan tovar, brend yoki xususiyatni qidiring: iPhone, televizor, sovutkich, krossovka..." autocomplete="off">
+          <button type="button" class="btn-qr-scan-header" id="headerQrScanBtn" onclick="window.novaMarketApp?.openQrScannerModal()" title="Mahsulot QR-kodini skanerlash">
+            <i class="fa-solid fa-qrcode"></i>
+            <span class="qr-btn-text">QR Skaner</span>
+          </button>
           <button class="clear-search-btn" id="clearSearchBtn"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <button class="search-action-btn" onclick="window.novaMarketApp.catalogFeature.setSearchQuery(document.getElementById('universalSearchInput').value.trim());">
@@ -720,6 +724,75 @@
         <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Farg\'ona')">Farg'ona</button>
         <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Qarshi')">Qarshi</button>
         <button class="btn btn-outline" onclick="window.novaMarketApp.selectCity('Urganch')">Urganch</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= UZUM MARKET STYLE QR SCANNER MODAL ================= -->
+  <div class="modal-overlay" id="qrScannerModalOverlay">
+    <div class="modal-window" style="max-width: 480px; padding: 24px; text-align: center;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+        <h3 style="font-size: 18px; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-qrcode text-primary"></i> Mahsulot QR-kodini skanerlash
+        </h3>
+        <button class="modal-close-btn" onclick="window.novaMarketApp?.closeModal('qrScannerModalOverlay')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Scanner Frame UI -->
+      <div class="qr-scanner-frame" id="qrScannerFrame">
+        <div class="qr-scanner-laser"></div>
+        <div class="qr-scanner-corners">
+          <span class="corner top-left"></span>
+          <span class="corner top-right"></span>
+          <span class="corner bottom-left"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+        <div class="qr-scanner-placeholder">
+          <i class="fa-solid fa-camera" style="font-size: 36px; color: #A855F7; margin-bottom: 10px;"></i>
+          <p style="font-size: 13px; color: #64748B; margin: 0;">Kamera orqali tovar QR-kodini ramkaga to'g'rilang yoki quyidagi kodni kiriting</p>
+        </div>
+      </div>
+
+      <!-- Quick manual code test / paste input -->
+      <div style="margin-top: 16px;">
+        <label style="font-size: 12px; font-weight: 700; color: #475569; display: block; text-align: left; margin-bottom: 6px;">
+          QR-kod matni, mahsulot ID yoki SKU kodi:
+        </label>
+        <div style="display: flex; gap: 8px;">
+          <input type="text" id="qrManualCodeInput" placeholder="Masalan: 1001 yoki NV-PHO-100 yoki to'liq link" 
+                 style="flex: 1; padding: 10px 12px; border: 1.5px solid #CBD5E1; border-radius: 8px; font-size: 13px;">
+          <button type="button" class="btn btn-primary" onclick="window.novaMarketApp?.processScannedQr(document.getElementById('qrManualCodeInput').value.trim())">
+            Tekshirish
+          </button>
+        </div>
+      </div>
+
+      <!-- Demo quick scan chips -->
+      <div style="margin-top: 14px; text-align: left;">
+        <span style="font-size: 11.5px; color: #64748B; font-weight: 600;">Tezkor sinab ko'rish uchun mashhur tovarlar:</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+          <button type="button" class="btn-qr-chip" onclick="window.novaMarketApp?.processScannedQr('1001')">iPhone 16 Pro Max</button>
+          <button type="button" class="btn-qr-chip" onclick="window.novaMarketApp?.processScannedQr('1002')">Galaxy S24 Ultra</button>
+          <button type="button" class="btn-qr-chip" onclick="window.novaMarketApp?.processScannedQr('1023')">Samsung 65 QLED TV</button>
+          <button type="button" class="btn-qr-chip" onclick="window.novaMarketApp?.processScannedQr('1045')">LG Sovutkich</button>
+          <button type="button" class="btn-qr-chip" onclick="window.novaMarketApp?.processScannedQr('1089')">AirPods Pro 2</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SCANNED PRODUCT RESULT MODAL ================= -->
+  <div class="modal-overlay" id="qrScannedResultModalOverlay">
+    <div class="modal-window" style="max-width: 480px; padding: 24px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+        <span class="uzum-qr-badge" style="margin-bottom: 0;">
+          <i class="fa-solid fa-circle-check text-success"></i> Mahsulot aniqlandi
+        </span>
+        <button class="modal-close-btn" onclick="window.novaMarketApp?.closeModal('qrScannedResultModalOverlay')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div id="qrScannedProductContent">
+        <!-- Rendered dynamically -->
       </div>
     </div>
   </div>

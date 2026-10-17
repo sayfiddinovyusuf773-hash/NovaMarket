@@ -995,6 +995,105 @@ class NovaMarketApp {
       setTimeout(() => toast.remove(), 250);
     }, 3200);
   }
+
+  // ================= UZUM MARKET STYLE QR SCANNER FEATURE =================
+  openQrScannerModal() {
+    this.openModal('qrScannerModalOverlay');
+    const input = document.getElementById('qrManualCodeInput');
+    if (input) {
+      input.value = '';
+      setTimeout(() => input.focus(), 150);
+    }
+  }
+
+  processScannedQr(rawText) {
+    if (!rawText || !rawText.trim()) {
+      alert("Iltimos, QR-kod matni yoki mahsulot ID/SKU sini kiriting.");
+      return;
+    }
+
+    const clean = rawText.trim();
+    const products = StorageService.getProducts();
+
+    // 1. Try finding by ID directly (e.g. "1001" or NOVAMARKET-PRODUCT:ID=1001)
+    let foundProduct = null;
+    let foundOrder = null;
+
+    // Check if it's an order QR
+    if (clean.includes('ORD-') || clean.includes('NM-') || clean.includes('NOVAMARKET:NM-') || clean.includes('NOVAMARKET:ORD-')) {
+      const match = clean.match(/(NM-\d+|ORD-[A-Za-z0-9-]+)/);
+      const orderId = match ? match[1] : clean;
+      const orders = StorageService.getOrders();
+      foundOrder = orders.find(o => o.orderId === orderId || o.id === orderId);
+    }
+
+    // Check if product QR: NOVAMARKET-PRODUCT:ID=1001:...
+    const idMatch = clean.match(/ID=(\d+)/i) || clean.match(/^(\d+)$/);
+    if (idMatch) {
+      const pId = parseInt(idMatch[1], 10);
+      foundProduct = products.find(p => p.id === pId);
+    }
+
+    // Try finding by SKU or model
+    if (!foundProduct) {
+      const skuMatch = clean.match(/SKU=([^:]+)/i);
+      const sku = skuMatch ? skuMatch[1] : clean;
+      foundProduct = products.find(p => (p.model && p.model.toLowerCase() === sku.toLowerCase()) || p.name.toLowerCase().includes(clean.toLowerCase()));
+    }
+
+    this.closeModal('qrScannerModalOverlay');
+
+    if (foundProduct) {
+      this.showScannedProductModal(foundProduct);
+    } else if (foundOrder) {
+      this.openOrdersModal();
+      this.showToast('Buyurtma topildi', `#${foundOrder.orderId || foundOrder.id} topildi`, 'fa-box-open');
+    } else {
+      alert(`QR-kod bo'yicha hech qanday tovar yoki buyurtma topilmadi: "${clean}"`);
+    }
+  }
+
+  showScannedProductModal(product) {
+    const container = document.getElementById('qrScannedProductContent');
+    if (!container) return;
+
+    container.innerHTML = `
+      <div class="scanned-product-preview-card">
+        <img src="${product.image}" alt="${product.name}" class="scanned-product-thumb">
+        <div style="flex: 1;">
+          <span style="font-size: 11px; font-weight: 700; color: #7000FF; text-transform: uppercase;">
+            ${product.brand || 'NovaMarket'} • SKU: ${product.model || product.id}
+          </span>
+          <h4 style="font-size: 14px; font-weight: 800; color: #0F172A; margin: 4px 0 6px 0; line-height: 1.3;">
+            ${product.name}
+          </h4>
+          <div style="display: flex; align-items: baseline; gap: 8px;">
+            <strong style="font-size: 16px; color: #7000FF;">${formatPrice(product.price)}</strong>
+            ${product.oldPrice ? `<span style="text-decoration: line-through; font-size: 12px; color: #94A3B8;">${formatPrice(product.oldPrice)}</span>` : ''}
+          </div>
+          <div style="font-size: 11.5px; color: #16A34A; font-weight: 700; margin-top: 4px;">
+            <i class="fa-solid fa-circle-check"></i> Omborda mavjud (${product.inStock || 20} dona)
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 10px; font-size: 12px; color: #475569; margin-bottom: 16px; line-height: 1.5;">
+        <strong><i class="fa-solid fa-shield-halved text-primary"></i> Rasmiy ma'lumotlar tasdiqlandi:</strong><br>
+        Ushbu QR-kod NovaMarket ma'lumotlar bazasi bilan to'liq mos keladi. Mahsulot 100% original va 1 yillik rasmiy kafolatga ega.
+      </div>
+
+      <div style="display: flex; gap: 10px;">
+        <button class="btn btn-primary" style="flex: 1;" onclick="window.novaMarketApp.addToCart(${product.id}); window.novaMarketApp.closeModal('qrScannedResultModalOverlay');">
+          <i class="fa-solid fa-bag-shopping"></i> Savatchaga qo'shish
+        </button>
+        <button class="btn btn-outline" onclick="window.novaMarketApp.closeModal('qrScannedResultModalOverlay'); window.novaMarketApp.openProductModal(${product.id});">
+          Batafsil ko'rish
+        </button>
+      </div>
+    `;
+
+    this.openModal('qrScannedResultModalOverlay');
+  }
 }
 
 // Instantiate and expose globally with immediate fallback

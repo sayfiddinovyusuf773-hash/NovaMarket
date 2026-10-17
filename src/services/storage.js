@@ -3,7 +3,7 @@
  */
 import { INITIAL_PRODUCTS } from '../data/products.js';
 
-const CATALOG_VERSION = 'v4.0_distinct_photos_528';
+const CATALOG_VERSION = 'v4.1_smart_search_534';
 
 const STORAGE_KEYS = {
   VERSION: 'novamarket_catalog_version',

@@ -18259,5 +18259,186 @@ export const INITIAL_PRODUCTS = [
       "Standart"
     ],
     "seller": "Boshqa tovarlar Rasmiy Do'koni"
+  },
+  {
+    "id": 1529,
+    "name": "Muzlatgich Artel Grand HD 340L Smart Inverter (Xolodilnik / Haladenlik)",
+    "category": "appliances",
+    "subCategory": "refrigerators",
+    "brand": "Artel",
+    "model": "NV-ART-HD340",
+    "price": 4850000,
+    "oldPrice": 5600000,
+    "discount": 13,
+    "monthlyInstallment": 404166,
+    "rating": 4.8,
+    "reviewsCount": 42,
+    "isFastDelivery": true,
+    "inStock": 15,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=700&q=80",
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Artel Grand HD 340L Inverter Muzlatgich (Xolodilnik / Haladenlik) — tejamkor A+ energiya sinfi, No Frost texnologiyasi va 3 yil to'liq kafolat.",
+    "specs": {
+      "Hajm": "340 litr",
+      "Muzlatish turi": "Total No Frost",
+      "Kompressor": "Smart Inverter",
+      "Kafolat": "3 yil rasmiy"
+    },
+    "colors": ["Kumushrang", "Oq", "Qora"],
+    "sizes": ["Standart"],
+    "seller": "Artel Rasmiy Do'koni"
+  },
+  {
+    "id": 1530,
+    "name": "Sovutgich Bosch Serie 6 No Frost 435L (Muzlatgich / Xolodilnik)",
+    "category": "appliances",
+    "subCategory": "refrigerators",
+    "brand": "Bosch",
+    "model": "NV-BOSCH-KGN49",
+    "price": 10500000,
+    "oldPrice": 12200000,
+    "discount": 14,
+    "monthlyInstallment": 875000,
+    "rating": 4.9,
+    "reviewsCount": 29,
+    "isFastDelivery": true,
+    "inStock": 7,
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Sovutgich Bosch Serie 6 VitaFresh tizimli katta hajmli muzlatgich (xolodilnik). Mahsulotlarni 3 barobar uzoqroq yangi saqlaydi.",
+    "specs": {
+      "Hajm": "435 litr",
+      "Tizim": "VitaFresh Plus No Frost",
+      "Shovqin darajasi": "38 dB",
+      "Kafolat": "10 yil kompressorga"
+    },
+    "colors": ["Inox zanglamaydigan po'lat"],
+    "sizes": ["Standart"],
+    "seller": "Bosch Official Store"
+  },
+  {
+    "id": 1531,
+    "name": "Kir yuvish mashinasi Artel 7kg Avtomat Grand (Kirmashina / Kirmoshina)",
+    "category": "appliances",
+    "subCategory": "washing_machines",
+    "brand": "Artel",
+    "model": "NV-ART-WM70",
+    "price": 3890000,
+    "oldPrice": 4500000,
+    "discount": 14,
+    "monthlyInstallment": 324166,
+    "rating": 4.7,
+    "reviewsCount": 54,
+    "isFastDelivery": true,
+    "inStock": 18,
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Artel 7kg Avtomat Kir yuvish mashinasi (Kirmashina) — 1200 ayl/daq siqish tezligi, bug' bilan yuvish rejimi va jim motor.",
+    "specs": {
+      "Sig'im": "7 kg",
+      "Aylanish tezligi": "1200 ayl/daq",
+      "Dasturlar": "16 ta rejim",
+      "Kafolat": "3 yil rasmiy"
+    },
+    "colors": ["Oq", "To'q kulrang"],
+    "sizes": ["Standart"],
+    "seller": "Artel Rasmiy Do'koni"
+  },
+  {
+    "id": 1532,
+    "name": "Kir yuvish mashinasi Bosch Serie 6 9kg EcoSilence Drive (Kirmashina)",
+    "category": "appliances",
+    "subCategory": "washing_machines",
+    "brand": "Bosch",
+    "model": "NV-BOSCH-WAT28",
+    "price": 8900000,
+    "oldPrice": 10200000,
+    "discount": 13,
+    "monthlyInstallment": 741666,
+    "rating": 4.9,
+    "reviewsCount": 38,
+    "isFastDelivery": true,
+    "inStock": 9,
+    "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Bosch Serie 6 nemis sifatli kir yuvish mashinasi — EcoSilence Drive motori juda jim ishlaydi va energiyani tejaydi.",
+    "specs": {
+      "Sig'im": "9 kg",
+      "Aylanish tezligi": "1400 ayl/daq",
+      "Motor": "EcoSilence Drive inverter",
+      "Kafolat": "10 yil motorga"
+    },
+    "colors": ["Kumushrang"],
+    "sizes": ["Standart"],
+    "seller": "Bosch Official Store"
+  },
+  {
+    "id": 1533,
+    "name": "Huawei Watch GT 4 Smartwatch 46mm Smart soat (Qora / Jigarrang)",
+    "category": "electronics_accessories",
+    "subCategory": "smart_watches",
+    "brand": "Huawei",
+    "model": "NV-HUA-GT4",
+    "price": 2490000,
+    "oldPrice": 2990000,
+    "discount": 17,
+    "monthlyInstallment": 207500,
+    "rating": 4.8,
+    "reviewsCount": 73,
+    "isFastDelivery": true,
+    "inStock": 22,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Huawei Watch GT 4 premium aqlli soat (smartwatch) — 14 kungacha avtonom ishlash, AMOLED ekran, yurak urishi va SpO2 nazorati.",
+    "specs": {
+      "Ekran": "1.43 dyuym AMOLED",
+      "Batareya": "14 kungacha",
+      "Himoya": "5 ATM suv o'tkazmas",
+      "Ulanish": "Bluetooth 5.2, GPS"
+    },
+    "colors": ["Qora", "Jigarrang charm"],
+    "sizes": ["46mm"],
+    "seller": "Huawei Rasmiy Do'koni"
+  },
+  {
+    "id": 1534,
+    "name": "Apple Watch Ultra 2 Titanium GPS + Cellular 49mm Smartwatch",
+    "category": "electronics_accessories",
+    "subCategory": "smart_watches",
+    "brand": "Apple",
+    "model": "NV-APL-WULTRA2",
+    "price": 10890000,
+    "oldPrice": 12500000,
+    "discount": 13,
+    "monthlyInstallment": 907500,
+    "rating": 5.0,
+    "reviewsCount": 45,
+    "isFastDelivery": true,
+    "inStock": 6,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80"
+    ],
+    "description": "Apple Watch Ultra 2 — eng baquvvat titan korpusli smartwatch. 3000 nit yorqinlik, ikki chastotali GPS va 72 soatgacha ishlash vaqti.",
+    "specs": {
+      "Korpus": "Aerokosmik Titan 49mm",
+      "Ekran": "3000 nit Always-On Retina",
+      "Gidroizolyatsiya": "100 metr",
+      "Kafolat": "1 yil Apple rasmiy"
+    },
+    "colors": ["Titanium"],
+    "sizes": ["49mm"],
+    "seller": "Apple Rasmiy Do'koni"
   }
 ];

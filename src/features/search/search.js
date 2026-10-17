@@ -3,6 +3,7 @@
  */
 import { StorageService } from '../../services/storage.js';
 import { formatPrice, highlightMatch } from '../../utils/formatters.js';
+import { searchProducts } from '../../utils/searchHelper.js';
 
 export class SearchFeature {
   constructor(options = {}) {
@@ -50,8 +51,11 @@ export class SearchFeature {
 
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
+        const val = input.value.trim();
         if (dropdown) dropdown.style.display = 'none';
-        if (this.onSearchSubmit) this.onSearchSubmit(input.value.trim());
+        if (this.onSearchSubmit) this.onSearchSubmit(val);
+        const catalogEl = document.getElementById('catalog');
+        if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });
       }
     });
 
@@ -67,13 +71,8 @@ export class SearchFeature {
     if (!dropdown) return;
 
     const products = StorageService.getProducts();
-    const q = query.toLowerCase();
-
-    const matches = products.filter(p => 
-      p.name.toLowerCase().includes(q) ||
-      (p.brand && p.brand.toLowerCase().includes(q)) ||
-      p.category.toLowerCase().includes(q)
-    ).slice(0, 6);
+    const allMatches = searchProducts(products, query);
+    const matches = allMatches.slice(0, 6);
 
     if (matches.length === 0) {
       dropdown.innerHTML = `
@@ -84,6 +83,8 @@ export class SearchFeature {
       dropdown.style.display = 'block';
       return;
     }
+
+    const safeQuery = query.replace(/'/g, "\\'");
 
     dropdown.innerHTML = matches.map(p => `
       <div class="search-suggestion-item" onclick="window.novaMarketApp.openProductModal(${p.id}); document.getElementById('${this.dropdownId}').style.display='none';">
@@ -96,8 +97,8 @@ export class SearchFeature {
       </div>
     `).join('') + `
       <div style="padding: 10px; text-align: center; background: var(--bg-subtle); border-top: 1px solid var(--border);">
-        <a href="#catalog" style="font-size: 13px; font-weight: 700; color: var(--primary);" onclick="document.getElementById('${this.dropdownId}').style.display='none';">
-          Barcha natijalarni ko'rish (${matches.length}+) <i class="fa-solid fa-arrow-right"></i>
+        <a href="#catalog" style="font-size: 13px; font-weight: 700; color: var(--primary); text-decoration: none; display: inline-flex; align-items: center; gap: 6px;" onclick="window.novaMarketApp.catalogFeature.setSearchQuery('${safeQuery}'); document.getElementById('${this.dropdownId}').style.display='none';">
+          Barcha natijalarni ko'rish (${allMatches.length} ta) <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
     `;
@@ -105,3 +106,4 @@ export class SearchFeature {
     dropdown.style.display = 'block';
   }
 }
+

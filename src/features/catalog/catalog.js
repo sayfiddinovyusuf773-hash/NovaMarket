@@ -3,6 +3,7 @@
  */
 import { StorageService } from '../../services/storage.js';
 import { formatPrice, formatInstallment } from '../../utils/formatters.js';
+import { getProductScore } from '../../utils/searchHelper.js';
 
 export class CatalogFeature {
   constructor(options = {}) {
@@ -37,7 +38,14 @@ export class CatalogFeature {
   }
 
   setSearchQuery(query) {
-    this.state.searchQuery = query;
+    this.state.searchQuery = query ? query.trim() : '';
+    if (this.state.searchQuery.length > 0) {
+      // Global search spans across all categories
+      this.state.activeCategory = 'all';
+      document.querySelectorAll('.quick-cat-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.category === 'all');
+      });
+    }
     this.state.page = 1;
     this.render();
   }
@@ -56,14 +64,13 @@ export class CatalogFeature {
         return false;
       }
 
-      // Search Query Filter
-      if (this.state.searchQuery) {
-        const q = this.state.searchQuery.toLowerCase();
-        const inName = p.name.toLowerCase().includes(q);
-        const inBrand = p.brand && p.brand.toLowerCase().includes(q);
-        const inCategory = p.category.toLowerCase().includes(q);
-        const inDesc = p.description && p.description.toLowerCase().includes(q);
-        if (!inName && !inBrand && !inCategory && !inDesc) return false;
+      // Smart Search Query Filter with Synonyms, Transliteration & Concepts
+      if (this.state.searchQuery && this.state.searchQuery.length >= 2) {
+        const score = getProductScore(p, this.state.searchQuery);
+        if (score <= 0) return false;
+        p._searchScore = score;
+      } else {
+        delete p._searchScore;
       }
 
       // Price Filter
@@ -88,6 +95,12 @@ export class CatalogFeature {
 
       return true;
     }).sort((a, b) => {
+      // Prioritize higher search relevance when searching under default sorting
+      if (this.state.searchQuery && (a._searchScore || b._searchScore) && this.state.sortBy === 'popular') {
+        const scoreDiff = (b._searchScore || 0) - (a._searchScore || 0);
+        if (scoreDiff !== 0) return scoreDiff;
+      }
+
       if (this.state.sortBy === 'price-asc') return a.price - b.price;
       if (this.state.sortBy === 'price-desc') return b.price - a.price;
       if (this.state.sortBy === 'rating') return b.rating - a.rating;

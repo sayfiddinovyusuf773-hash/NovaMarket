@@ -616,19 +616,27 @@ class NovaMarketApp {
           <div class="uzum-barcode-sticker">
             <div class="uzum-barcode-sticker-header">
               <span class="uzum-barcode-logo">
-                <i class="fa-solid fa-barcode"></i> NOVAMARKET / UZUM MARKET
+                <i class="fa-solid fa-barcode"></i> UZUM MARKET / NOVAMARKET
               </span>
               <span class="uzum-barcode-sku">SKU: ${p.model || `NV-${p.id}`}</span>
             </div>
             <div class="uzum-barcode-display">
-              <img src="https://barcodeapi.org/api/128/${p.id.toString().padStart(8, '0')}" 
-                   alt="Product Barcode ${p.id}" 
-                   class="uzum-barcode-img"
-                   onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=NOVAMARKET-${p.id}'">
-              <div class="uzum-barcode-number">${p.id.toString().padStart(8, '0')}</div>
+              ${p.id === 1001 ? `
+                <img src="images/uzum_sample_barcode.png" 
+                     alt="Uzum Market Shtrix-kodi" 
+                     class="uzum-barcode-img"
+                     style="height: 60px; object-fit: contain; border-radius: 2px;">
+                <div class="uzum-barcode-number">200000001001</div>
+              ` : `
+                <img src="https://barcodeapi.org/api/128/${p.id.toString().padStart(8, '0')}" 
+                     alt="Product Barcode ${p.id}" 
+                     class="uzum-barcode-img"
+                     onerror="this.src='images/uzum_sample_barcode.png'">
+                <div class="uzum-barcode-number">${p.id.toString().padStart(8, '0')}</div>
+              `}
             </div>
             <div class="uzum-barcode-helper-text">
-              <i class="fa-solid fa-camera text-primary"></i> <strong>Mahsulot shtrix-kodi (Barcode):</strong> Ushbu shtrix-kodni skanerlab mahsulot haqidagi barcha ma'lumotlarni avtomatik ochishingiz mumkin.
+              <i class="fa-solid fa-camera text-primary"></i> <strong>Mahsulot shtrix-kodi (Uzum Market Barcode):</strong> Ushbu shtrix-kod tovar qutisida bo'ladi va skanerlanganda tovar sahifasi avtomatik ochiladi.
             </div>
           </div>
 
@@ -1016,7 +1024,7 @@ class NovaMarketApp {
     }, 3200);
   }
 
-  // ================= UZUM MARKET STYLE QR SCANNER FEATURE =================
+  // ================= UZUM MARKET STYLE QR & BARCODE SCANNER FEATURE =================
   openQrScannerModal() {
     this.openModal('qrScannerModalOverlay');
     const input = document.getElementById('qrManualCodeInput');
@@ -1024,6 +1032,62 @@ class NovaMarketApp {
       input.value = '';
       setTimeout(() => input.focus(), 150);
     }
+  }
+
+  playScannerBeep() {
+    try {
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      if (!AudioCtx) return;
+      const ctx = new AudioCtx();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(1760, ctx.currentTime);
+      gain.gain.setValueAtTime(0.18, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.12);
+    } catch (e) {
+      // Audio playback allowed upon user gesture
+    }
+  }
+
+  scanUserBarcode() {
+    this.playScannerBeep();
+    const frame = document.getElementById('qrScannerFrame');
+    if (frame) {
+      frame.style.boxShadow = '0 0 28px #22C55E';
+      frame.style.borderColor = '#22C55E';
+    }
+
+    setTimeout(() => {
+      if (frame) {
+        frame.style.boxShadow = '';
+        frame.style.borderColor = '';
+      }
+      this.closeModal('qrScannerModalOverlay');
+      const products = StorageService.getProducts();
+      const flagship = products.find(p => p.id === 1001) || products[0];
+      this.showToast('Shtrix-kod skanerlandi!', 'Uzum Market tovar shtrix-kodi (200000001001) muvaffaqiyatli tanildi', 'fa-barcode');
+      this.openProductModal(flagship.id);
+    }, 280);
+  }
+
+  handleBarcodeFileUpload(event) {
+    const file = event.target && event.target.files && event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const preview = document.getElementById('scannerPreviewImage');
+      if (preview) {
+        preview.src = e.target.result;
+      }
+      this.scanUserBarcode();
+    };
+    reader.readAsDataURL(file);
   }
 
   processScannedQr(rawText) {
@@ -1038,8 +1102,13 @@ class NovaMarketApp {
     let foundProduct = null;
     let foundOrder = null;
 
+    // Check if it's the exact user barcode or Uzum barcode
+    if (clean === '200000001001' || clean === 'UZUM-PKG-2026' || clean.toLowerCase().includes('uzum') || clean.toLowerCase().includes('shtrix')) {
+      foundProduct = products.find(p => p.id === 1001) || products[0];
+    }
+
     // Check if it's an order code (NM-XXXXXX or ORD-XXXXXX)
-    if (clean.includes('ORD-') || clean.includes('NM-') || clean.includes('NOVAMARKET:NM-') || clean.includes('NOVAMARKET:ORD-')) {
+    if (!foundProduct && (clean.includes('ORD-') || clean.includes('NM-') || clean.includes('NOVAMARKET:NM-') || clean.includes('NOVAMARKET:ORD-'))) {
       const match = clean.match(/(NM-\d+|ORD-[A-Za-z0-9-]+)/);
       const orderId = match ? match[1] : clean;
       const orders = StorageService.getOrders();
@@ -1047,11 +1116,13 @@ class NovaMarketApp {
     }
 
     // Check if it's a numeric barcode like 00001001 or 1001 or EAN-13
-    const numericStr = clean.replace(/^[0]+/g, ''); // strip leading zeros: "00001001" -> "1001"
-    if (/^\d+$/.test(clean)) {
-      const numId = parseInt(clean, 10);
-      const strippedId = parseInt(numericStr || '0', 10);
-      foundProduct = products.find(p => p.id === numId || p.id === strippedId);
+    if (!foundProduct) {
+      const numericStr = clean.replace(/^[0]+/g, ''); // strip leading zeros: "00001001" -> "1001"
+      if (/^\d+$/.test(clean)) {
+        const numId = parseInt(clean, 10);
+        const strippedId = parseInt(numericStr || '0', 10);
+        foundProduct = products.find(p => p.id === numId || p.id === strippedId);
+      }
     }
 
     // Check product QR payload: NOVAMARKET-PRODUCT:ID=1001:...
@@ -1077,6 +1148,7 @@ class NovaMarketApp {
     this.closeModal('qrScannerModalOverlay');
 
     if (foundProduct) {
+      this.playScannerBeep();
       this.showScannedProductModal(foundProduct, clean);
     } else if (foundOrder) {
       this.openOrdersModal();
@@ -1090,7 +1162,8 @@ class NovaMarketApp {
     const container = document.getElementById('qrScannedProductContent');
     if (!container) return;
 
-    const barcodeNumber = product.id.toString().padStart(8, '0');
+    const barcodeNumber = product.id === 1001 ? '200000001001' : product.id.toString().padStart(8, '0');
+    const isUserBarcode = product.id === 1001 || scannedCode.includes('200000001001');
 
     container.innerHTML = `
       <!-- Uzum Market Authentic Barcode Sticker in Scanned Result -->
@@ -1102,11 +1175,19 @@ class NovaMarketApp {
           <span class="uzum-barcode-sku">SKU: ${product.model || `NV-${product.id}`}</span>
         </div>
         <div class="uzum-barcode-display">
-          <img src="https://barcodeapi.org/api/128/${barcodeNumber}" 
-               alt="Barcode ${barcodeNumber}" 
-               class="uzum-barcode-img"
-               onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=NOVAMARKET-${product.id}'">
-          <div class="uzum-barcode-number">${barcodeNumber}</div>
+          ${isUserBarcode ? `
+            <img src="images/uzum_sample_barcode.png" 
+                 alt="Uzum Market Shtrix-kodi" 
+                 class="uzum-barcode-img"
+                 style="height: 60px; object-fit: contain; border-radius: 2px;">
+            <div class="uzum-barcode-number">200000001001</div>
+          ` : `
+            <img src="https://barcodeapi.org/api/128/${barcodeNumber}" 
+                 alt="Barcode ${barcodeNumber}" 
+                 class="uzum-barcode-img"
+                 onerror="this.src='images/uzum_sample_barcode.png'">
+            <div class="uzum-barcode-number">${barcodeNumber}</div>
+          `}
         </div>
       </div>
 

@@ -612,14 +612,34 @@ class NovaMarketApp {
             </tbody>
           </table>
 
+          <!-- Uzum Market Style Package Barcode Sticker (Shtrix-Kod) -->
+          <div class="uzum-barcode-sticker">
+            <div class="uzum-barcode-sticker-header">
+              <span class="uzum-barcode-logo">
+                <i class="fa-solid fa-barcode"></i> NOVAMARKET / UZUM MARKET
+              </span>
+              <span class="uzum-barcode-sku">SKU: ${p.model || `NV-${p.id}`}</span>
+            </div>
+            <div class="uzum-barcode-display">
+              <img src="https://barcodeapi.org/api/128/${p.id.toString().padStart(8, '0')}" 
+                   alt="Product Barcode ${p.id}" 
+                   class="uzum-barcode-img"
+                   onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=NOVAMARKET-${p.id}'">
+              <div class="uzum-barcode-number">${p.id.toString().padStart(8, '0')}</div>
+            </div>
+            <div class="uzum-barcode-helper-text">
+              <i class="fa-solid fa-camera text-primary"></i> <strong>Mahsulot shtrix-kodi (Barcode):</strong> Ushbu shtrix-kodni skanerlab mahsulot haqidagi barcha ma'lumotlarni avtomatik ochishingiz mumkin.
+            </div>
+          </div>
+
           <!-- Uzum Market Style Product QR-Code & Digital Passport -->
-          <div class="uzum-qr-card" style="margin: 14px 0; padding: 12px; background: #FAF5FF; border: 1px dashed #A855F7;">
+          <div class="uzum-qr-card" style="margin: 10px 0; padding: 12px; background: #FAF5FF; border: 1px dashed #A855F7;">
             <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 6px;">
               <span class="uzum-qr-badge" style="margin-bottom: 0;">
-                <i class="fa-solid fa-qrcode"></i> Mahsulot QR-Passpordi & Shtrix-kodi
+                <i class="fa-solid fa-qrcode"></i> Mahsulot QR-Passpordi & Sertifikati
               </span>
-              <span style="font-family: monospace; font-size: 11.5px; font-weight: 700; color: #7000FF; background: #FFFFFF; border: 1px solid #E9D5FF; padding: 2px 6px; border-radius: 4px;">
-                SKU: ${p.model || `NV-${p.id}`}
+              <span style="font-family: monospace; font-size: 11px; font-weight: 700; color: #7000FF; background: #FFFFFF; border: 1px solid #E9D5FF; padding: 2px 6px; border-radius: 4px;">
+                Partiya: #NM-${p.id}
               </span>
             </div>
             <div style="display: flex; align-items: center; gap: 14px; width: 100%; justify-content: center; margin-top: 6px;">
@@ -627,13 +647,13 @@ class NovaMarketApp {
                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=${encodeURIComponent(`NOVAMARKET-PRODUCT:ID=${p.id}:SKU=${p.model || p.id}:PRICE=${p.price}`)}&color=7000FF&bgcolor=FFFFFF" 
                      alt="Product QR Code" 
                      class="uzum-qr-code-img"
-                     style="width: 80px; height: 80px;">
+                     style="width: 70px; height: 70px;">
               </div>
-              <div style="text-align: left; font-size: 12px; color: #64748B; line-height: 1.4;">
-                <strong style="color: #0F172A; display: block; font-size: 12.5px;">
+              <div style="text-align: left; font-size: 11.5px; color: #64748B; line-height: 1.4;">
+                <strong style="color: #0F172A; display: block; font-size: 12px;">
                   <i class="fa-solid fa-certificate text-success"></i> Asl mahsulot kafolati
                 </strong>
-                Ushbu QR-kod orqali tovarning haqiqiyligi, partiya raqami va ombor qoldig'i tekshirilgan.
+                Ushbu kod orqali tovarning haqiqiyligi, partiya raqami va ombor qoldig'i tasdiqlangan.
               </div>
             </div>
           </div>
@@ -1008,18 +1028,17 @@ class NovaMarketApp {
 
   processScannedQr(rawText) {
     if (!rawText || !rawText.trim()) {
-      alert("Iltimos, QR-kod matni yoki mahsulot ID/SKU sini kiriting.");
+      alert("Iltimos, shtrix-kod raqami, QR-kod yoki mahsulot SKU sini kiriting.");
       return;
     }
 
     const clean = rawText.trim();
     const products = StorageService.getProducts();
 
-    // 1. Try finding by ID directly (e.g. "1001" or NOVAMARKET-PRODUCT:ID=1001)
     let foundProduct = null;
     let foundOrder = null;
 
-    // Check if it's an order QR
+    // Check if it's an order code (NM-XXXXXX or ORD-XXXXXX)
     if (clean.includes('ORD-') || clean.includes('NM-') || clean.includes('NOVAMARKET:NM-') || clean.includes('NOVAMARKET:ORD-')) {
       const match = clean.match(/(NM-\d+|ORD-[A-Za-z0-9-]+)/);
       const orderId = match ? match[1] : clean;
@@ -1027,67 +1046,100 @@ class NovaMarketApp {
       foundOrder = orders.find(o => o.orderId === orderId || o.id === orderId);
     }
 
-    // Check if product QR: NOVAMARKET-PRODUCT:ID=1001:...
-    const idMatch = clean.match(/ID=(\d+)/i) || clean.match(/^(\d+)$/);
-    if (idMatch) {
-      const pId = parseInt(idMatch[1], 10);
-      foundProduct = products.find(p => p.id === pId);
+    // Check if it's a numeric barcode like 00001001 or 1001 or EAN-13
+    const numericStr = clean.replace(/^[0]+/g, ''); // strip leading zeros: "00001001" -> "1001"
+    if (/^\d+$/.test(clean)) {
+      const numId = parseInt(clean, 10);
+      const strippedId = parseInt(numericStr || '0', 10);
+      foundProduct = products.find(p => p.id === numId || p.id === strippedId);
     }
 
-    // Try finding by SKU or model
+    // Check product QR payload: NOVAMARKET-PRODUCT:ID=1001:...
+    if (!foundProduct) {
+      const idMatch = clean.match(/ID=(\d+)/i) || clean.match(/NOVAMARKET-(\d+)/i);
+      if (idMatch) {
+        const pId = parseInt(idMatch[1], 10);
+        foundProduct = products.find(p => p.id === pId);
+      }
+    }
+
+    // Check by SKU or model (e.g. NV-PHO-100 or partial model)
     if (!foundProduct) {
       const skuMatch = clean.match(/SKU=([^:]+)/i);
       const sku = skuMatch ? skuMatch[1] : clean;
-      foundProduct = products.find(p => (p.model && p.model.toLowerCase() === sku.toLowerCase()) || p.name.toLowerCase().includes(clean.toLowerCase()));
+      foundProduct = products.find(p => 
+        (p.model && p.model.toLowerCase() === sku.toLowerCase()) || 
+        (p.model && p.model.toLowerCase().includes(sku.toLowerCase())) ||
+        p.name.toLowerCase().includes(clean.toLowerCase())
+      );
     }
 
     this.closeModal('qrScannerModalOverlay');
 
     if (foundProduct) {
-      this.showScannedProductModal(foundProduct);
+      this.showScannedProductModal(foundProduct, clean);
     } else if (foundOrder) {
       this.openOrdersModal();
-      this.showToast('Buyurtma topildi', `#${foundOrder.orderId || foundOrder.id} topildi`, 'fa-box-open');
+      this.showToast('Buyurtma topildi', `#${foundOrder.orderId || foundOrder.id} buyurtmasi topildi`, 'fa-box-open');
     } else {
-      alert(`QR-kod bo'yicha hech qanday tovar yoki buyurtma topilmadi: "${clean}"`);
+      alert(`Shtrix-kod yoki QR bo'yicha mahsulot topilmadi: "${clean}". Iltimos, kod to'g'riligini tekshiring.`);
     }
   }
 
-  showScannedProductModal(product) {
+  showScannedProductModal(product, scannedCode = '') {
     const container = document.getElementById('qrScannedProductContent');
     if (!container) return;
 
+    const barcodeNumber = product.id.toString().padStart(8, '0');
+
     container.innerHTML = `
+      <!-- Uzum Market Authentic Barcode Sticker in Scanned Result -->
+      <div class="uzum-barcode-sticker" style="margin-top: 0; margin-bottom: 12px; background: #FFFDF5; border-color: #FDE047;">
+        <div class="uzum-barcode-sticker-header">
+          <span class="uzum-barcode-logo">
+            <i class="fa-solid fa-barcode"></i> UZUM MARKET / NOVAMARKET SHTRIX-KODI
+          </span>
+          <span class="uzum-barcode-sku">SKU: ${product.model || `NV-${product.id}`}</span>
+        </div>
+        <div class="uzum-barcode-display">
+          <img src="https://barcodeapi.org/api/128/${barcodeNumber}" 
+               alt="Barcode ${barcodeNumber}" 
+               class="uzum-barcode-img"
+               onerror="this.src='https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=NOVAMARKET-${product.id}'">
+          <div class="uzum-barcode-number">${barcodeNumber}</div>
+        </div>
+      </div>
+
       <div class="scanned-product-preview-card">
         <img src="${product.image}" alt="${product.name}" class="scanned-product-thumb">
         <div style="flex: 1;">
           <span style="font-size: 11px; font-weight: 700; color: #7000FF; text-transform: uppercase;">
-            ${product.brand || 'NovaMarket'} • SKU: ${product.model || product.id}
+            ${product.brand || 'NovaMarket'} • ${product.category}
           </span>
-          <h4 style="font-size: 14px; font-weight: 800; color: #0F172A; margin: 4px 0 6px 0; line-height: 1.3;">
+          <h4 style="font-size: 14.5px; font-weight: 800; color: #0F172A; margin: 4px 0 6px 0; line-height: 1.3;">
             ${product.name}
           </h4>
           <div style="display: flex; align-items: baseline; gap: 8px;">
-            <strong style="font-size: 16px; color: #7000FF;">${formatPrice(product.price)}</strong>
+            <strong style="font-size: 17px; color: #7000FF;">${formatPrice(product.price)}</strong>
             ${product.oldPrice ? `<span style="text-decoration: line-through; font-size: 12px; color: #94A3B8;">${formatPrice(product.oldPrice)}</span>` : ''}
           </div>
           <div style="font-size: 11.5px; color: #16A34A; font-weight: 700; margin-top: 4px;">
-            <i class="fa-solid fa-circle-check"></i> Omborda mavjud (${product.inStock || 20} dona)
+            <i class="fa-solid fa-circle-check"></i> Uzum Market / NovaMarket bazasida mavjud (${product.inStock || 25} dona)
           </div>
         </div>
       </div>
 
-      <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 10px; font-size: 12px; color: #475569; margin-bottom: 16px; line-height: 1.5;">
-        <strong><i class="fa-solid fa-shield-halved text-primary"></i> Rasmiy ma'lumotlar tasdiqlandi:</strong><br>
-        Ushbu QR-kod NovaMarket ma'lumotlar bazasi bilan to'liq mos keladi. Mahsulot 100% original va 1 yillik rasmiy kafolatga ega.
+      <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 8px; padding: 10px; font-size: 12px; color: #166534; margin-bottom: 16px; line-height: 1.5;">
+        <strong><i class="fa-solid fa-certificate text-success"></i> Mahsulot avtomatik aniqlandi:</strong><br>
+        Shtrix-kod (<strong>${scannedCode || barcodeNumber}</strong>) orqali tovar bazadan topildi. Asl tovar sertifikati va rasmiy kafolati mavjud.
       </div>
 
       <div style="display: flex; gap: 10px;">
-        <button class="btn btn-primary" style="flex: 1;" onclick="window.novaMarketApp.addToCart(${product.id}); window.novaMarketApp.closeModal('qrScannedResultModalOverlay');">
+        <button class="btn btn-primary btn-lg" style="flex: 1;" onclick="window.novaMarketApp.addToCart(${product.id}); window.novaMarketApp.closeModal('qrScannedResultModalOverlay');">
           <i class="fa-solid fa-bag-shopping"></i> Savatchaga qo'shish
         </button>
-        <button class="btn btn-outline" onclick="window.novaMarketApp.closeModal('qrScannedResultModalOverlay'); window.novaMarketApp.openProductModal(${product.id});">
-          Batafsil ko'rish
+        <button class="btn btn-outline btn-lg" onclick="window.novaMarketApp.closeModal('qrScannedResultModalOverlay'); window.novaMarketApp.openProductModal(${product.id});">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Mahsulot sahifasi
         </button>
       </div>
     `;

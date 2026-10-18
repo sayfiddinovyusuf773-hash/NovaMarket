@@ -733,12 +733,12 @@
     <div class="modal-window" style="max-width: 480px; padding: 24px; text-align: center;">
       <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
         <h3 style="font-size: 18px; font-weight: 800; display: flex; align-items: center; gap: 8px;">
-          <i class="fa-solid fa-qrcode text-primary"></i> Mahsulot QR-kodini skanerlash
+          <i class="fa-solid fa-barcode text-primary"></i> Shtrix-kod & QR Skaner (Uzum Market)
         </h3>
         <button class="modal-close-btn" onclick="window.novaMarketApp?.closeModal('qrScannerModalOverlay')"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <!-- Scanner Frame UI -->
+      <!-- Scanner Frame UI with Barcode & QR Reticle -->
       <div class="qr-scanner-frame" id="qrScannerFrame">
         <div class="qr-scanner-laser"></div>
         <div class="qr-scanner-corners">
@@ -748,21 +748,23 @@
           <span class="corner bottom-right"></span>
         </div>
         <div class="qr-scanner-placeholder">
-          <i class="fa-solid fa-camera" style="font-size: 36px; color: #A855F7; margin-bottom: 10px;"></i>
-          <p style="font-size: 13px; color: #64748B; margin: 0;">Kamera orqali tovar QR-kodini ramkaga to'g'rilang yoki quyidagi kodni kiriting</p>
+          <i class="fa-solid fa-barcode" style="font-size: 42px; color: #A855F7; margin-bottom: 10px;"></i>
+          <p style="font-size: 13px; color: #64748B; margin: 0; line-height: 1.4;">
+            Uzum Market tovar qutisidagi <strong>shtrix-kod (barcode)</strong> yoki QR-kodni ramkaga to'g'rilang
+          </p>
         </div>
       </div>
 
       <!-- Quick manual code test / paste input -->
       <div style="margin-top: 16px;">
         <label style="font-size: 12px; font-weight: 700; color: #475569; display: block; text-align: left; margin-bottom: 6px;">
-          QR-kod matni, mahsulot ID yoki SKU kodi:
+          Shtrix-kod raqami, mahsulot ID yoki SKU kodi:
         </label>
         <div style="display: flex; gap: 8px;">
-          <input type="text" id="qrManualCodeInput" placeholder="Masalan: 1001 yoki NV-PHO-100 yoki to'liq link" 
+          <input type="text" id="qrManualCodeInput" placeholder="Masalan: 00001001 yoki 1001 yoki NV-PHO-100" 
                  style="flex: 1; padding: 10px 12px; border: 1.5px solid #CBD5E1; border-radius: 8px; font-size: 13px;">
           <button type="button" class="btn btn-primary" onclick="window.novaMarketApp?.processScannedQr(document.getElementById('qrManualCodeInput').value.trim())">
-            Tekshirish
+            Skanerlash
           </button>
         </div>
       </div>

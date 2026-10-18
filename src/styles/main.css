@@ -3138,4 +3138,80 @@ ul {
   background: #FFFFFF;
 }
 
+/* ================= UZUM MARKET AUTHENTIC PACKAGE BARCODE STICKER ================= */
+.uzum-barcode-sticker {
+  background: #FFFFFF;
+  border: 2px solid #E2E8F0;
+  border-top: 4px solid #FACC15; /* Uzum yellow top bar */
+  border-right: 5px solid #EF4444; /* Uzum red right accent from photo */
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 12px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  position: relative;
+  text-align: center;
+}
+
+.uzum-barcode-sticker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #E2E8F0;
+  padding-bottom: 6px;
+}
+
+.uzum-barcode-logo {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #7000FF;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.uzum-barcode-sku {
+  font-family: monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: #1E293B;
+  background: #F1F5F9;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.uzum-barcode-display {
+  background: #FFFFFF;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 4px auto;
+}
+
+.uzum-barcode-img {
+  height: 62px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  image-rendering: pixelated;
+}
+
+.uzum-barcode-number {
+  font-family: monospace;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #0F172A;
+  letter-spacing: 3px;
+  margin-top: 4px;
+}
+
+.uzum-barcode-helper-text {
+  font-size: 11.5px;
+  color: #64748B;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+
 
